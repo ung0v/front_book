@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://bookly-theme.myshopify.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://bookly-theme.myshopify.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://bookly-theme.myshopify.com/collections/new-arrivals.atom"/>
+  <title>Bookly-theme</title>
+  <updated>2020-03-26T03:06:01-04:00</updated>
+  <author>
+    <name>Bookly-theme</name>
+  </author>
+  <entry>
+    <id>https://bookly-theme.myshopify.com/products/4800209158188</id>
+    <published>2020-03-26T03:06:01-04:00</published>
+    <updated>2020-03-26T03:06:01-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://bookly-theme.myshopify.com/products/wake-me-up"/>
+    <title>Wake Me up</title>
+    <s:type>Literature</s:type>
+    <s:vendor>John Erik</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-102.jpg?v=1587120877"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>John Erik<br>
+        <strong>Type: </strong>Literature<br>
+        <strong>Price: </strong>
+            410.00 - 430.00
+            <a href="https://bookly-theme.myshopify.com/products/wake-me-up">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras loremos.Donec pretium egestas sapien et mollis.<br><strong></strong></p>
+<p><strong>Lorem ipsum dolor sit amet</strong><br><span>Sonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span></p>
+<p><strong>Busey ipsum dolor sit amet</strong><br></p>
+<p><span>Tortor at auctor urna nunc id cursus metus aliquam. Odio tempor orci dapibus ultrices. Tortor condimentum lacinia quis vel eros donec ac odio. Velit euismod in pellentesque massa placerat duis ultricies lacus. Scelerisque purus semper eget duis at tellus at urna condimentum. Eu facilisis sed odio morbi quis commodo odio aenean urpis massa sed elemen. </span></p>
+<p><strong>Sample Paragraph Text</strong><br></p>
+<p>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>400 - $500</s:tag>
+    <s:tag>Japanese</s:tag>
+    <s:tag>John Erik</s:tag>
+    <s:tag>Kindle Edition</s:tag>
+    <s:tag>Literature</s:tag>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800209158188</id>
+      <title>Kindle Edition / Japanese</title>
+      <s:price currency="USD">410.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800209158188</id>
+      <title>Large Print / Hebrew</title>
+      <s:price currency="USD">420.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800209158188</id>
+      <title>Audible Audiobook / Korean</title>
+      <s:price currency="USD">430.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://bookly-theme.myshopify.com/products/4800207290412</id>
+    <published>2020-03-26T03:05:48-04:00</published>
+    <updated>2020-03-26T03:05:48-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://bookly-theme.myshopify.com/products/the-stadium-by-night"/>
+    <title>The Stadium by Night</title>
+    <s:type>Business</s:type>
+    <s:vendor>John Erik</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-87.jpg?v=1587118936"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>John Erik<br>
+        <strong>Type: </strong>Business<br>
+        <strong>Price: </strong>
+            320.00 - 3340.00
+            <a href="https://bookly-theme.myshopify.com/products/the-stadium-by-night">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras loremos.Donec pretium egestas sapien et mollis.<br><strong></strong></p>
+<p><strong>Lorem ipsum dolor sit amet</strong><br><span>Sonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span></p>
+<p><strong>Busey ipsum dolor sit amet</strong><br></p>
+<p><span>Tortor at auctor urna nunc id cursus metus aliquam. Odio tempor orci dapibus ultrices. Tortor condimentum lacinia quis vel eros donec ac odio. Velit euismod in pellentesque massa placerat duis ultricies lacus. Scelerisque purus semper eget duis at tellus at urna condimentum. Eu facilisis sed odio morbi quis commodo odio aenean urpis massa sed elemen. </span></p>
+<p><strong>Sample Paragraph Text</strong><br></p>
+<p>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>$300 - $400</s:tag>
+    <s:tag>Business</s:tag>
+    <s:tag>Hardcover</s:tag>
+    <s:tag>John Erik</s:tag>
+    <s:tag>Spanish</s:tag>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800207290412</id>
+      <title>Hardcover / Spanish</title>
+      <s:price currency="USD">320.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800207290412</id>
+      <title>Kindle Edition / Japanese</title>
+      <s:price currency="USD">330.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800207290412</id>
+      <title>Large Print / Hebrew</title>
+      <s:price currency="USD">3340.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://bookly-theme.myshopify.com/products/4800204144684</id>
+    <published>2020-03-26T03:05:43-04:00</published>
+    <updated>2020-03-26T03:05:43-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://bookly-theme.myshopify.com/products/books-for-a-cause"/>
+    <title>Books For a Cause</title>
+    <s:type>Entertainment</s:type>
+    <s:vendor>Michael Alice</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-4.jpg?v=1587113962"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Michael Alice<br>
+        <strong>Type: </strong>Entertainment<br>
+        <strong>Price: </strong>
+            110.00 - 120.00
+            <a href="https://bookly-theme.myshopify.com/products/books-for-a-cause">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras loremos.Donec pretium egestas sapien et mollis.<br><strong></strong></p>
+<p><strong>Lorem ipsum dolor sit amet</strong><br><span>Sonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span></p>
+<p><strong>Busey ipsum dolor sit amet</strong><br></p>
+<p><span>Tortor at auctor urna nunc id cursus metus aliquam. Odio tempor orci dapibus ultrices. Tortor condimentum lacinia quis vel eros donec ac odio. Velit euismod in pellentesque massa placerat duis ultricies lacus. Scelerisque purus semper eget duis at tellus at urna condimentum. Eu facilisis sed odio morbi quis commodo odio aenean urpis massa sed elemen. </span></p>
+<p><strong>Sample Paragraph Text</strong><br></p>
+<p>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>$100 - $200</s:tag>
+    <s:tag>English</s:tag>
+    <s:tag>Entertainment</s:tag>
+    <s:tag>Michael Alice</s:tag>
+    <s:tag>Paperback</s:tag>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800204144684</id>
+      <title>Paperback / English</title>
+      <s:price currency="USD">120.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800204144684</id>
+      <title>Hardcover / Spanish</title>
+      <s:price currency="USD">120.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800204144684</id>
+      <title>Kindle Edition / Japanese</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://bookly-theme.myshopify.com/products/4800203325484</id>
+    <published>2020-03-26T03:05:38-04:00</published>
+    <updated>2020-03-26T03:05:38-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://bookly-theme.myshopify.com/products/beauty-of-structures"/>
+    <title>Beauty of Structures</title>
+    <s:type>Literature</s:type>
+    <s:vendor>Michael Alice</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-89.jpg?v=1587115559"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Michael Alice<br>
+        <strong>Type: </strong>Literature<br>
+        <strong>Price: </strong>
+            310.00 - 330.00
+            <a href="https://bookly-theme.myshopify.com/products/beauty-of-structures">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras loremos.Donec pretium egestas sapien et mollis.<br><strong></strong></p>
+<p><strong>Lorem ipsum dolor sit amet</strong><br><span>Sonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span></p>
+<p><strong>Busey ipsum dolor sit amet</strong><br></p>
+<p><span>Tortor at auctor urna nunc id cursus metus aliquam. Odio tempor orci dapibus ultrices. Tortor condimentum lacinia quis vel eros donec ac odio. Velit euismod in pellentesque massa placerat duis ultricies lacus. Scelerisque purus semper eget duis at tellus at urna condimentum. Eu facilisis sed odio morbi quis commodo odio aenean urpis massa sed elemen. </span></p>
+<p><strong>Sample Paragraph Text</strong><br></p>
+<p>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>$300 - $400</s:tag>
+    <s:tag>Hebrew</s:tag>
+    <s:tag>Large Print</s:tag>
+    <s:tag>Literature</s:tag>
+    <s:tag>Michael Alice</s:tag>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800203325484</id>
+      <title>Large Print / Hebrew</title>
+      <s:price currency="USD">310.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800203325484</id>
+      <title>Audible Audiobook / Korean</title>
+      <s:price currency="USD">320.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800203325484</id>
+      <title>Paperback / English</title>
+      <s:price currency="USD">330.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://bookly-theme.myshopify.com/products/4800202473516</id>
+    <published>2020-03-26T03:05:31-04:00</published>
+    <updated>2020-03-26T03:05:31-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://bookly-theme.myshopify.com/products/the-gift-of-love"/>
+    <title>The Gift of Love</title>
+    <s:type>Entertainment</s:type>
+    <s:vendor>Michael Alice</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-65.jpg?v=1587118346"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Michael Alice<br>
+        <strong>Type: </strong>Entertainment<br>
+        <strong>Price: </strong>
+            420.00 - 430.00
+            <a href="https://bookly-theme.myshopify.com/products/the-gift-of-love">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras loremos.Donec pretium egestas sapien et mollis.<br><strong></strong></p>
+<p><strong>Lorem ipsum dolor sit amet</strong><br><span>Sonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span></p>
+<p><strong>Busey ipsum dolor sit amet</strong><br></p>
+<p><span>Tortor at auctor urna nunc id cursus metus aliquam. Odio tempor orci dapibus ultrices. Tortor condimentum lacinia quis vel eros donec ac odio. Velit euismod in pellentesque massa placerat duis ultricies lacus. Scelerisque purus semper eget duis at tellus at urna condimentum. Eu facilisis sed odio morbi quis commodo odio aenean urpis massa sed elemen. </span></p>
+<p><strong>Sample Paragraph Text</strong><br></p>
+<p>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>$400 - $500</s:tag>
+    <s:tag>Entertainment</s:tag>
+    <s:tag>Japanese</s:tag>
+    <s:tag>Kindle Edition</s:tag>
+    <s:tag>Michael Alice</s:tag>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800202473516</id>
+      <title>Kindle Edition / Japanese</title>
+      <s:price currency="USD">420.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800202473516</id>
+      <title>Large Print / Hebrew</title>
+      <s:price currency="USD">420.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800202473516</id>
+      <title>Audible Audiobook / Korean</title>
+      <s:price currency="USD">430.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://bookly-theme.myshopify.com/products/4800200245292</id>
+    <published>2020-03-26T03:05:20-04:00</published>
+    <updated>2020-03-26T03:05:20-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://bookly-theme.myshopify.com/products/home-made-meals"/>
+    <title>Home Made Meals</title>
+    <s:type>Fiction</s:type>
+    <s:vendor>Alice James</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-34.jpg?v=1587116925"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Alice James<br>
+        <strong>Type: </strong>Fiction<br>
+        <strong>Price: </strong>
+            310.00 - 340.00
+            <a href="https://bookly-theme.myshopify.com/products/home-made-meals">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras loremos.Donec pretium egestas sapien et mollis.<br><strong></strong></p>
+<p><strong>Lorem ipsum dolor sit amet</strong><br><span>Sonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span></p>
+<p><strong>Busey ipsum dolor sit amet</strong><br></p>
+<p><span>Tortor at auctor urna nunc id cursus metus aliquam. Odio tempor orci dapibus ultrices. Tortor condimentum lacinia quis vel eros donec ac odio. Velit euismod in pellentesque massa placerat duis ultricies lacus. Scelerisque purus semper eget duis at tellus at urna condimentum. Eu facilisis sed odio morbi quis commodo odio aenean urpis massa sed elemen. </span></p>
+<p><strong>Sample Paragraph Text</strong><br></p>
+<p>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>$300 - $400</s:tag>
+    <s:tag>Alice James</s:tag>
+    <s:tag>Fiction</s:tag>
+    <s:tag>Japanese</s:tag>
+    <s:tag>Kindle Edition</s:tag>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800200245292</id>
+      <title>Kindle Edition / Japanese</title>
+      <s:price currency="USD">310.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800200245292</id>
+      <title>Large Print / Hebrew</title>
+      <s:price currency="USD">320.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800200245292</id>
+      <title>Audible Audiobook / Korean</title>
+      <s:price currency="USD">340.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://bookly-theme.myshopify.com/products/4800196116524</id>
+    <published>2020-03-26T03:04:57-04:00</published>
+    <updated>2020-03-26T03:04:57-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://bookly-theme.myshopify.com/products/the-stage-by-gabin"/>
+    <title>The Stage By Gabin</title>
+    <s:type>Humor</s:type>
+    <s:vendor>Michael Alice</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-40.jpg?v=1587119146"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Michael Alice<br>
+        <strong>Type: </strong>Humor<br>
+        <strong>Price: </strong>
+            410.00 - 430.00
+            <a href="https://bookly-theme.myshopify.com/products/the-stage-by-gabin">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras loremos.Donec pretium egestas sapien et mollis.<br><strong></strong></p>
+<p><strong>Lorem ipsum dolor sit amet</strong><br><span>Sonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span></p>
+<p><strong>Busey ipsum dolor sit amet</strong><br></p>
+<p><span>Tortor at auctor urna nunc id cursus metus aliquam. Odio tempor orci dapibus ultrices. Tortor condimentum lacinia quis vel eros donec ac odio. Velit euismod in pellentesque massa placerat duis ultricies lacus. Scelerisque purus semper eget duis at tellus at urna condimentum. Eu facilisis sed odio morbi quis commodo odio aenean urpis massa sed elemen. </span></p>
+<p><strong>Sample Paragraph Text</strong><br></p>
+<p>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>400 - $500</s:tag>
+    <s:tag>Hebrew</s:tag>
+    <s:tag>Humor</s:tag>
+    <s:tag>Large Print</s:tag>
+    <s:tag>Michael Alice</s:tag>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800196116524</id>
+      <title>Large Print / Hebrew</title>
+      <s:price currency="USD">410.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800196116524</id>
+      <title>Audible Audiobook / Korean</title>
+      <s:price currency="USD">420.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800196116524</id>
+      <title>Paperback / English</title>
+      <s:price currency="USD">430.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://bookly-theme.myshopify.com/products/4800193167404</id>
+    <published>2020-03-26T03:04:47-04:00</published>
+    <updated>2020-03-26T03:04:47-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://bookly-theme.myshopify.com/products/the-happy-lemon"/>
+    <title>The Happy Lemon</title>
+    <s:type>Literature</s:type>
+    <s:vendor>Alice James</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-46.jpg?v=1587118513"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Alice James<br>
+        <strong>Type: </strong>Literature<br>
+        <strong>Price: </strong>
+            320.00 - 340.00
+            <a href="https://bookly-theme.myshopify.com/products/the-happy-lemon">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras loremos.Donec pretium egestas sapien et mollis.<br><strong></strong></p>
+<p><strong>Lorem ipsum dolor sit amet</strong><br><span>Sonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span></p>
+<p><strong>Busey ipsum dolor sit amet</strong><br></p>
+<p><span>Tortor at auctor urna nunc id cursus metus aliquam. Odio tempor orci dapibus ultrices. Tortor condimentum lacinia quis vel eros donec ac odio. Velit euismod in pellentesque massa placerat duis ultricies lacus. Scelerisque purus semper eget duis at tellus at urna condimentum. Eu facilisis sed odio morbi quis commodo odio aenean urpis massa sed elemen. </span></p>
+<p><strong>Sample Paragraph Text</strong><br></p>
+<p>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>$300 - $400</s:tag>
+    <s:tag>Alice James</s:tag>
+    <s:tag>Audible Audiobook</s:tag>
+    <s:tag>Korean</s:tag>
+    <s:tag>Literature</s:tag>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800193167404</id>
+      <title>Audible Audiobook / Korean</title>
+      <s:price currency="USD">320.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800193167404</id>
+      <title>Paperback / English</title>
+      <s:price currency="USD">330.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800193167404</id>
+      <title>Hardcover / Spanish</title>
+      <s:price currency="USD">340.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://bookly-theme.myshopify.com/products/4800191594540</id>
+    <published>2020-03-26T03:04:43-04:00</published>
+    <updated>2020-03-26T03:04:43-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://bookly-theme.myshopify.com/products/lightspeed-robots"/>
+    <title>Lightspeed Robots</title>
+    <s:type>Entertainment</s:type>
+    <s:vendor>Michael Alice</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-16.jpg?v=1587117190"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Michael Alice<br>
+        <strong>Type: </strong>Entertainment<br>
+        <strong>Price: </strong>
+            400.00 - 430.00
+            <a href="https://bookly-theme.myshopify.com/products/lightspeed-robots">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras loremos.Donec pretium egestas sapien et mollis.<br><strong></strong></p>
+<p><strong>Lorem ipsum dolor sit amet</strong><br><span>Sonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span></p>
+<p><strong>Busey ipsum dolor sit amet</strong><br></p>
+<p><span>Tortor at auctor urna nunc id cursus metus aliquam. Odio tempor orci dapibus ultrices. Tortor condimentum lacinia quis vel eros donec ac odio. Velit euismod in pellentesque massa placerat duis ultricies lacus. Scelerisque purus semper eget duis at tellus at urna condimentum. Eu facilisis sed odio morbi quis commodo odio aenean urpis massa sed elemen. </span></p>
+<p><strong>Sample Paragraph Text</strong><br></p>
+<p>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>$400 - $500</s:tag>
+    <s:tag>Entertainment</s:tag>
+    <s:tag>Hardcover</s:tag>
+    <s:tag>Michael Alice</s:tag>
+    <s:tag>Spanish</s:tag>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800191594540</id>
+      <title>Hardcover / Spanish</title>
+      <s:price currency="USD">420.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800191594540</id>
+      <title>Kindle Edition / Japanese</title>
+      <s:price currency="USD">400.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800191594540</id>
+      <title>Large Print / Hebrew</title>
+      <s:price currency="USD">430.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://bookly-theme.myshopify.com/products/4800176390188</id>
+    <published>2020-03-26T03:03:27-04:00</published>
+    <updated>2020-03-26T03:03:27-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://bookly-theme.myshopify.com/products/adventurous-eating"/>
+    <title>Adventurous Eating</title>
+    <s:type>Business</s:type>
+    <s:vendor>Donald William</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-95_b0b53360-a171-427b-9dc6-0bf965bcfdae.jpg?v=1587120117"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Donald William<br>
+        <strong>Type: </strong>Business<br>
+        <strong>Price: </strong>
+            500.00 - 700.00
+            <a href="https://bookly-theme.myshopify.com/products/adventurous-eating">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras loremos.Donec pretium egestas sapien et mollis.<br><strong></strong></p>
+<p><strong>Lorem ipsum dolor sit amet</strong><br><span>Sonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span></p>
+<p><strong>Busey ipsum dolor sit amet</strong><br></p>
+<p><span>Tortor at auctor urna nunc id cursus metus aliquam. Odio tempor orci dapibus ultrices. Tortor condimentum lacinia quis vel eros donec ac odio. Velit euismod in pellentesque massa placerat duis ultricies lacus. Scelerisque purus semper eget duis at tellus at urna condimentum. Eu facilisis sed odio morbi quis commodo odio aenean urpis massa sed elemen. </span></p>
+<p><strong>Sample Paragraph Text</strong><br></p>
+<p>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>$500 - $700</s:tag>
+    <s:tag>Business</s:tag>
+    <s:tag>Donald William</s:tag>
+    <s:tag>English</s:tag>
+    <s:tag>Paperback</s:tag>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800176390188</id>
+      <title>Paperback / English</title>
+      <s:price currency="USD">500.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800176390188</id>
+      <title>Hardcover / Spanish</title>
+      <s:price currency="USD">600.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bookly-theme.myshopify.com/products/4800176390188</id>
+      <title>Kindle Edition / Japanese</title>
+      <s:price currency="USD">700.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+</feed>

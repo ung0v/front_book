@@ -1,0 +1,1608 @@
+Uri: https://bookly-theme.myshopify.com/
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\index.htm
+Content Type: text/html
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/bg-img-3_2040x.jpg?v=1585542108
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\bg-img-3_2040x.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/spectacles-on-book_2040x.jpg?v=1624627205
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\spectacles-on-book_2040x.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/footer.jpg?v=1585550999
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\footer.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/t/4/assets/dT_loader.gif?v=9231279261300748163
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\t\4\assets\dT_loader.gif
+Content Type: image/gif
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/t/4/assets/loading.gif?v=1780583550831190727
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\t\4\assets\loading.gif
+Content Type: image/gif
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/favicon_16x16.png?v=1622526091
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\favicon_16x16.png
+Content Type: image/png
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/t/4/assets/dt-framework.css?v=9039933737449170949
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\t\4\assets\dt-framework.css
+Content Type: text/css
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/t/4/assets/dt-custom.css?v=16120526718728621407
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\t\4\assets\dt-custom.css
+Content Type: text/css
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/t/4/assets/swiper-bundle.min.css?v=4467319654563567168
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\t\4\assets\swiper-bundle.min.css
+Content Type: text/css
+
+Uri: https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\npm\select2@4.1.0-rc.0\dist\css\select2.min.css
+Content Type: text/css
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/t/4/assets/font-all.min.css?v=12670177305141641989
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\t\4\assets\font-all.min.css
+Content Type: text/css
+
+Uri: https://bookly-theme.myshopify.com/cart
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\cart.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/pages/wishlist
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\pages\wishlist.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/pages/compare
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\pages\compare.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/search
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\search.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/account/login
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\account\login.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/all
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/adventurous-eating
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\adventurous-eating.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/books-for-a-cause
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\books-for-a-cause.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/fresh-healthy-eats
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\fresh-healthy-eats.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/endless-summer
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\endless-summer.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/humor
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\humor.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/pages/about-us
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\pages\about-us.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/blogs/news
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\blogs\news.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/pages/faqs
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\pages\faqs.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/pages/contact-us
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\pages\contact-us.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/ficition
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\ficition.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/girls-at-the-golden-city
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\girls-at-the-golden-city.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/vistit-in-the-north
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\vistit-in-the-north.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/the-stadium-by-night
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\the-stadium-by-night.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/when-the-stars-align
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\when-the-stars-align.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/last-time-we-broke-up
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\last-time-we-broke-up.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/donate-a-book
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\donate-a-book.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/home-made-meals
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\home-made-meals.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/lightspeed-robots
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\lightspeed-robots.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/the-gift-of-love
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\the-gift-of-love.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/the-happy-lemon
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\the-happy-lemon.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/skin-like-daffodils
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\skin-like-daffodils.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/silent-women
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\silent-women.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/wake-me-up
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\wake-me-up.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/seafood-gourment
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\seafood-gourment.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/beauty-of-structures
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\beauty-of-structures.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/the-red-desert
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\the-red-desert.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/the-stage-by-gabin
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\the-stage-by-gabin.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/history
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\history.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/humor/products/lightspeed-robots
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\humor\products\lightspeed-robots.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/humor/products/the-gift-of-love
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\humor\products\the-gift-of-love.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/humor/products/the-happy-lemon
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\humor\products\the-happy-lemon.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/humor/products/skin-like-daffodils
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\humor\products\skin-like-daffodils.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/literature/products/beauty-of-structures
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\literature\products\beauty-of-structures.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/literature/products/the-red-desert
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\literature\products\the-red-desert.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/literature/products/the-stadium-by-night
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\literature\products\the-stadium-by-night.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/literature/products/adventurous-eating
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\literature\products\adventurous-eating.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/literature
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\literature.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/blogs/news/books-changed-my-ideology
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\blogs\news\books-changed-my-ideology.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/blogs/news/best-writers-of-19th-century
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\blogs\news\best-writers-of-19th-century.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/blogs/news/my-favourite-books-of-2020
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\blogs\news\my-favourite-books-of-2020.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/pages/shipping-details
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\pages\shipping-details.html
+Content Type: text/html
+
+Uri: https://themeforest.net/user/designthemes/portfolio
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\user\designthemes\portfolio.html
+Content Type: text/html
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/t/4/assets/jquery-3.5.1.min.js?v=10921792189117771142
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\t\4\assets\jquery-3.5.1.min.js
+Content Type: application/javascript
+
+Uri: https://cdn.shopify.com/shopifycloud/shopify/assets/themes_support/api-747e56582ccad351759656054dd0ef08711942243e0796b2828903bf31358269.js
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\shopifycloud\shopify\assets\themes_support\api-747e56582ccad351759656054dd0ef08711942243e0796b2828903bf31358269.js
+Content Type: application/javascript
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/t/4/assets/ajax-cart.js?v=4492843145465603090
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\t\4\assets\ajax-cart.js
+Content Type: application/javascript
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/t/4/assets/dt-plugins.js?v=11247747088626946812
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\t\4\assets\dt-plugins.js
+Content Type: application/javascript
+
+Uri: https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\npm\select2@4.1.0-rc.0\dist\js\select2.min.js
+Content Type: application/javascript
+
+Uri: https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-a55261a7a987674749989983b5889eadaac6795d8d48548fb61470a96edb9524.js
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\shopifycloud\shopify\assets\storefront\load_feature-a55261a7a987674749989983b5889eadaac6795d8d48548fb61470a96edb9524.js
+Content Type: application/javascript
+
+Uri: https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/features-87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae.js
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\shopifycloud\shopify\assets\storefront\features-87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae.js
+Content Type: application/javascript
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/logo_png_300x300.png?v=1620028660
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\logo_png_300x300.png
+Content Type: image/png
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-95_b0b53360-a171-427b-9dc6-0bf965bcfdae.jpg?v=1587120117
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\products\shop-new-95_b0b53360-a171-427b-9dc6-0bf965bcfdae.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-4_480x480@2x.jpg?v=1587113962
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\products\shop-new-4_480x480@2x.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-30_480x480@2x.jpg?v=1587116432
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\products\shop-new-30_480x480@2x.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-100_480x480@2x.jpg?v=1587115881
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\products\shop-new-100_480x480@2x.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/slider.jpg?v=1585450258
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\slider.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/icon-4_480x480@2x.png?v=1585544013
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\icon-4_480x480@2x.png
+Content Type: image/png
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/icon-3_480x480@2x.png?v=1585544067
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\icon-3_480x480@2x.png
+Content Type: image/png
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/icon-2_480x480@2x.png?v=1585544097
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\icon-2_480x480@2x.png
+Content Type: image/png
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/icon-1_480x480@2x.png?v=1585544122
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\icon-1_480x480@2x.png
+Content Type: image/png
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/author_480x480@2x.jpg?v=1585540421
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\author_480x480@2x.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/award-6_480x480@2x.png?v=1585540645
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\award-6_480x480@2x.png
+Content Type: image/png
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/award-3_480x480@2x.png?v=1585540555
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\award-3_480x480@2x.png
+Content Type: image/png
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/award-2_480x480@2x.png?v=1585540580
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\award-2_480x480@2x.png
+Content Type: image/png
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/award-5_480x480@2x.png?v=1585540603
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\award-5_480x480@2x.png
+Content Type: image/png
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/award-4_480x480@2x.png?v=1585540628
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\award-4_480x480@2x.png
+Content Type: image/png
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/articles/blog-1.jpg?v=1585546169
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\articles\blog-1.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/articles/blog-2.jpg?v=1585546218
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\articles\blog-2.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/articles/blog-3.jpg?v=1585546251
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\articles\blog-3.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/client-logo-4_200x200.png?v=1585549077
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\client-logo-4_200x200.png
+Content Type: image/png
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/client-logo-5_200x200.png?v=1585549093
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\client-logo-5_200x200.png
+Content Type: image/png
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/client-logo-6_200x200.png?v=1585549111
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\client-logo-6_200x200.png
+Content Type: image/png
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/client-logo-2_200x200.png?v=1585549032
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\client-logo-2_200x200.png
+Content Type: image/png
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/client-logo-1_200x200.png?v=1585548990
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\client-logo-1_200x200.png
+Content Type: image/png
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/client-logo-3_200x200.png?v=1585549047
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\client-logo-3_200x200.png
+Content Type: image/png
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/home-logo-1_200x200.png?v=1623227544
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\home-logo-1_200x200.png
+Content Type: image/png
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/footer-logo_x24@2x.png?v=1585741125
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\footer-logo_x24@2x.png
+Content Type: image/png
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/t/4/assets/handlebars.min.js?v=17324777444870285528
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\t\4\assets\handlebars.min.js
+Content Type: application/javascript
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/t/4/assets/dt-theme.js?v=13455993455600911652
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\t\4\assets\dt-theme.js
+Content Type: application/javascript
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/t/4/assets/lazysizes.js?v=6309855486832407013
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\t\4\assets\lazysizes.js
+Content Type: application/javascript
+
+Uri: https://cdn.shopify.com/shopifycloud/shopify/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c_480x480@2x.gif
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\shopifycloud\shopify\assets\no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c_480x480@2x.gif
+Content Type: image/gif
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-95_b0b53360-a171-427b-9dc6-0bf965bcfdae_480x480@2x.jpg?v=1587120117
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\products\shop-new-95_b0b53360-a171-427b-9dc6-0bf965bcfdae_480x480@2x.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-89_480x480@2x.jpg?v=1587115559
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\products\shop-new-89_480x480@2x.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-1_480x480@2x.jpg?v=1613036885
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\products\shop-new-1_480x480@2x.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/t/4/assets/dT_bundle_base.js?v=1117706735043369727
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\t\4\assets\dT_bundle_base.js
+Content Type: application/javascript
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/t/4/assets/dT_bundle.js?v=7765072517030432429
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\t\4\assets\dT_bundle.js
+Content Type: application/javascript
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/t/4/assets/dT_main.js?v=15578306292677739942
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\t\4\assets\dT_main.js
+Content Type: application/javascript
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/t/4/assets/dT_main_app.js?v=6451218113570013753
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\t\4\assets\dT_main_app.js
+Content Type: application/javascript
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/t/4/compiled_assets/styles.css?4983
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\t\4\compiled_assets\styles.css
+Content Type: text/css
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/t/4/assets/dT_shipping-cart.js?v=4107990818448521407
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\t\4\assets\dT_shipping-cart.js
+Content Type: application/javascript
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/t/4/assets/empty-cart.png?v=12467450476691105868
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\t\4\assets\empty-cart.png
+Content Type: image/png
+
+Uri: https://cdn.shopify.com/s/global/search.css
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\global\search.css
+Content Type: text/css
+
+Uri: https://bookly-theme.myshopify.com/account/register
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\account\register.html
+Content Type: text/html
+
+Uri: https://cdn.shopify.com/shopifycloud/shopify/assets/themes_support/shopify_common-8ea6ac3faf357236a97f5de749df4da6e8436ca107bc3a4ee805cbf08bc47392.js
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\shopifycloud\shopify\assets\themes_support\shopify_common-8ea6ac3faf357236a97f5de749df4da6e8436ca107bc3a4ee805cbf08bc47392.js
+Content Type: application/javascript
+
+Uri: https://bookly-theme.myshopify.com/collections/all.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/all?page=2
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all-1.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/fight-or-flight
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\fight-or-flight.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/all?page=3
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all-2.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/new-arrivals
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\new-arrivals.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/frontpage
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\frontpage.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/all/100-200
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\100-200.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/all/200-300
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\200-300.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/all/300-400
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\300-400.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/all/400-500
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\400-500.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/all/500-700
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\500-700.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/all/paperback
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\paperback.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/all/hardcover
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\hardcover.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/all/kindle-edition
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\kindle-edition.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/all/large-print
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\large-print.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/all/audible-audiobook
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\audible-audiobook.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/all/english
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\english.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/all/spanish
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\spanish.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/all/japanese
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\japanese.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/all/hebrew
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\hebrew.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/all/korean
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\korean.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/all/donald-william
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\donald-william.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/all/john-erik
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\john-erik.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/all/alice-james
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\alice-james.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/all/michael-alice
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\michael-alice.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/all/adam-baid
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\adam-baid.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/all/business
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\business.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/all/literature
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\literature.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/all/fiction
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\fiction.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/all/humor
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\humor.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/all/entertainment
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\entertainment.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/adventurous-eating.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\adventurous-eating.oembed
+Content Type: application/json+oembed
+
+Uri: https://bookly-theme.myshopify.com/collections/vendors?q=Donald William
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\vendors.html
+Content Type: text/html
+
+Uri: https://twitter.com/share?text=Adventurous Eating&url=https://bookly-theme.myshopify.com/products/adventurous-eating
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\share.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/literature/products/wake-me-up
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\literature\products\wake-me-up.html
+Content Type: text/html
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/t/4/assets/soldout.png?v=3336962943418965274
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\t\4\assets\soldout.png
+Content Type: image/png
+
+Uri: https://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\ajax\jquery.templates\beta1\jquery.tmpl.min.js
+Content Type: application/javascript
+
+Uri: https://bookly-theme.myshopify.com/products/books-for-a-cause.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\books-for-a-cause.oembed
+Content Type: application/json+oembed
+
+Uri: https://bookly-theme.myshopify.com/collections/vendors?q=Michael Alice
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\vendors-1.html
+Content Type: text/html
+
+Uri: https://twitter.com/share?text=Books For a Cause&url=https://bookly-theme.myshopify.com/products/books-for-a-cause
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\share-1.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/ficition/products/girls-at-the-golden-city
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\ficition\products\girls-at-the-golden-city.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/ficition/products/vistit-in-the-north
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\ficition\products\vistit-in-the-north.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/ficition/products/the-stadium-by-night
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\ficition\products\the-stadium-by-night.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/ficition/products/when-the-stars-align
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\ficition\products\when-the-stars-align.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/fresh-healthy-eats.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\fresh-healthy-eats.oembed
+Content Type: application/json+oembed
+
+Uri: https://bookly-theme.myshopify.com/collections/vendors?q=Bookly-theme
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\vendors-2.html
+Content Type: text/html
+
+Uri: https://twitter.com/share?text=Fresh Healthy Eats&url=https://bookly-theme.myshopify.com/products/fresh-healthy-eats
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\share-2.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/endless-summer.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\endless-summer.oembed
+Content Type: application/json+oembed
+
+Uri: https://bookly-theme.myshopify.com/collections/vendors?q=John Erik
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\vendors-3.html
+Content Type: text/html
+
+Uri: https://twitter.com/share?text=Endless Summer&url=https://bookly-theme.myshopify.com/products/endless-summer
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\share-3.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/daily-deals
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\daily-deals.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/share-market
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\share-market.html
+Content Type: text/html
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-76_480x480@2x.jpg?v=1622275073
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\products\shop-new-76_480x480@2x.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-71_480x480@2x.jpg?v=1587117773
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\products\shop-new-71_480x480@2x.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-16_480x480@2x.jpg?v=1587117190
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\products\shop-new-16_480x480@2x.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-46_480x480@2x.jpg?v=1587118513
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\products\shop-new-46_480x480@2x.jpg
+Content Type: image/jpeg
+
+Uri: https://bookly-theme.myshopify.com/collections/humor.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\humor.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/humor.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\humor.oembed
+Content Type: application/json+oembed
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/pattern-leaf.png?v=1622184140
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\pattern-leaf.png
+Content Type: image/png
+
+Uri: https://cdn.shopify.com/shopifycloud/shopify/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c.gif
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\shopifycloud\shopify\assets\no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c.gif
+Content Type: image/gif
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/abo-01_480x480@2x.jpg?v=1622806819
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\abo-01_480x480@2x.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/abo-02_480x480@2x.jpg?v=1622806835
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\abo-02_480x480@2x.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/abo-03_480x480@2x.jpg?v=1622806851
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\abo-03_480x480@2x.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/abo-04_480x480@2x.jpg?v=1622807151
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\abo-04_480x480@2x.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/abo-05_480x480@2x.jpg?v=1622807174
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\abo-05_480x480@2x.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/abo-06_480x480@2x.jpg?v=1622807196
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\abo-06_480x480@2x.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/files/abo-07_480x480@2x.jpg?v=1622807215
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\files\abo-07_480x480@2x.jpg
+Content Type: image/jpeg
+
+Uri: https://bookly-theme.myshopify.com/blogs/news.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\blogs\news.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/blogs/news?page=2
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\blogs\news-1.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/blogs/news/100-best-kids-story-books
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\blogs\news\100-best-kids-story-books.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/blogs/news/10-best-crime-novel-writers
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\blogs\news\10-best-crime-novel-writers.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/blogs/news/novels-changed-our-history
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\blogs\news\novels-changed-our-history.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/blogs/news/top-5-author-sucess-secrets
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\blogs\news\top-5-author-sucess-secrets.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/blogs/news/why-paper-books-are-best
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\blogs\news\why-paper-books-are-best.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/blogs/news/best-blogs-for-book-lovers
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\blogs\news\best-blogs-for-book-lovers.html
+Content Type: text/html
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/articles/blog-1_480x480@2x.jpg?v=1585546169
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\articles\blog-1_480x480@2x.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/articles/blog-2_480x480@2x.jpg?v=1585546218
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\articles\blog-2_480x480@2x.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/articles/blog-3_480x480@2x.jpg?v=1585546251
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\articles\blog-3_480x480@2x.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/articles/blog-7_480x480@2x.JPG?v=1585981240
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\articles\blog-7_480x480@2x.JPG
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/articles/blog-6_480x480@2x.JPG?v=1585981209
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\articles\blog-6_480x480@2x.JPG
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/articles/blog-10_480x480@2x.JPG?v=1585981370
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\articles\blog-10_480x480@2x.JPG
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/articles/blog-9_480x480@2x.JPG?v=1585981316
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\articles\blog-9_480x480@2x.JPG
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/articles/blog-11_480x480@2x.JPG?v=1585981380
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\articles\blog-11_480x480@2x.JPG
+Content Type: image/jpeg
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/articles/blog-8_480x480@2x.JPG?v=1585981274
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\articles\blog-8_480x480@2x.JPG
+Content Type: image/jpeg
+
+Uri: https://bookly-theme.myshopify.com/collections/ficition.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\ficition.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/ficition?page=2
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\ficition-1.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/ficition.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\ficition.oembed
+Content Type: application/json+oembed
+
+Uri: https://bookly-theme.myshopify.com/collections/ficition/products/books-for-a-cause
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\ficition\products\books-for-a-cause.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/ficition/products/fresh-healthy-eats
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\ficition\products\fresh-healthy-eats.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/ficition/products/endless-summer
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\ficition\products\endless-summer.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/ficition/products/last-time-we-broke-up
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\ficition\products\last-time-we-broke-up.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/ficition/products/donate-a-book
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\ficition\products\donate-a-book.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/ficition/products/home-made-meals
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\ficition\products\home-made-meals.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/girls-at-the-golden-city.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\girls-at-the-golden-city.oembed
+Content Type: application/json+oembed
+
+Uri: https://bookly-theme.myshopify.com/collections/vendors?q=Alice James
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\vendors-4.html
+Content Type: text/html
+
+Uri: https://twitter.com/share?text=Girls at the Golden City&url=https://bookly-theme.myshopify.com/products/girls-at-the-golden-city
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\share-4.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/vistit-in-the-north.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\vistit-in-the-north.oembed
+Content Type: application/json+oembed
+
+Uri: https://bookly-theme.myshopify.com/collections/vendors?q=Adam Baid
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\vendors-5.html
+Content Type: text/html
+
+Uri: https://twitter.com/share?text=Vistit in the North&url=https://bookly-theme.myshopify.com/products/vistit-in-the-north
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\share-5.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/the-stadium-by-night.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\the-stadium-by-night.oembed
+Content Type: application/json+oembed
+
+Uri: https://twitter.com/share?text=The Stadium by Night&url=https://bookly-theme.myshopify.com/products/the-stadium-by-night
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\share-6.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/when-the-stars-align.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\when-the-stars-align.oembed
+Content Type: application/json+oembed
+
+Uri: https://twitter.com/share?text=When The Stars Align&url=https://bookly-theme.myshopify.com/products/when-the-stars-align
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\share-7.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/last-time-we-broke-up.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\last-time-we-broke-up.oembed
+Content Type: application/json+oembed
+
+Uri: https://twitter.com/share?text=Last Time We Broke Up&url=https://bookly-theme.myshopify.com/products/last-time-we-broke-up
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\share-8.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/donate-a-book.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\donate-a-book.oembed
+Content Type: application/json+oembed
+
+Uri: https://twitter.com/share?text=Donate a Book&url=https://bookly-theme.myshopify.com/products/donate-a-book
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\share-9.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/home-made-meals.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\home-made-meals.oembed
+Content Type: application/json+oembed
+
+Uri: https://twitter.com/share?text=Home Made Meals&url=https://bookly-theme.myshopify.com/products/home-made-meals
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\share-10.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/lightspeed-robots.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\lightspeed-robots.oembed
+Content Type: application/json+oembed
+
+Uri: https://twitter.com/share?text=Lightspeed Robots&url=https://bookly-theme.myshopify.com/products/lightspeed-robots
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\share-11.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/the-gift-of-love.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\the-gift-of-love.oembed
+Content Type: application/json+oembed
+
+Uri: https://twitter.com/share?text=The Gift of Love&url=https://bookly-theme.myshopify.com/products/the-gift-of-love
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\share-12.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/history/products/silent-women
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\history\products\silent-women.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/history/products/wake-me-up
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\history\products\wake-me-up.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/history/products/books-for-a-cause
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\history\products\books-for-a-cause.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/history/products/fresh-healthy-eats
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\history\products\fresh-healthy-eats.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/the-happy-lemon.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\the-happy-lemon.oembed
+Content Type: application/json+oembed
+
+Uri: https://twitter.com/share?text=The Happy Lemon&url=https://bookly-theme.myshopify.com/products/the-happy-lemon
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\share-13.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/skin-like-daffodils.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\skin-like-daffodils.oembed
+Content Type: application/json+oembed
+
+Uri: https://twitter.com/share?text=Skin Like Daffodils&url=https://bookly-theme.myshopify.com/products/skin-like-daffodils
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\share-14.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/silent-women.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\silent-women.oembed
+Content Type: application/json+oembed
+
+Uri: https://twitter.com/share?text=Silent Women&url=https://bookly-theme.myshopify.com/products/silent-women
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\share-15.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/history/products/the-gift-of-love
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\history\products\the-gift-of-love.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/wake-me-up.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\wake-me-up.oembed
+Content Type: application/json+oembed
+
+Uri: https://twitter.com/share?text=Wake Me up&url=https://bookly-theme.myshopify.com/products/wake-me-up
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\share-16.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/seafood-gourment.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\seafood-gourment.oembed
+Content Type: application/json+oembed
+
+Uri: https://twitter.com/share?text=Seafood Gourment&url=https://bookly-theme.myshopify.com/products/seafood-gourment
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\share-17.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/beauty-of-structures.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\beauty-of-structures.oembed
+Content Type: application/json+oembed
+
+Uri: https://twitter.com/share?text=Beauty of Structures&url=https://bookly-theme.myshopify.com/products/beauty-of-structures
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\share-18.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/the-red-desert.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\the-red-desert.oembed
+Content Type: application/json+oembed
+
+Uri: https://twitter.com/share?text=The Red Desert&url=https://bookly-theme.myshopify.com/products/the-red-desert
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\share-19.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/the-stage-by-gabin.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\the-stage-by-gabin.oembed
+Content Type: application/json+oembed
+
+Uri: https://twitter.com/share?text=The Stage By Gabin&url=https://bookly-theme.myshopify.com/products/the-stage-by-gabin
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\share-20.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/history.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\history.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/history.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\history.oembed
+Content Type: application/json+oembed
+
+Uri: https://bookly-theme.myshopify.com/collections/history/products/seafood-gourment
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\history\products\seafood-gourment.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/literature/products/books-for-a-cause
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\literature\products\books-for-a-cause.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/literature/products/fresh-healthy-eats
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\literature\products\fresh-healthy-eats.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/literature/products/endless-summer
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\literature\products\endless-summer.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/literature.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\literature.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/literature?page=2
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\literature-1.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/literature.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\literature.oembed
+Content Type: application/json+oembed
+
+Uri: https://bookly-theme.myshopify.com/collections/literature/products/the-gift-of-love
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\literature\products\the-gift-of-love.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/literature/products/the-stage-by-gabin
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\literature\products\the-stage-by-gabin.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/all?page=1
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all-3.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/products/fight-or-flight.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\products\fight-or-flight.oembed
+Content Type: application/json+oembed
+
+Uri: https://twitter.com/share?text=Fight or Flight&url=https://bookly-theme.myshopify.com/products/fight-or-flight
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\share-21.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/new-arrivals.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\new-arrivals.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/new-arrivals?page=2
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\new-arrivals-1.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/new-arrivals.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\new-arrivals.oembed
+Content Type: application/json+oembed
+
+Uri: https://bookly-theme.myshopify.com/collections/new-arrivals/products/adventurous-eating
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\new-arrivals\products\adventurous-eating.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/new-arrivals/products/books-for-a-cause
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\new-arrivals\products\books-for-a-cause.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/new-arrivals/products/the-happy-lemon
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\new-arrivals\products\the-happy-lemon.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/new-arrivals/products/the-gift-of-love
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\new-arrivals\products\the-gift-of-love.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/new-arrivals/products/lightspeed-robots
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\new-arrivals\products\lightspeed-robots.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/new-arrivals/products/the-stage-by-gabin
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\new-arrivals\products\the-stage-by-gabin.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/new-arrivals/products/home-made-meals
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\new-arrivals\products\home-made-meals.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/new-arrivals/products/beauty-of-structures
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\new-arrivals\products\beauty-of-structures.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/new-arrivals/products/the-stadium-by-night
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\new-arrivals\products\the-stadium-by-night.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/new-arrivals/products/wake-me-up
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\new-arrivals\products\wake-me-up.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/frontpage.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\frontpage.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/frontpage?page=2
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\frontpage-1.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/frontpage.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\frontpage.oembed
+Content Type: application/json+oembed
+
+Uri: https://bookly-theme.myshopify.com/collections/frontpage/products/books-for-a-cause
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\frontpage\products\books-for-a-cause.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/frontpage/products/fresh-healthy-eats
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\frontpage\products\fresh-healthy-eats.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/frontpage/products/silent-women
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\frontpage\products\silent-women.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/frontpage/products/wake-me-up
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\frontpage\products\wake-me-up.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/frontpage/products/the-gift-of-love
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\frontpage\products\the-gift-of-love.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/frontpage/products/home-made-meals
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\frontpage\products\home-made-meals.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/frontpage/products/the-stage-by-gabin
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\frontpage\products\the-stage-by-gabin.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/frontpage/products/the-happy-lemon
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\frontpage\products\the-happy-lemon.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/frontpage/products/lightspeed-robots
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\frontpage\products\lightspeed-robots.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/all/100-200.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\100-200.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/all/200-300.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\200-300.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/all/300-400.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\300-400.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/all/400-500.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\400-500.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/all/500-700.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\500-700.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/all/paperback.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\paperback.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/all/hardcover.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\hardcover.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/all/kindle-edition.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\kindle-edition.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/all/large-print.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\large-print.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/all/audible-audiobook.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\audible-audiobook.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/all/english.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\english.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/all/spanish.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\spanish.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/all/japanese.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\japanese.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/all/hebrew.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\hebrew.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/all/korean.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\korean.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/all/donald-william.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\donald-william.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/all/john-erik.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\john-erik.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/all/alice-james.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\alice-james.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/all/michael-alice.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\michael-alice.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/all/adam-baid.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\adam-baid.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/all/business.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\business.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/all/literature.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\literature.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/all/fiction.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\fiction.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/all/humor.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\humor.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/all/entertainment.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\all\entertainment.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/vendors?q=donald+william
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\vendors-6.html
+Content Type: text/html
+
+Uri: https://m.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https:%2F%2Fm.facebook.com%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fbookly-theme.myshopify.com%252Fproducts%252Fadventurous-eating&cancel_url=https:%2F%2Fm.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=touch&locale=vi_VN&_rdr
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\login.php.xhtml
+Content Type: application/xhtml+xml
+
+Uri: https://www.pinterest.com/pin/create/button/?url=https://bookly-theme.myshopify.com/products/adventurous-eating&media=http://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-95_b0b53360-a171-427b-9dc6-0bf965bcfdae_1024x1024.jpg?v=1587120117&description=Adventurous Eating
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\pin\create\button\index.htm
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/vendors?q=michael+alice
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\vendors-7.html
+Content Type: text/html
+
+Uri: https://m.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https:%2F%2Fm.facebook.com%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fbookly-theme.myshopify.com%252Fproducts%252Fbooks-for-a-cause&cancel_url=https:%2F%2Fm.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=touch&locale=vi_VN&_rdr
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\login.php-1.xhtml
+Content Type: application/xhtml+xml
+
+Uri: https://www.pinterest.com/pin/create/button/?url=https://bookly-theme.myshopify.com/products/books-for-a-cause&media=http://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-4_1024x1024.jpg?v=1587113962&description=Books For a Cause
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\pin\create\button\index-1.htm
+Content Type: text/html
+
+Uri: https://m.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https:%2F%2Fm.facebook.com%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fbookly-theme.myshopify.com%252Fproducts%252Ffresh-healthy-eats&cancel_url=https:%2F%2Fm.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=touch&locale=vi_VN&_rdr
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\login.php-2.xhtml
+Content Type: application/xhtml+xml
+
+Uri: https://www.pinterest.com/pin/create/button/?url=https://bookly-theme.myshopify.com/products/fresh-healthy-eats&media=http://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-30_1024x1024.jpg?v=1587116432&description=Fresh Healthy Eats
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\pin\create\button\index-2.htm
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/vendors?q=john+erik
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\vendors-8.html
+Content Type: text/html
+
+Uri: https://m.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https:%2F%2Fm.facebook.com%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fbookly-theme.myshopify.com%252Fproducts%252Fendless-summer&cancel_url=https:%2F%2Fm.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=touch&locale=vi_VN&_rdr
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\login.php-3.xhtml
+Content Type: application/xhtml+xml
+
+Uri: https://www.pinterest.com/pin/create/button/?url=https://bookly-theme.myshopify.com/products/endless-summer&media=http://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-100_1024x1024.jpg?v=1587115881&description=Endless Summer
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\pin\create\button\index-3.htm
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/daily-deals.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\daily-deals.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/daily-deals?page=2
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\daily-deals-1.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/daily-deals.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\daily-deals.oembed
+Content Type: application/json+oembed
+
+Uri: https://bookly-theme.myshopify.com/collections/daily-deals/products/books-for-a-cause
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\daily-deals\products\books-for-a-cause.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/daily-deals/products/fresh-healthy-eats
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\daily-deals\products\fresh-healthy-eats.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/daily-deals/products/endless-summer
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\daily-deals\products\endless-summer.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/daily-deals/products/donate-a-book
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\daily-deals\products\donate-a-book.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/daily-deals/products/home-made-meals
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\daily-deals\products\home-made-meals.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/daily-deals/products/the-stage-by-gabin
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\daily-deals\products\the-stage-by-gabin.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/daily-deals/products/seafood-gourment
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\daily-deals\products\seafood-gourment.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/daily-deals/products/wake-me-up
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\daily-deals\products\wake-me-up.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/daily-deals/products/silent-women
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\daily-deals\products\silent-women.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/daily-deals/products/last-time-we-broke-up
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\daily-deals\products\last-time-we-broke-up.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/share-market.atom
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\share-market.atom
+Content Type: application/atom+xml
+
+Uri: https://bookly-theme.myshopify.com/collections/share-market?page=2
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\share-market-1.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/share-market.oembed
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\share-market.oembed
+Content Type: application/json+oembed
+
+Uri: https://bookly-theme.myshopify.com/collections/share-market/products/adventurous-eating
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\share-market\products\adventurous-eating.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/share-market/products/books-for-a-cause
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\share-market\products\books-for-a-cause.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/share-market/products/endless-summer
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\share-market\products\endless-summer.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/share-market/products/beauty-of-structures
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\share-market\products\beauty-of-structures.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/share-market/products/when-the-stars-align
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\share-market\products\when-the-stars-align.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/share-market/products/silent-women
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\share-market\products\silent-women.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/share-market/products/wake-me-up
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\share-market\products\wake-me-up.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/share-market/products/the-gift-of-love
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\share-market\products\the-gift-of-love.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/share-market/products/home-made-meals
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\share-market\products\home-made-meals.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/share-market/products/lightspeed-robots
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\share-market\products\lightspeed-robots.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/blogs/news?page=1
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\blogs\news-2.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/blogs/news/why-people-love-books
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\blogs\news\why-people-love-books.html
+Content Type: text/html
+
+Uri: https://cdn.shopify.com/s/files/1/0359/5979/9852/articles/blog-5_480x480@2x.JPG?v=1585981170
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\s\files\1\0359\5979\9852\articles\blog-5_480x480@2x.JPG
+Content Type: image/jpeg
+
+Uri: https://www.google.com/maps/embed?origin=mfe&pb=!1m11!1m8!1m3!1d25212.741599529982!2d144.977388!3d-37.823006!3m2!1i1024!2i768!4f13.1!5e0!6i14
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\maps\embed.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/ficition?page=1
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\ficition-2.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/ficition.oembed?page=2
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\ficition-1.oembed
+Content Type: application/json+oembed
+
+Uri: https://bookly-theme.myshopify.com/collections/vendors?q=alice+james
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\vendors-9.html
+Content Type: text/html
+
+Uri: https://m.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https:%2F%2Fm.facebook.com%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fbookly-theme.myshopify.com%252Fproducts%252Fgirls-at-the-golden-city&cancel_url=https:%2F%2Fm.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=touch&locale=vi_VN&_rdr
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\login.php-4.xhtml
+Content Type: application/xhtml+xml
+
+Uri: https://www.pinterest.com/pin/create/button/?url=https://bookly-theme.myshopify.com/products/girls-at-the-golden-city&media=http://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-76_1024x1024.jpg?v=1622275073&description=Girls at the Golden City
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\pin\create\button\index-4.htm
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/vendors?q=adam+baid
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\vendors-10.html
+Content Type: text/html
+
+Uri: https://m.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https:%2F%2Fm.facebook.com%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fbookly-theme.myshopify.com%252Fproducts%252Fvistit-in-the-north&cancel_url=https:%2F%2Fm.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=touch&locale=vi_VN&_rdr
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\login.php-5.xhtml
+Content Type: application/xhtml+xml
+
+Uri: https://www.pinterest.com/pin/create/button/?url=https://bookly-theme.myshopify.com/products/vistit-in-the-north&media=http://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-57_1024x1024.jpg?v=1587119315&description=Vistit in the North
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\pin\create\button\index-5.htm
+Content Type: text/html
+
+Uri: https://m.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https:%2F%2Fm.facebook.com%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fbookly-theme.myshopify.com%252Fproducts%252Fthe-stadium-by-night&cancel_url=https:%2F%2Fm.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=touch&locale=vi_VN&_rdr
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\login.php-6.xhtml
+Content Type: application/xhtml+xml
+
+Uri: https://www.pinterest.com/pin/create/button/?url=https://bookly-theme.myshopify.com/products/the-stadium-by-night&media=http://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-87_1024x1024.jpg?v=1587118936&description=The Stadium by Night
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\pin\create\button\index-6.htm
+Content Type: text/html
+
+Uri: https://m.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https:%2F%2Fm.facebook.com%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fbookly-theme.myshopify.com%252Fproducts%252Fwhen-the-stars-align&cancel_url=https:%2F%2Fm.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=touch&locale=vi_VN&_rdr
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\login.php-7.xhtml
+Content Type: application/xhtml+xml
+
+Uri: https://www.pinterest.com/pin/create/button/?url=https://bookly-theme.myshopify.com/products/when-the-stars-align&media=http://cdn.shopify.com/s/files/1/0359/5979/9852/products/booknew-3_1024x1024.jpg?v=1587119671&description=When The Stars Align
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\pin\create\button\index-7.htm
+Content Type: text/html
+
+Uri: https://m.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https:%2F%2Fm.facebook.com%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fbookly-theme.myshopify.com%252Fproducts%252Flast-time-we-broke-up&cancel_url=https:%2F%2Fm.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=touch&locale=vi_VN&_rdr
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\login.php-8.xhtml
+Content Type: application/xhtml+xml
+
+Uri: https://www.pinterest.com/pin/create/button/?url=https://bookly-theme.myshopify.com/products/last-time-we-broke-up&media=http://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-25_1024x1024.jpg?v=1587117046&description=Last Time We Broke Up
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\pin\create\button\index-8.htm
+Content Type: text/html
+
+Uri: https://m.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https:%2F%2Fm.facebook.com%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fbookly-theme.myshopify.com%252Fproducts%252Fdonate-a-book&cancel_url=https:%2F%2Fm.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=touch&locale=vi_VN&_rdr
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\login.php-9.xhtml
+Content Type: application/xhtml+xml
+
+Uri: https://www.pinterest.com/pin/create/button/?url=https://bookly-theme.myshopify.com/products/donate-a-book&media=http://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-1_1024x1024.jpg?v=1613036885&description=Donate a Book
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\pin\create\button\index-9.htm
+Content Type: text/html
+
+Uri: https://m.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https:%2F%2Fm.facebook.com%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fbookly-theme.myshopify.com%252Fproducts%252Fhome-made-meals&cancel_url=https:%2F%2Fm.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=touch&locale=vi_VN&_rdr
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\login.php-10.xhtml
+Content Type: application/xhtml+xml
+
+Uri: https://www.pinterest.com/pin/create/button/?url=https://bookly-theme.myshopify.com/products/home-made-meals&media=http://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-34_1024x1024.jpg?v=1587116925&description=Home Made Meals
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\pin\create\button\index-10.htm
+Content Type: text/html
+
+Uri: https://m.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https:%2F%2Fm.facebook.com%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fbookly-theme.myshopify.com%252Fproducts%252Flightspeed-robots&cancel_url=https:%2F%2Fm.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=touch&locale=vi_VN&_rdr
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\login.php-11.xhtml
+Content Type: application/xhtml+xml
+
+Uri: https://www.pinterest.com/pin/create/button/?url=https://bookly-theme.myshopify.com/products/lightspeed-robots&media=http://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-16_1024x1024.jpg?v=1587117190&description=Lightspeed Robots
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\pin\create\button\index-11.htm
+Content Type: text/html
+
+Uri: https://m.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https:%2F%2Fm.facebook.com%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fbookly-theme.myshopify.com%252Fproducts%252Fthe-gift-of-love&cancel_url=https:%2F%2Fm.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=touch&locale=vi_VN&_rdr
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\login.php-12.xhtml
+Content Type: application/xhtml+xml
+
+Uri: https://www.pinterest.com/pin/create/button/?url=https://bookly-theme.myshopify.com/products/the-gift-of-love&media=http://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-65_1024x1024.jpg?v=1587118346&description=The Gift of Love
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\pin\create\button\index-12.htm
+Content Type: text/html
+
+Uri: https://m.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https:%2F%2Fm.facebook.com%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fbookly-theme.myshopify.com%252Fproducts%252Fthe-happy-lemon&cancel_url=https:%2F%2Fm.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=touch&locale=vi_VN&_rdr
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\login.php-13.xhtml
+Content Type: application/xhtml+xml
+
+Uri: https://www.pinterest.com/pin/create/button/?url=https://bookly-theme.myshopify.com/products/the-happy-lemon&media=http://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-46_1024x1024.jpg?v=1587118513&description=The Happy Lemon
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\pin\create\button\index-13.htm
+Content Type: text/html
+
+Uri: https://m.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https:%2F%2Fm.facebook.com%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fbookly-theme.myshopify.com%252Fproducts%252Fskin-like-daffodils&cancel_url=https:%2F%2Fm.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=touch&locale=vi_VN&_rdr
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\login.php-14.xhtml
+Content Type: application/xhtml+xml
+
+Uri: https://www.pinterest.com/pin/create/button/?url=https://bookly-theme.myshopify.com/products/skin-like-daffodils&media=http://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-21_1024x1024.jpg?v=1587117910&description=Skin Like Daffodils
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\pin\create\button\index-14.htm
+Content Type: text/html
+
+Uri: https://m.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https:%2F%2Fm.facebook.com%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fbookly-theme.myshopify.com%252Fproducts%252Fsilent-women&cancel_url=https:%2F%2Fm.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=touch&locale=vi_VN&_rdr
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\login.php-15.xhtml
+Content Type: application/xhtml+xml
+
+Uri: https://www.pinterest.com/pin/create/button/?url=https://bookly-theme.myshopify.com/products/silent-women&media=http://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-71_1024x1024.jpg?v=1587117773&description=Silent Women
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\pin\create\button\index-15.htm
+Content Type: text/html
+
+Uri: https://m.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https:%2F%2Fm.facebook.com%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fbookly-theme.myshopify.com%252Fproducts%252Fwake-me-up&cancel_url=https:%2F%2Fm.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=touch&locale=vi_VN&_rdr
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\login.php-16.xhtml
+Content Type: application/xhtml+xml
+
+Uri: https://www.pinterest.com/pin/create/button/?url=https://bookly-theme.myshopify.com/products/wake-me-up&media=http://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-102_1024x1024.jpg?v=1587120877&description=Wake Me up
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\pin\create\button\index-16.htm
+Content Type: text/html
+
+Uri: https://m.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https:%2F%2Fm.facebook.com%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fbookly-theme.myshopify.com%252Fproducts%252Fseafood-gourment&cancel_url=https:%2F%2Fm.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=touch&locale=vi_VN&_rdr
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\login.php-17.xhtml
+Content Type: application/xhtml+xml
+
+Uri: https://www.pinterest.com/pin/create/button/?url=https://bookly-theme.myshopify.com/products/seafood-gourment&media=http://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-44_1024x1024.jpg?v=1587117561&description=Seafood Gourment
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\pin\create\button\index-17.htm
+Content Type: text/html
+
+Uri: https://m.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https:%2F%2Fm.facebook.com%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fbookly-theme.myshopify.com%252Fproducts%252Fbeauty-of-structures&cancel_url=https:%2F%2Fm.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=touch&locale=vi_VN&_rdr
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\login.php-18.xhtml
+Content Type: application/xhtml+xml
+
+Uri: https://www.pinterest.com/pin/create/button/?url=https://bookly-theme.myshopify.com/products/beauty-of-structures&media=http://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-89_1024x1024.jpg?v=1587115559&description=Beauty of Structures
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\pin\create\button\index-18.htm
+Content Type: text/html
+
+Uri: https://m.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https:%2F%2Fm.facebook.com%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fbookly-theme.myshopify.com%252Fproducts%252Fthe-red-desert&cancel_url=https:%2F%2Fm.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=touch&locale=vi_VN&_rdr
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\login.php-19.xhtml
+Content Type: application/xhtml+xml
+
+Uri: https://www.pinterest.com/pin/create/button/?url=https://bookly-theme.myshopify.com/products/the-red-desert&media=http://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-77_1024x1024.jpg?v=1587118663&description=The Red Desert
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\pin\create\button\index-19.htm
+Content Type: text/html
+
+Uri: https://m.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https:%2F%2Fm.facebook.com%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fbookly-theme.myshopify.com%252Fproducts%252Fthe-stage-by-gabin&cancel_url=https:%2F%2Fm.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=touch&locale=vi_VN&_rdr
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\login.php-20.xhtml
+Content Type: application/xhtml+xml
+
+Uri: https://www.pinterest.com/pin/create/button/?url=https://bookly-theme.myshopify.com/products/the-stage-by-gabin&media=http://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-40_1024x1024.jpg?v=1587119146&description=The Stage By Gabin
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\pin\create\button\index-20.htm
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/literature?page=1
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\literature-2.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/literature.oembed?page=2
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\literature-1.oembed
+Content Type: application/json+oembed
+
+Uri: https://m.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https:%2F%2Fm.facebook.com%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fbookly-theme.myshopify.com%252Fproducts%252Ffight-or-flight&cancel_url=https:%2F%2Fm.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=touch&locale=vi_VN&_rdr
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\login.php-21.xhtml
+Content Type: application/xhtml+xml
+
+Uri: https://www.pinterest.com/pin/create/button/?url=https://bookly-theme.myshopify.com/products/fight-or-flight&media=http://cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-52_1024x1024.jpg?v=1587116188&description=Fight or Flight
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\pin\create\button\index-21.htm
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/new-arrivals?page=1
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\new-arrivals-2.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/new-arrivals.oembed?page=2
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\new-arrivals-1.oembed
+Content Type: application/json+oembed
+
+Uri: https://bookly-theme.myshopify.com/collections/frontpage?page=1
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\frontpage-2.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/frontpage.oembed?page=2
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\frontpage-1.oembed
+Content Type: application/json+oembed
+
+Uri: https://bookly-theme.myshopify.com/collections/frontpage/products/skin-like-daffodils
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\frontpage\products\skin-like-daffodils.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/daily-deals?page=1
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\daily-deals-2.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/daily-deals.oembed?page=2
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\daily-deals-1.oembed
+Content Type: application/json+oembed
+
+Uri: https://bookly-theme.myshopify.com/collections/share-market?page=1
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\share-market-2.html
+Content Type: text/html
+
+Uri: https://bookly-theme.myshopify.com/collections/share-market.oembed?page=2
+File Name: C:\Downloaded Web Sites\bookly-theme.myshopify.com\collections\share-market-1.oembed
+Content Type: application/json+oembed
+
