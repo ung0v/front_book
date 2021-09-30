@@ -1045,13 +1045,11 @@
                                     <li class="0 megaProduct
            top-level-link 
             has-mega-menu dt-sc-primary
-           
+        
             menu-item-has-children">
                                         <a href="<?= base_url() ?>/public/" class=" mega-menu dt-sc-nav-link dropdown">
                                             Thể loại <span class="dt-sc-caret"></span>
                                         </a>
-
-
                                         <div class="sub-menu-block is-hidden">
                                             <div class="go-back">
                                                 <a href="javascript:void(0);"></a>
@@ -1059,12 +1057,23 @@
                                             <div class="see-all"></div>
                                             <div class="dt-sc-dropdown-menu dt-sc--main-menu--mega " id="categories-2-dt-sc-menu">
                                                 <ul class="sub-menu-lists  dt-sc-column four-column row-reverse  ">
-
-
-
-
-
                                                     <li class="dt-sc-menu-product">
+                                                        <div class="dt-sc-menu-product__item">
+                                                            <div class="dt-sc-menu-product_item-image">
+                                                                <a href="products/adventurous-eating.html">
+                                                                    <img class="lazyload" src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/t/4/assets/loading.gif?v=1780583550831190727" data-src="//cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-95_b0b53360-a171-427b-9dc6-0bf965bcfdae.jpg?v=1587120117" data-widths="[180, 360, 470, 600, 770, 970, 1060, 1280, 1512, 1728, 2048]" data-aspectratio="0.6901311249137336" data-sizes="auto" alt="Adventurous Eating">
+                                                                    <noscript>
+                                                                        <img src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/products/shop-new-95_b0b53360-a171-427b-9dc6-0bf965bcfdae.jpg?v=1587120117" alt="Adventurous Eating" class="dt-sc-noscript-image">
+                                                                    </noscript>
+                                                                </a>
+                                                            </div>
+                                                            <div class="dt-sc-menu-product_item-info">
+                                                                <a class="dt-sc-product__title" href="products/adventurous-eating.html">Adventurous Eating</a>
+                                                                <span class="dt-sc-price"><span class="money">$500.00</span></span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+<li class="dt-sc-menu-product">
                                                         <div class="dt-sc-menu-product__item">
                                                             <div class="dt-sc-menu-product_item-image">
                                                                 <a href="products/adventurous-eating.html">
@@ -3015,8 +3024,9 @@
         </div>
 
 
-        <nav class="breadcrumb text-center" aria-label="breadcrumbs" style="padding:0">
-            <!-- <div class="container">
+        <?php if ($title != 'Home') : ?>
+            <nav class="breadcrumb text-center" aria-label="breadcrumbs" style="padding:0">
+                <!-- <div class="container">
 
 
                 <h1>Collection</h1>
@@ -3030,7 +3040,8 @@
 
 
             </div> -->
-        </nav>
+            </nav>
+        <?php endif; ?>
 
         <div class="clearfix"></div>
         <div class="shifter-page is-moved-by-drawer" id="container">
