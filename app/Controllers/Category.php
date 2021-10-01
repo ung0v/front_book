@@ -10,7 +10,7 @@ class Category extends BaseController
 {
     public function index()
     {
-        $data['title'] = "Category";
+        $data['title'] = "Thể loại";
         $productModel = new ProductModel();
         $categoryModel = new CategoryModel();
         $discountModel = new DiscountModel();
@@ -28,8 +28,7 @@ class Category extends BaseController
         $records_per_page = 5;
         $offset = ($page - 1) * $records_per_page;
 
-        $total_rows = count($lstProduct);
-        $total_pages = ceil($total_rows / $records_per_page);
+
         if (isset($_GET['cateID'])) {
             $cateID = $_GET['cateID'];
             $lstProduct = $productModel->paginationResult('category', $cateID, $offset, $records_per_page);
@@ -47,7 +46,8 @@ class Category extends BaseController
                 $lstProduct[$index]['discount_percent'] = $discount_percent;
             }
         }
-
+        $total_rows = count($lstProduct);
+        $total_pages = ceil($total_rows / $records_per_page);
         $data['total_pages'] = $total_pages;
         $data['page'] = $page;
         $data['lstProduct'] = $lstProduct;

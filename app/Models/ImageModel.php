@@ -11,4 +11,8 @@ class ImageModel extends Model
 
     protected $returnType = 'array';
     protected $allowedFields = ['id', 'product_id', 'image'];
+    public function getByProductId($id)
+    {
+        return $this->where('product_id', $id)->findAll();
+    }
 }

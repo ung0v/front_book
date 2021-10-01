@@ -11,8 +11,7 @@
     <link rel="preconnect" href="https://monorail-edge.shopifysvc.com">
     <link rel="canonical" href="the-gift-of-love.html">
     <link rel="shortcut icon" href="../s/files/1/0359/5979/9852/files/favicon_16x16.png?v=1622526091" type="image/png">
-    <title>The Gift of Love
-        &ndash; Bookly-theme</title>
+    <title><?= $title ?></title>
     <meta name="description" content="Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras loremos.Donec pretium egestas sapien et mollis. Lorem ipsum dolor sit ametSonsectetur adipiscing e"><!-- Social meta ================================================== -->
     <!-- /snippets/social-meta-tags.liquid -->
 
@@ -1073,7 +1072,7 @@
                                                             </div>
                                                         </div>
                                                     </li>
-<li class="dt-sc-menu-product">
+                                                    <li class="dt-sc-menu-product">
                                                         <div class="dt-sc-menu-product__item">
                                                             <div class="dt-sc-menu-product_item-image">
                                                                 <a href="products/adventurous-eating.html">

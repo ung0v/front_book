@@ -19,6 +19,10 @@ class ProductModel extends Model
     {
         return $this->orderBy('created_at', 'desc')->findAll();
     }
+    public function getById($id)
+    {
+        return $this->where('id', $id)->find();
+    }
     public function getByCategoryId($cateId)
     {
         return $this->where('category_id', $cateId)->orderBy('created_at')->findAll(5);

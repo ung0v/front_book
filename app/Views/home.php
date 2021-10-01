@@ -941,7 +941,7 @@ margin-top:0px; margin-bottom:0px;padding-top:100px; padding-bottom:0px; " data-
                                             <li class="regular-grid grid-item product-grid-item  " id="product-4947331252268">
                                                 <div class="products">
                                                     <div class="product-container">
-                                                        <a href="<?= base_url() ?>/public/productDetail" class="grid-link product-group">
+                                                        <a href="<?= base_url() ?>/public/productDetail?pid=<?= $data['id'] ?>" class="grid-link product-group">
                                                             <?php if ($data['discount_id'] != 0) : ?>
                                                                 <div class="featured-tag"><span class="badge badge--sale"><span class="gift-tag badge__text">Sale</span></span></div>
 
@@ -963,7 +963,7 @@ margin-top:0px; margin-bottom:0px;padding-top:100px; padding-bottom:0px; " data-
                                                     </div>
                                                     <div class="product-detail content-left">
                                                         <p class="product-vendor"><span><?= $data['author'] ?></span></p>
-                                                        <h4 class="grid-link__title"><a href="<?= base_url() ?>/public/productDetail"><?= $data['name'] ?></a></h4>
+                                                        <h4 class="grid-link__title"><a href="<?= base_url() ?>/public/productDetail?pid=<?= $data['id'] ?>"><?= $data['name'] ?></a></h4>
                                                         <div class="grid-link__meta">
                                                             <div class="product_price">
                                                                 <div class="grid-link__org_price" id="ProductPrice">

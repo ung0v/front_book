@@ -7,116 +7,25 @@
 
 
             <div class="cart_table">
-                <form action="/cart" method="post" novalidate="" class="cart dt-sc-column two-third-one-third ">
+                <div novalidate="" class="cart dt-sc-column two-third-one-third">
                     <div class="cart__items">
 
 
 
-                        <div class="cart__row cart__header-labels">
-                            <h4 class="cart_heading"> Products </h4>
+                        <div class="cart__header-labels">
+                            <h4 class="cart_heading"> Giỏ hàng </h4>
                         </div>
 
 
 
-                        <div class="cart__row">
-                            <div class="cart_items">
-                                <a href="/collections/all/products/girls-at-the-golden-city?variant=33450373349420" class="cart__image">
+                        <style>
+                            .cart_table .cart__row {
+                                border: 1px solid var(--DTColor_Border);
+                                margin-bottom: 30px;
+                            }
+                        </style>
 
-                                    <img src="//cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-76_medium.jpg?v=1622275073" alt="Girls at the Golden City - Audible Audiobook / Hebrew">
-                                </a>
-                            </div>
-
-                            <div class="product-info">
-                                <div class="cart-title ">
-                                    <h5><a href="/products/girls-at-the-golden-city?variant=33450373349420" class="product-name">
-                                            Girls at the Golden City
-                                        </a>
-                                    </h5>
-
-                                    <p>Audible Audiobook / Hebrew</p>
-
-
-
-
-
-
-                                </div>
-
-                                <div class="price ">
-                                    <strong> <span class="money">$300.00</span> </strong>
-                                </div>
-
-                                <div class="qty-box-set">
-                                    <input type="button" value="-" class="qtyminus1">
-                                    <input type="text" class="quantity-selector cart-number" name="updates[]" id="updates_33450373349420" value="1" min="0">
-                                    <input type="button" value="+" class="qtyplus1">
-                                </div>
-                                <div class="price ">
-                                    <span class="cart_total">Total :</span>
-
-                                    <strong>
-                                        <span class="money">$300.00</span>
-
-                                    </strong>
-                                </div>
-
-                            </div>
-
-                            <a href="/cart/change?line=1&amp;quantity=0" class="cart__remove close_icon">
-                                <span class="dt-sc-btn close-icon"></span>
-                            </a>
-
-                        </div>
-
-
-
-                        <div class="cart__row">
-                            <div class="cart_items">
-                                <a href="/collections/all/products/adventurous-eating?variant=33106915688492" class="cart__image">
-
-                                    <img src="//cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-95_b0b53360-a171-427b-9dc6-0bf965bcfdae_medium.jpg?v=1587120117" alt="Adventurous Eating - Paperback / English">
-                                </a>
-                            </div>
-
-                            <div class="product-info">
-                                <div class="cart-title ">
-                                    <h5><a href="/products/adventurous-eating?variant=33106915688492" class="product-name">
-                                            Adventurous Eating
-                                        </a>
-                                    </h5>
-
-                                    <p>Paperback / English</p>
-
-
-
-
-
-
-                                </div>
-
-                                <div class="price ">
-                                    <strong> <span class="money">$500.00</span> </strong>
-                                </div>
-
-                                <div class="qty-box-set">
-                                    <input type="button" value="-" class="qtyminus1">
-                                    <input type="text" class="quantity-selector cart-number" name="updates[]" id="updates_33106915688492" value="3" min="0">
-                                    <input type="button" value="+" class="qtyplus1">
-                                </div>
-                                <div class="price ">
-                                    <span class="cart_total">Total :</span>
-
-                                    <strong>
-                                        <span class="money">$1,500.00</span>
-
-                                    </strong>
-                                </div>
-
-                            </div>
-
-                            <a href="/cart/change?line=2&amp;quantity=0" class="cart__remove close_icon">
-                                <span class="dt-sc-btn close-icon"></span>
-                            </a>
+                        <div class="items_cart">
 
                         </div>
 
@@ -124,8 +33,8 @@
 
 
                         <div class="btn_actions">
-                            <a class="dt-sc-btn" href="/collections/all">Continue shopping</a>
-                            <input type="submit" name="update" class="dt-sc-btn update-cart right" value="Update Cart">
+                            <a class="dt-sc-btn" href="<?= base_url() ?>/public">Tiếp tục mua hàng</a>
+                            <button name="update" class="dt-sc-btn update-cart right">Cật nhật giỏ hàng</button>
                         </div>
 
 
@@ -141,12 +50,7 @@
                                 <span class="cart__subtotal"><span class="money">$1,800.00</span></span>
                             </p>
                             <p>
-
                             </p>
-
-
-
-
 
                             <button type="button" class="text-link cart__note-add">
                                 Add a note to your order
@@ -497,19 +401,7 @@
                             <script id="shipping-calculator-response-template" type="text/template">
 
                                 <p id="shipping-rates-feedback" {{#if success}} class="success" {{else}} class="error" {{/if}}>
-  {{#if success}}
-    {{#if rates}}
-      {{#rates}}
-        {{#if @first}}
-            Rates start at {{formatPrice price}}.
-        {{/if}}
-      {{/rates}}
-    {{else}}
-      We do not ship to this destination.
-    {{/if}}    
-  {{else}}
-    {{ errorFeedback }}
-  {{/if}}
+
   </p>
   
 </script>
@@ -573,22 +465,192 @@
                             </style>
                         </div>
                     </div>
-                </form>
+                </div>
             </div>
 
 
         </div>
     </div>
+    <style>
+        .cart_table .qty-box-set {
+            display: flex;
+            flex-wrap: wrap;
+        }
 
+        .cart_table .qty-box-set .qtyminus,
+        .cart_table .qty-box-set .qtyplus {
+            width: 30px;
+            height: 30px;
+            font-size: 14px;
+            line-height: 30px;
+            padding: 0px 10px;
+            margin: 0;
+            background: transparent;
+            background: transparent;
+            border: 1px solid var(--DTColor_Border);
+            color: var(--DT_Button_BG_Color);
+        }
 
+        .cart_table .qty-box-set .qtyplus:hover,
+        .cart_table .qty-box-set .qtyminus:hover {
+            background-color: var(--DTPrimaryColor);
+            color: var(--DT_Button_Text_Hover_Color);
+            border: 1px solid var(--DTPrimaryColor);
+        }
 
+        .cart_table .qty-box-set .qtyminus {
+            border-radius: var(--DTRadius) 0 0 var(--DTRadius);
+        }
 
+        .cart_table .qty-box-set .qtyplus {
+            border-radius: 0 var(--DTRadius) var(--DTRadius) 0;
+        }
 
+        .cart_table .qty-box-set .quantity-selector {
+            padding: 0;
+            text-align: center;
+            height: 30px;
+            max-width: 40px;
+            border: 1px solid currentcolor;
+            border-width: 1px 0;
+            border-radius: 0;
+            color: var(--button_bg_color);
+            border-color: var(--DTColor_Border);
+        }
 
+        .cart_table .qty-box-set .quantity-selector:focus {
+            border: 1px solid var(--DT_Button_BG_Hover_Color)
+        }
+    </style>
+    <script>
+        const json = localStorage.getItem('cart');
+        let cart = JSON.parse(json);
+        const cartItems = document.querySelector(".cart__items .items_cart");
+        let html = cart.map(item =>
+            `
+        <div class="cart__row" data-product-id="${item.product_id}">
+                            <div class="cart_items">
+                                <a href="<?= base_url() ?>/public/productDetail?pid=${item.product_id}" class="cart__image">
+                                    <img src="${item.image}" alt="${item.name} - ${item.category_name} / ${item.author}">
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <div class="cart-title ">
+                                    <h5><a href="<?= base_url() ?>/public/productDetail?pid=${item.product_id}" class="product-name">
+                                        ${item.name}
+                                        </a>
+                                    </h5>
+                                    <p class="category_author">${item.category_name} / ${item.author}</p>
+                                </div>
 
+                                <div class="price">
+                                    <strong>Đơn giá: <span class="money unit">${(+item.price).toLocaleString('vi-VI')}</span></strong> VNĐ
+                                </div>
+
+                                <div class="qty-box-set">
+                                    <input type="button" value="-" class="qtyminus">
+                                    <input type="text" class="quantity-selector cart-number" name="updates[]" id="updates_33450373349420" value="${item.quantity}" min="0">
+                                    <input type="button" value="+" class="qtyplus">
+                                </div>
+                                <div class="price">
+                                    <span class="cart_total">Tổng :</span>
+                                    <strong>
+                                        <span class="money total">${item.total.toLocaleString('vi-VI')}</span>
+                                    </strong>
+                                    VNĐ
+                                </div>
+                            </div>
+                            <a href="javscript:void(0)" class="cart__remove close_icon">
+                                <span class="dt-sc-btn close-icon"></span>
+                            </a>
+                        </div>
+        `).join("");
+        cartItems.insertAdjacentHTML("beforeend", html);
+
+        const minusBtn = document.querySelectorAll(".qtyminus");
+        const plusBtn = document.querySelectorAll(".qtyplus");
+        const rmItemBtn = document.querySelectorAll('.close_icon');
+        const updateBtn = document.querySelector(".update-cart");
+
+        rmItemBtn.forEach(item => {
+            item.addEventListener('click', event => {
+                event.preventDefault();
+                const row = item.closest("div");
+                row.parentElement.removeChild(row);
+            })
+        })
+
+        minusBtn.forEach(item => {
+            item.addEventListener('click', event => {
+                //handle click
+                event.preventDefault();
+                if (item.nextElementSibling.value <= 1) {
+                    item.nextElementSibling.value = 1;
+                } else {
+                    item.nextElementSibling.value--;
+                    const row = item.closest('div.cart__row');
+                    const total = row.querySelector(".total");
+                    const unit = row.querySelector(".unit");
+                    // const product_id = +item.getAttribute("data-product-id");
+                    // const total = cart.find(item => item.product_id === product_id).total;
+                    // const unit = cart.find(item => item.product_id === product_id).price;
+                    const val = Math.floor(+total.textContent.trim().split(".").join("") - +unit.textContent.trim().split(".").join(""));
+                    total.innerHTML = val.toLocaleString("vi-VN");
+                }
+
+            })
+        });
+        plusBtn.forEach(item => {
+            item.addEventListener('click', event => {
+                //handle click
+                event.preventDefault();
+                item.previousElementSibling.value++;
+                const row = item.closest('div.cart__row');
+                const total = row.querySelector(".total");
+                const unit = row.querySelector(".unit");
+                // const product_id = +item.getAttribute("data-product-id");
+                // const total = cart.find(item => item.product_id === product_id).total;
+                // const unit = cart.find(item => item.product_id === product_id).price;
+                const val = Math.floor(+total.textContent.trim().split(".").join("") + +unit.textContent.trim().split(".").join(""));
+                total.innerHTML = val.toLocaleString("vi-VN");
+            })
+        })
+        updateBtn.addEventListener("click", event => {
+            event.preventDefault();
+            const allItem = document.querySelectorAll(".cart__row");
+            const cart = Array.from(allItem).map(item => {
+                const category_author = item.querySelector(".category_author").textContent.trim();
+                const product_id = +item.getAttribute("data-product-id");
+                const name = item.querySelector(".product-name").textContent.trim();
+                const category_name = category_author.split("/")[0].trim();
+                const author = category_author.split("/")[1].trim();
+                const quantity = +item.querySelector('.quantity-selector').value;
+                const price = item.querySelector(".money").textContent.trim().split(".").join("");
+                const image = item.querySelector("img").getAttribute("src");
+                const total = +price * quantity;
+                return {
+                    product_id,
+                    name,
+                    category_name,
+                    author,
+                    quantity,
+                    price,
+                    image,
+                    total
+                }
+            })
+            const json = JSON.stringify(cart);
+            localStorage.setItem('cart', json);
+            $.toast({
+                heading: 'Cật nhật giỏ hàng thành công',
+                // text: '<a href="http://localhost:8080/web_ic4/checkout">Xem giỏ hàng</a>',
+                showHideTransition: 'slide',
+                icon: 'success',
+                position: 'bottom-right',
+                hideAfter: 3000,
+                loaderBg: '#9EC600'
+            })
+        })
+    </script>
 </div>
-
-
-
-
 <?= $this->endSection() ?>

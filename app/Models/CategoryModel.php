@@ -18,4 +18,8 @@ class CategoryModel extends Model
     {
         return $this->findAll();
     }
+    public function getById($id)
+    {
+        return $this->where('id', $id)->find();
+    }
 }

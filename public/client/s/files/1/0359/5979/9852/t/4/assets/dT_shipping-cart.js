@@ -18,28 +18,28 @@ Shopify.Cart.ShippingCalculator.show({
 });
 
 
-$('.qtyplus1').on('click', function(e){
-  e.preventDefault();
-  var currentVal = parseInt($(this).parent().find('input[name="updates[]"]').val());
-  if (!isNaN(currentVal)) {
-    $(this).parent().find('input[name="updates[]"]').val(currentVal + 1);
-  } else {
-    $(this).parent().find('input[name="updates[]"]').val(1);
-  }
-  $( "input[name='update']" ).trigger( "click" );
-});
+// $('.qtyplus1').on('click', function(e){
+//   e.preventDefault();
+//   var currentVal = parseInt($(this).parent().find('input[name="updates[]"]').val());
+//   if (!isNaN(currentVal)) {
+//     $(this).parent().find('input[name="updates[]"]').val(currentVal + 1);
+//   } else {
+//     $(this).parent().find('input[name="updates[]"]').val(1);
+//   }
+//   $( "input[name='update']" ).trigger( "click" );
+// });
 
-$(".qtyminus1").on('click', function(e) {
+// $(".qtyminus1").on('click', function(e) {
 
-  e.preventDefault();
-  var currentVal = parseInt($(this).parent().find('input[name="updates[]"]').val());
-  if (!isNaN(currentVal) && currentVal > 0) {
-    $(this).parent().find('input[name="updates[]"]').val(currentVal - 1);
-  } else {
-    $(this).parent().find('input[name="updates[]"]').val(1);
-  }
-  $( "input[name='update']" ).trigger( "click" );
-});
+//   e.preventDefault();
+//   var currentVal = parseInt($(this).parent().find('input[name="updates[]"]').val());
+//   if (!isNaN(currentVal) && currentVal > 0) {
+//     $(this).parent().find('input[name="updates[]"]').val(currentVal - 1);
+//   } else {
+//     $(this).parent().find('input[name="updates[]"]').val(1);
+//   }
+//   $( "input[name='update']" ).trigger( "click" );
+// });
 
 function shippingCall() {    
   var x = document.getElementById("shipping-calculator-block");

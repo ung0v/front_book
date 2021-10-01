@@ -1,24 +1,35 @@
+<?php
+function add_edit_gets($parameter, $value)
+{
+    $params = array();
+    $output = "?";
+    $firstRun = true;
+    foreach ($_GET as $key => $val) {
+        if ($key != $parameter) {
+            if (!$firstRun) {
+                $output .= "&";
+            } else {
+                $firstRun = false;
+            }
+            $output .= $key . "=" . urlencode($val);
+        }
+    }
+
+    if (!$firstRun)
+        $output .= "&";
+    $output .= $parameter . "=" . urlencode($value);
+    return htmlentities($output);
+}
+
+?>
 <?= $this->extend("_Layout") ?>
 <?= $this->section("content") ?>
 <div id="shopify-section-collection-template" class="shopify-section">
     <div class="container" data-section-id="collection-template" data-section-type="collection-template">
         <div class="row">
-
-
-
-
-
-            <div class=" left-sidebar 
-                
-                  
-                	 has-sidebar   
-                ">
-
+            <div class=" left-sidebar has-sidebar">
                 <div class="collection-grid product-grid-height-collection-template">
-
-
                     <div class="collection-header">
-
                         <div class="collection-view" data-view="">
                             <a title="Grid view" class="change-mode active" data-view="grid">
                                 <svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
@@ -48,7 +59,7 @@
 
 
 
-                        <div class="collection-items-per-page">
+                        <!-- <div class="collection-items-per-page">
                             <label for="paginateBy">Paginate by</label>
                             <select name="paginateBy" id="paginateBy">
                                 <option value="9">9</option>
@@ -66,7 +77,7 @@
                                 <option value="48">48</option>
 
                             </select>
-                        </div>
+                        </div> -->
 
                         <script type="text/javascript">
                             $('#paginateBy').on('change', function() {
@@ -138,7 +149,7 @@
                                     <li class="regular-grid grid-item product-grid-item  " id="product-4947331252268">
                                         <div class="products">
                                             <div class="product-container">
-                                                <a href="<?= base_url() ?>/public/productDetail" class="grid-link product-group">
+                                                <a href="<?= base_url() ?>/public/productDetail?pid=<?= $data['id'] ?>" class="grid-link product-group">
                                                     <?php if ($data['discount_id'] != 0) : ?>
                                                         <div class="featured-tag"><span class="badge badge--sale"><span class="gift-tag badge__text">Sale</span></span></div>
 
@@ -160,7 +171,7 @@
                                             </div>
                                             <div class="product-detail content-left">
                                                 <p class="product-vendor"><span><?= $data['author'] ?></span></p>
-                                                <h4 class="grid-link__title"><a href="<?= base_url() ?>/public/productDetail"><?= $data['name'] ?></a></h4>
+                                                <h4 class="grid-link__title"><a href="<?= base_url() ?>/public/productDetail?pid=<?= $data['id'] ?>"><?= $data['name'] ?></a></h4>
                                                 <div class="grid-link__meta">
                                                     <div class="product_price">
                                                         <div class="grid-link__org_price" id="ProductPrice">
@@ -189,22 +200,20 @@
 
 
                         </ul>
-
-
                         <div class="text-center pagination">
 
                             <ul class="pagination-default text-center">
-                                <li><a class="enable-arrow dT_Pagination" href="<?php if ($page <= 1) {
-                                                                                    echo '#';
-                                                                                } else {
-                                                                                    echo "?page=" . ($page - 1);
-                                                                                } ?>" title="&laquo; Previous"><span class="fa fa-angle-left"></span></a></li>
+                                <li><a class="enable-arrow" href="<?php if ($page <= 1) {
+                                                                        echo 'javascript:void(0)';
+                                                                    } else {
+                                                                        echo add_edit_gets("page", $page - 1);
+                                                                    } ?>" title="&laquo; Previous"><span class="fa fa-angle-left"></span></a></li>
                                 <?php
                                 for ($i = 1; $i < $total_pages + 1; $i++) {
                                     if ($page == $i) {
                                         echo "<li class='active'><a style='background:#000;' class='page-link' href='#'>" . $i . "</a></li>";
                                     } else {
-                                        echo "<li class='page-item'><a class='page-link' href='?page=" . $i . "'>" . $i . "</a></li>";
+                                        echo "<li class='page-item'><a class='page-link' href='" . add_edit_gets("page", $i) . "'>" . $i . "</a></li>";
                                     }
                                 }
                                 ?>
@@ -212,18 +221,14 @@
                                     <a href="all-2.html?page=3" title="" class="dT_Pagination">3</a>
                                 </li> -->
 
-                                <li><a class="enable-arrow dT_Pagination" href="<?php if ($page >= $total_pages) {
-                                                                                    echo '#';
-                                                                                } else {
-                                                                                    echo "?page=" . ($page + 1);
-                                                                                } ?>" title="Next &raquo;"><span class="fa fa-angle-right"></span></a></li>
+                                <li><a class="enable-arrow" href="<?php if ($page >= $total_pages) {
+                                                                        echo 'javascript:void(0)';
+                                                                    } else {
+                                                                        echo add_edit_gets("page", $page + 1);
+                                                                    } ?>" title="Next &raquo;"><span class="fa fa-angle-right"></span></a></li>
 
                             </ul>
-
-
-
                         </div>
-
                     </div>
                 </div>
 
@@ -231,13 +236,9 @@
 
                 <div class="sidebar sidebar-height-collection-template" id="sidebar-sticky">
                     <a href="#" class="js-close-modal dt-sc-btn close-icon"></a>
-                    <a href="#" class="clear-all dT_ClearAll" style="text-align: right;margin-bottom: 15px;">Clear All</a>
-
-
-
-
+                    <!-- <a href="#" class="clear-all dT_ClearAll" style="text-align: right;margin-bottom: 15px;">Clear All</a> -->
                     <div class="filter-panel-menu">
-                        <h5 class="sidebar_title">Category</h5>
+                        <h5 class="sidebar_title">Thể loại sách</h5>
                         <div class="filter-panel" id="accordian">
                             <ul>
                                 <?php foreach ($lstCategory as $item) : ?>
@@ -246,84 +247,43 @@
                             </ul>
                         </div>
                     </div>
-
-
-
-
-
-
                     <div class="filter-panel-tag">
                         <h5 class="sidebar_title">Giá</h5>
                         <div class="filter-panel">
                             <ul>
-
-
-
-
-
                                 <li class="$100 - $200"><a href="all/100-200.html" class="dT_CollectionFilter" data-value="100-200">$100 - $200</a></li>
-
-
                                 <li class="$200 - $300"><a href="all/200-300.html" class="dT_CollectionFilter" data-value="200-300">$200 - $300</a></li>
-
-
-
-                                <li class="$300 - $400"><a href="all/300-400.html" class="dT_CollectionFilter" data-value="300-400">$300 - $400</a></li>
-
-
-
-                                <li class="$400 - $500"><a href="all/400-500.html" class="dT_CollectionFilter" data-value="400-500">$400 - $500</a></li>
-
-
-
-                                <li class="$500 - $700"><a href="all/500-700.html" class="dT_CollectionFilter" data-value="500-700">$500 - $700</a></li>
-
                             </ul>
                         </div>
                     </div>
-
-
-
-
-
                     <div class="filter-panel-tag">
                         <h5 class="sidebar_title">Khuyến mại</h5>
                         <div class="filter-panel">
                             <ul>
-
-
                                 <?php foreach ($lstDiscount as $item) : ?>
                                     <li><a href="<?= base_url() . '/public/category?discount_percent=' . $item['id'] ?>"><?= $item['discount_percent'] ?> %</a></li>
                                 <?php endforeach; ?>
-
-
                             </ul>
                         </div>
                     </div>
-
-
-
-
-
-
-
-
-
-
                 </div>
-
             </div>
         </div>
-        <script type="text/javascript">
-            jQuery('[data-view] a').on('click', function() {
-                jQuery('[data-view] a.active').removeClass('active');
-                jQuery(this).addClass('active');
-                var flag = jQuery('[data-view="list"]').hasClass("active");
-                if (flag) {
-                    jQuery(this).parents('#shopify-section-collection-template').find('.product-collection').removeClass('three-column').removeClass('product-grid-style').addClass('product-list-style');
-                } else {
-                    jQuery(this).parents('#shopify-section-collection-template').find('.product-collection').addClass('three-column').addClass('product-grid-style').removeClass('product-list-style');
-                }
-            });
-        </script>
-        <?= $this->endSection() ?>
+    </div>
+</div>
+<script type="text/javascript">
+    jQuery('[data-view] a').on('click', function() {
+        jQuery('[data-view] a.active').removeClass('active');
+        jQuery(this).addClass('active');
+        var flag = jQuery('[data-view="list"]').hasClass("active");
+        if (flag) {
+            jQuery(this).parents('#shopify-section-collection-template').find('.product-collection').removeClass('three-column').removeClass('product-grid-style').addClass('product-list-style');
+        } else {
+            jQuery(this).parents('#shopify-section-collection-template').find('.product-collection').addClass('three-column').addClass('product-grid-style').removeClass('product-list-style');
+        }
+    });
+</script>
+<script>
+    const cart = localStorage.getItem("cart");
+</script>
+<?= $this->endSection() ?>
