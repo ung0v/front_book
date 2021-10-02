@@ -29,7 +29,7 @@ class Cart extends BaseController
             }
             $total = $this->request->getVar('subtotal');
             $data = [
-                'user_id' => '11',
+                'user_id' => $user_id,
                 'payment_status' => 0,
                 'total' => $total,
                 'created_at' => date("Y-m-d h:i:s")
