@@ -4,14 +4,14 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class SupplierModel extends Model
+class ShippingNoteModel extends Model
 {
-    protected $table = 'supplier';
+    protected $table = 'shipping_note';
     protected $primaryKey = 'id';
 
     protected $returnType = 'array';
     protected $allowedFields = [
-        'id', 'name', 'address', 'phone', 'email', 'created_at',
+        'id', 'order_id', 'shipping_id', 'delivery_date', 'delivery_cost', 'created_at',
         'modified_at'
     ];
 }

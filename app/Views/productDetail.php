@@ -1,7 +1,7 @@
 <?= $this->extend("_Layout") ?>
 
 <?= $this->section("content") ?>
-<?php if (isset($product)) : ?>
+<?php if (isset($product[0]['price_discount'])) : ?>
     <div class="shifter-page is-moved-by-drawer" id="container">
         <div class="container">
             <div class="row">
@@ -85,24 +85,16 @@
                                                 <div class="product-price">
                                                     <h6 class="product-price-label product-label">Giá:</h6>
                                                     <ul class="price-list">
-                                                        <li id="ProductPrice-product-template" class="product-price-current"><span class="money"><span class="money"><?= $product[0]['price'] ?></span></span></li>
+                                                        <li id="ProductPrice-product-template" class="product-price-current"><span class="money"><span class="money"> <?= $product[0]['price_discount'] ?></span></li>
                                                         <li id="ComparePrice-product-template" class="product-price-list"><span class="money">
+                                                                <?= $product[0]['price'] ?></span>
                                                             </span>
                                                         </li>
                                                     </ul>
                                                     <div class="unitPrice-product-template"></div>
                                                 </div>
                                             </div>
-                                            <form method="post" action="/cart/add" id="product_form_4800202473516" accept-charset="UTF-8" class="shopify-product-form" enctype="multipart/form-data" data-product-form="
-                                            {
-                                            &quot;money_format&quot;: &quot;\u003cspan class=money\u003e${{amount}}\u003c\/span\u003e&quot;,
-                                            &quot;enable_history&quot;: true,
-                                            &quot;currency_switcher_enabled&quot;: null,
-                                            &quot;sold_out&quot;: &quot;Sold Out&quot;,
-                                            &quot;button&quot;: &quot;Add to Cart&quot;,
-                                            &quot;unavailable&quot;: &quot;Unavailable&quot;
-                                            }
-                                            ">
+                                            <form id="product_form_4800202473516" accept-charset="UTF-8" class="shopify-product-form">
                                                 <input type="hidden" name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
                                                 <style>
                                                     .product-select-block-product-template {
@@ -157,7 +149,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="product-form__item product-form__item--submit  product_payments_btns">
-                                                    <button type="submit" name="add" id="dT_AddToCart-product-template" class="dT_AddToCart dt-sc-btn ">
+                                                    <button name="add" id="dT_AddToCart-product-template">
                                                         <span class="dT_AddToCartText-product-template">Thêm vào giỏ hàng</span>
                                                     </button>
                                                     <div data-shopify="payment-button" class="shopify-payment-button"><button class="shopify-payment-button__button shopify-payment-button__button--unbranded shopify-payment-button__button--hidden" disabled="disabled" aria-hidden="true"> </button><button class="shopify-payment-button__more-options shopify-payment-button__button--hidden" disabled="disabled" aria-hidden="true"> </button></div>
@@ -462,179 +454,61 @@
                             <div class="sidebar-height-product-sidebar">
                                 <a href="#" class="js-close-modal dt-sc-btn close-icon"></a>
                                 <div class="dT_VProdWrapper widget product-sidebar-type-carousel">
-                                    <h5 class="sidebar_title">Hot Deals</h5>
+                                    <h5 class="sidebar_title">Sản phẩm được xem nhiều nhất</h5>
                                     <div data-section-id="2609ab18-f9bf-4ce5-bfc8-e3fd42c808bf" data-section-type="product-sidebar-carousel-section" data-item-per-view="1" data-autoplay="true" data-small-screen-items="1" data-blocks-limit="1" data-item-space="2" data-auto-height="true" data-item-row="1" class="product-sidebar-deals">
                                         <div class="dt-sc-swiper-slider swiper-container navigation-bottom-center outside_element">
                                             <div id="swiper-2609ab18-f9bf-4ce5-bfc8-e3fd42c808bf-slider" class="dT_VProdWrapperOther">
                                                 <ul class="swiper-wrapper">
-                                                    <li class="swiper-slide grid-item product-grid-item  " id="product-4947331252268">
-                                                        <div class="products">
-                                                            <div class="product-container">
-                                                                <a href="#" class="grid-link product-group">
-                                                                    <div class="image_group">
-                                                                        <div class="ImageOverlayCa"></div>
-                                                                        <div class="reveal">
-                                                                            <span class="product-additional">
-                                                                                <img src="//cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-76_600x.jpg?v=1622275073" data-src="//cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-76_600x.jpg?v=1622275073" class="" alt="Girls at the Golden City">
-                                                                            </span>
-                                                                            <img src="//cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-75_600x.jpg?v=1587116682" data-src="//cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-75_600x.jpg?v=1587116682" class="hidden-feature_img" alt="Girls at the Golden City">
-                                                                        </div>
-                                                                    </div>
-                                                                </a>
-                                                                <div class="product_right_tag  ">
-                                                                </div>
-                                                                <div class="ImageWrapper">
-                                                                </div>
-                                                            </div>
-                                                            <div class="product-detail content-left">
-                                                                <p class="product-vendor"><span>Alice James</span></p>
-                                                                <h4 class="#">Girls at the Golden City</a></h4>
-                                                                <div class="grid-link__meta">
-                                                                    <div class="product_price">
-                                                                        <div class="grid-link__org_price" id="ProductPrice">
-                                                                            <span class="money">$300.00</span>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <style type="text/css">
-                                                        .teaser.lazyload {
-                                                            opacity: 0;
-                                                            transform: scale(0.8);
-                                                        }
+                                                    <?php if (isset($lstHotProduct)) : ?>
+                                                        <?php foreach ($lstHotProduct as $data) : ?>
+                                                            <li class="swiper-slide grid-item product-grid-item" id="product-4947331252268">
+                                                                <div class="products">
+                                                                    <div class="product-container">
+                                                                        <a href="<?= base_url() ?>/public/productDetail?pid=<?= $data['id'] ?>" class="grid-link product-group">
+                                                                            <?php if ($data['discount_id'] != 0) : ?>
+                                                                                <div class="featured-tag"><span class="badge badge--sale"><span class="gift-tag badge__text">Sale</span></span></div>
 
-                                                        .teaser.lazyloaded {
-                                                            opacity: 1;
-                                                            transform: scale(1);
-                                                            transition: all 700ms;
-                                                        }
-                                                    </style>
-                                                    <li class="swiper-slide grid-item product-grid-item  on-sale " id="product-4800214433836">
-                                                        <div class="products">
-                                                            <div class="product-container">
-                                                                <a href="#" class="grid-link product-group">
-                                                                    <div class="featured-tag">
-                                                                        <span class="badge badge--sale">
-                                                                            <span class="gift-tag badge__text">Sale</span>
-                                                                        </span>
-                                                                    </div>
-                                                                    <div class="image_group">
-                                                                        <div class="ImageOverlayCa"></div>
-                                                                        <div class="reveal">
-                                                                            <span class="product-additional">
-                                                                                <img src="//cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-57_600x.jpg?v=1587119315" data-src="//cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-57_600x.jpg?v=1587119315" class="featured-image" alt="Vistit in the North">
-                                                                            </span>
-                                                                            <img src="//cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-54_600x.jpg?v=1587119315" data-src="//cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-54_600x.jpg?v=1587119315" class="hidden-feature_img lazyload" alt="Vistit in the North">
-                                                                        </div>
-                                                                    </div>
-                                                                </a>
-                                                            </div>
-                                                            <div class="product-detail content-left">
-                                                                <p class="product-vendor"><span>Adam Baid</span></p>
-                                                                <h4 class="#">Vistit in the North</a></h4>
-                                                                <div class="grid-link__meta">
-                                                                    <div class="product_price">
-                                                                        <div class="grid-link__org_price" id="ProductPrice">
-                                                                            <span class="money">$410.00</span>
-                                                                        </div>
-                                                                    </div>
-                                                                    <del class="grid-link__sale_price" id="ComparePrice">
-                                                                        <span class="money">$700.00</span>
-                                                                    </del>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <style type="text/css">
-                                                        .teaser.lazyload {
-                                                            opacity: 0;
-                                                            transform: scale(0.8);
-                                                        }
+                                                                            <?php endif; ?>
+                                                                            <div class="image_group" style="max-height: 365px;">
+                                                                                <div class="ImageOverlayCa"></div>
+                                                                                <div class="reveal">
+                                                                                    <span class="product-additional">
+                                                                                        <img style="width: 100%;object-fit: contain;" src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/t/4/assets/loading.gif?v=1780583550831190727" data-src="<?= $data['image'] ?>" class="featured-image teaser lazyload" alt="<?= $data['name'] ?>">
+                                                                                    </span>
+                                                                                    <img src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/t/4/assets/loading.gif?v=1780583550831190727" data-src="<?= $data['image'] ?>" class="hidden-feature_img teaser lazyload" alt="<?= $data['name'] ?>">
+                                                                                </div>
+                                                                            </div>
+                                                                        </a>
+                                                                        <?php if ($data['discount_id'] != 0) : ?>
+                                                                            <div class="product_right_tag   offer_exist "><span class="offer-price">Save <br> <b><?= $data['discount_percent'] ?>% </b></span></div>
+                                                                        <?php endif; ?>
 
-                                                        .teaser.lazyloaded {
-                                                            opacity: 1;
-                                                            transform: scale(1);
-                                                            transition: all 700ms;
-                                                        }
-                                                    </style>
-                                                    <li class="swiper-slide grid-item product-grid-item  on-sale " id="product-4800207290412">
-                                                        <div class="products">
-                                                            <div class="product-container">
-                                                                <a href="#" class="grid-link product-group">
-                                                                    <div class="featured-tag">
-                                                                        <span class="badge badge--sale">
-                                                                            <span class="gift-tag badge__text">Sale</span>
-                                                                        </span>
                                                                     </div>
-                                                                    <div class="image_group">
-                                                                        <div class="ImageOverlayCa"></div>
-                                                                        <div class="reveal">
-                                                                            <span class="product-additional">
-                                                                                <img src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/t/4/assets/loading.gif?v=1780583550831190727" data-src="//cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-87_600x.jpg?v=1587118936" class="featured-image lazyload" alt="The Stadium by Night">
-                                                                            </span>
-                                                                            <img src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/t/4/assets/loading.gif?v=1780583550831190727" data-src="//cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-85_600x.jpg?v=1587118936" class="hidden-feature_img lazyload" alt="The Stadium by Night">
-                                                                        </div>
-                                                                    </div>
-                                                                </a>
-                                                            </div>
-                                                            <div class="product-detail content-left">
-                                                                <p class="product-vendor"><span>John Erik</span></p>
-                                                                <h4 class="#">The Stadium by Night</a></h4>
-                                                                <div class="grid-link__meta">
-                                                                    <div class="product_price">
-                                                                        <div class="grid-link__org_price" id="ProductPrice">
-                                                                            <span class="money">$320.00</span>
-                                                                        </div>
-                                                                    </div>
-                                                                    <del class="grid-link__sale_price" id="ComparePrice">
-                                                                        <span class="money">$700.00</span>
-                                                                    </del>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <style type="text/css">
-                                                        .teaser.lazyload {
-                                                            opacity: 0;
-                                                            transform: scale(0.8);
-                                                        }
-
-                                                        .teaser.lazyloaded {
-                                                            opacity: 1;
-                                                            transform: scale(1);
-                                                            transition: all 700ms;
-                                                        }
-                                                    </style>
-                                                    <li class="swiper-slide grid-item product-grid-item  " id="product-4800180486188">
-                                                        <div class="products">
-                                                            <div class="product-container">
-                                                                <a href="#" class="grid-link product-group">
-                                                                    <div class="image_group">
-                                                                        <div class="ImageOverlayCa"></div>
-                                                                        <div class="reveal">
-                                                                            <span class="product-additional">
-                                                                                <img src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/t/4/assets/loading.gif?v=1780583550831190727" data-src="//cdn.shopify.com/s/files/1/0359/5979/9852/products/booknew-3_600x.jpg?v=1587119671" class="featured-image lazyload" alt="When The Stars Align">
-                                                                            </span>
-                                                                            <img src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/t/4/assets/loading.gif?v=1780583550831190727" data-src="//cdn.shopify.com/s/files/1/0359/5979/9852/products/booknew-4_600x.jpg?v=1587119671" class="hidden-feature_img lazyload" alt="When The Stars Align">
-                                                                        </div>
-                                                                    </div>
-                                                                </a>
-                                                            </div>
-                                                            <div class="product-detail content-left">
-                                                                <p class="product-vendor"><span>Alice James</span></p>
-                                                                <h4 class="#">When The Stars Align</a></h4>
-                                                                <div class="grid-link__meta">
-                                                                    <div class="product_price">
-                                                                        <div class="grid-link__org_price" id="ProductPrice">
-                                                                            <span class="money">$300.00</span>
+                                                                    <div class="product-detail content-left">
+                                                                        <p class="product-vendor"><span><?= $data['author'] ?></span></p>
+                                                                        <h4 class="grid-link__title"><a href="<?= base_url() ?>/public/productDetail?pid=<?= $data['id'] ?>"><?= $data['name'] ?></a></h4>
+                                                                        <div class="grid-link__meta">
+                                                                            <div class="product_price">
+                                                                                <div class="grid-link__org_price" id="ProductPrice">
+                                                                                    <?php if ($data['discount_id'] == 0) : ?>
+                                                                                        <span class="money"><?= $data['price'] ?></span>
+                                                                                    <?php else : ?>
+                                                                                        <ul class="price-list">
+                                                                                            <li id="ProductPrice-product-template" class="product-price-current"><span class="money"><span class="money"> <?= $data['price_discount'] ?></span></li>
+                                                                                            <li id="ComparePrice-product-template" class="product-price-list"><del class="money">
+                                                                                                    <?= $data['price'] ?></del>
+                                                                                                </span>
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                    <?php endif; ?>
+                                                                                </div>
+                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
+                                                            </li>
+                                                        <?php endforeach; ?>
+                                                    <?php endif; ?>
                                                     <style type="text/css">
                                                         .teaser.lazyload {
                                                             opacity: 0;
@@ -1000,7 +874,18 @@
                                                     <div class="grid-link__meta">
                                                         <div class="product_price">
                                                             <div class="grid-link__org_price" id="ProductPrice">
-                                                                <span class="money"><?= $data['price'] ?></span>
+                                                                <?php if ($data['discount_id'] == 0) : ?>
+                                                                    <span class="money"><?= $data['price'] ?></span>
+                                                                <?php else : ?>
+                                                                    <ul class="price-list">
+                                                                        <li id="ProductPrice-product-template" class="product-price-current"><span class="money"><span class="money"> <?= $data['price_discount'] ?></span></li>
+                                                                        <li id="ComparePrice-product-template" class="product-price-list"><del class="money">
+                                                                                <?= $data['price'] ?></del>
+                                                                            </span>
+                                                                        </li>
+                                                                    </ul>
+                                                                <?php endif; ?>
+
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1154,33 +1039,41 @@
         </div>
     </div>
     <script>
-        const btnSubmit = document.getElementById("dT_AddToCart-product-template");
-        const quantityInput = document.getElementById("Quantity-product-template");
-        quantityInput.onchange = () => {
-            if (quantityInput.value == 0) quantityInput.value = 1;
-        }
-        const json = localStorage.getItem("cart");
-        let cart = JSON.parse(json) || [];
-        btnSubmit.addEventListener("click", () => {
-            const quantity = quantityInput.value;
-            const checkIndex = cart ? cart.findIndex(pro => pro.product_id === +<?= $product[0]['id'] ?>) : false;
-            if (checkIndex !== -1) {
-                cart[checkIndex].quantity = quantity;
-            } else {
-                cart = [...cart, {
-                    product_id: +<?= $product[0]['id'] ?>,
-                    name: '<?= $product[0]['name'] ?>',
-                    category_name: document.getElementById("category_name").nextSibling.textContent.trim(),
-                    author: '<?= $product[0]['author'] ?>',
-                    quantity: quantity,
-                    price: '<?= $product[0]['price'] ?>',
-                    image: `<?= $product[0]['image'] ?>`,
-                    total: +<?= $product[0]['price'] ?> * quantity
-                }]
+        (() => {
+            const btnSubmit = document.getElementById("dT_AddToCart-product-template");
+            const quantityInput = document.getElementById("Quantity-product-template");
+            document.querySelectorAll(".money").forEach(item => {
+                item.innerHTML = (+item.textContent.trim()).toLocaleString("vi-VN") + " VNĐ";
+            })
+            quantityInput.onchange = () => {
+                if (quantityInput.value == 0) quantityInput.value = 1;
             }
-            const json = JSON.stringify(cart);
-            localStorage.setItem("cart", json);
-        })
+            const json = localStorage.getItem("cart");
+            let cart = JSON.parse(json) || [];
+            btnSubmit.addEventListener("click", () => {
+                event.preventDefault();
+                const quantity = quantityInput.value;
+                const checkIndex = cart ? cart.findIndex(pro => pro.product_id === +<?= $product[0]['id'] ?>) : false;
+                if (checkIndex !== -1) {
+                    cart[checkIndex].quantity = +cart[checkIndex].quantity + +quantity;
+                } else {
+                    cart = [...cart, {
+                        product_id: +<?= $product[0]['id'] ?>,
+                        name: '<?= $product[0]['name'] ?>',
+                        category_name: document.getElementById("category_name").nextSibling.textContent.trim(),
+                        author: '<?= $product[0]['author'] ?>',
+                        quantity: quantity,
+                        price: '<?= $product[0]['price'] ?>',
+                        price_discount: '<?php if (isset($product[0]['price_discount'])) : ?><?= $product[0]['price_discount'] ?><?php endif; ?>',
+                        image: `<?= $product[0]['image'] ?>`,
+                        total: +<?= $product[0]['price_discount'] ?> * quantity
+                    }]
+                }
+                document.querySelector('.count').innerHTML = cart.length;
+                const json = JSON.stringify(cart);
+                localStorage.setItem("cart", json);
+            })
+        })();
     </script>
 <?php endif; ?>
 <?= $this->endSection() ?>

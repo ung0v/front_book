@@ -97,7 +97,7 @@ function add_edit_gets($parameter, $value)
                         </script>
 
 
-                        <div class="sortby">
+                        <!-- <div class="sortby">
                             <label for="SortBy">Sort by </label>
                             <select name="SortBy" id="SortBy" class="dT_SortBy">
 
@@ -118,7 +118,7 @@ function add_edit_gets($parameter, $value)
                                 <option value="created-descending">Date, new to old</option>
 
                             </select>
-                        </div>
+                        </div> -->
 
                         <script>
                             // Save existing sort parameters
@@ -143,6 +143,12 @@ function add_edit_gets($parameter, $value)
                     </div>
 
                     <div class="dT_VProdWrapper" id="dT_collectionGrid">
+                        <?php if (isset($_GET['key'])) : ?>
+                            <div style="margin-bottom: 20px;">
+                                <h3>Kết quả tìm kiếm cho từ khoá: " <strong><?= $_GET['key'] ?> </strong>"</h3>
+                            </div>
+
+                        <?php endif; ?>
                         <ul class="grid product-collection  dt-sc-column three-column dt-even-columns">
                             <?php foreach ($lstProduct as $data) : ?>
                                 <?php if (isset($data['id'])) : ?>
@@ -175,7 +181,17 @@ function add_edit_gets($parameter, $value)
                                                 <div class="grid-link__meta">
                                                     <div class="product_price">
                                                         <div class="grid-link__org_price" id="ProductPrice">
-                                                            <span class="money"><?= $data['price'] ?></span>
+                                                            <?php if ($data['discount_id'] == 0) : ?>
+                                                                <span class="money"><?= $data['price'] ?></span>
+                                                            <?php else : ?>
+                                                                <ul class="price-list">
+                                                                    <li id="ProductPrice-product-template" class="product-price-current"><span class="money"><span class="money"> <?= $data['price_discount'] ?></span></li>
+                                                                    <li id="ComparePrice-product-template" class="product-price-list"><del class="money">
+                                                                            <?= $data['price'] ?></del>
+                                                                        </span>
+                                                                    </li>
+                                                                </ul>
+                                                            <?php endif; ?>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -203,11 +219,11 @@ function add_edit_gets($parameter, $value)
                         <div class="text-center pagination">
 
                             <ul class="pagination-default text-center">
-                                <li><a class="enable-arrow" href="<?php if ($page <= 1) {
-                                                                        echo 'javascript:void(0)';
-                                                                    } else {
-                                                                        echo add_edit_gets("page", $page - 1);
-                                                                    } ?>" title="&laquo; Previous"><span class="fa fa-angle-left"></span></a></li>
+                                <li><a style="display:flex;justify-content:center;align-items:center;" class="enable-arrow" href="<?php if ($page <= 1) {
+                                                                                                                                        echo 'javascript:void(0)';
+                                                                                                                                    } else {
+                                                                                                                                        echo add_edit_gets("page", $page - 1);
+                                                                                                                                    } ?>" title="&laquo; Previous"><span class="fa fa-angle-left"></span></a></li>
                                 <?php
                                 for ($i = 1; $i < $total_pages + 1; $i++) {
                                     if ($page == $i) {
@@ -221,11 +237,11 @@ function add_edit_gets($parameter, $value)
                                     <a href="all-2.html?page=3" title="" class="dT_Pagination">3</a>
                                 </li> -->
 
-                                <li><a class="enable-arrow" href="<?php if ($page >= $total_pages) {
-                                                                        echo 'javascript:void(0)';
-                                                                    } else {
-                                                                        echo add_edit_gets("page", $page + 1);
-                                                                    } ?>" title="Next &raquo;"><span class="fa fa-angle-right"></span></a></li>
+                                <li><a style="display:flex;justify-content:center;align-items:center;" class="enable-arrow" href="<?php if ($page >= $total_pages) {
+                                                                                                                                        echo 'javascript:void(0)';
+                                                                                                                                    } else {
+                                                                                                                                        echo add_edit_gets("page", $page + 1);
+                                                                                                                                    } ?>" title="Next &raquo;"><span class="fa fa-angle-right"></span></a></li>
 
                             </ul>
                         </div>
@@ -241,13 +257,14 @@ function add_edit_gets($parameter, $value)
                         <h5 class="sidebar_title">Thể loại sách</h5>
                         <div class="filter-panel" id="accordian">
                             <ul>
+                                <li class=""><a href="<?= base_url() ?>/public/category">Tất cả</a></li>
                                 <?php foreach ($lstCategory as $item) : ?>
                                     <li class=""><a href="<?= base_url() ?>/public/category?cateID=<?= $item['id'] ?>"><?= $item['name'] ?></a></li>
                                 <?php endforeach; ?>
                             </ul>
                         </div>
                     </div>
-                    <div class="filter-panel-tag">
+                    <!-- <div class="filter-panel-tag">
                         <h5 class="sidebar_title">Giá</h5>
                         <div class="filter-panel">
                             <ul>
@@ -255,7 +272,7 @@ function add_edit_gets($parameter, $value)
                                 <li class="$200 - $300"><a href="all/200-300.html" class="dT_CollectionFilter" data-value="200-300">$200 - $300</a></li>
                             </ul>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="filter-panel-tag">
                         <h5 class="sidebar_title">Khuyến mại</h5>
                         <div class="filter-panel">
@@ -272,6 +289,9 @@ function add_edit_gets($parameter, $value)
     </div>
 </div>
 <script type="text/javascript">
+    document.querySelectorAll(".money").forEach(item => {
+        item.innerHTML = (+item.textContent.trim()).toLocaleString("vi-VN") + " VNĐ";
+    })
     jQuery('[data-view] a').on('click', function() {
         jQuery('[data-view] a.active').removeClass('active');
         jQuery(this).addClass('active');

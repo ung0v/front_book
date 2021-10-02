@@ -10,6 +10,12 @@ class ShippingModel extends Model
     protected $primaryKey = 'id';
 
     protected $returnType = 'array';
-    protected $allowedFields = ['id', 'name','address', 'phone', 'email','created_at',
-                                'modified_at'];
+    protected $allowedFields = [
+        'id', 'name', 'address', 'phone', 'email', 'created_at',
+        'modified_at'
+    ];
+    public function getAll()
+    {
+        return $this->findAll();
+    }
 }

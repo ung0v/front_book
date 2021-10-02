@@ -11,7 +11,7 @@ class ProductModel extends Model
 
     protected $returnType = 'array';
     protected $allowedFields = [
-        'id', 'name', 'image', 'description', 'author', 'SKU',
+        'id', 'name', 'view', 'image', 'description', 'author', 'SKU',
         'category_id', 'quantity', 'price', 'discount_id',
         'created_at', 'modified_at'
     ];
@@ -35,6 +35,18 @@ class ProductModel extends Model
     {
         return $this->where('category_id', $cid)->countAllResults();
     }
+    public function countByKey($key)
+    {
+        return $this->like('name', $key)->countAllResults();
+    }
+    public function countByCategory($id)
+    {
+        return $this->where('category_id', $id)->countAllResults();
+    }
+    public function countByDiscount($id)
+    {
+        return $this->where('discount_id', $id)->countAllResults();
+    }
     public function paginationResult($type, int $id, int $offset, int $records_per_page)
     {
         if ($id != 0) {
@@ -52,5 +64,13 @@ class ProductModel extends Model
         }
 
         return $this->findAll($records_per_page, $offset);
+    }
+    public function getHotProduct()
+    {
+        return $this->orderBy('view', 'desc')->findAll(4);
+    }
+    public function getProductByKey($key, $offset, $records_per_page)
+    {
+        return $this->like('name', $key)->findAll($offset, $records_per_page);
     }
 }

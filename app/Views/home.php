@@ -13,7 +13,7 @@
                 <div id="home-slider-1620015564bc27c821">
                     <div class="swiper-wrapper">
                         <div class="slider_style_1 slider-85331e5a-681b-4482-b364-7fd6aa399ca0-list swiper-slide">
-                            <a href="<?= base_url() ?>/public/productDetail">
+                            <a href="<?= base_url() ?>/public/category">
 
                                 <img class="slide-img" src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/files/slider.jpg?v=1585450258" alt="">
 
@@ -42,13 +42,13 @@
 
 
                                     <div class="slide-text" style="color: #000000; ">
-                                        Donec sodales sagittis magna. SedMaecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.
+                                        Nhân dịp cuối năm #tri ân khách khàng - Tưng bừng khuyến mại
                                     </div>
 
 
                                     <div class="multiple-buttons">
 
-                                        <a href="<?= base_url() ?>/public/productDetail" class="slide-button dt-sc-btn">Mua ngay</a>
+                                        <a href="<?= base_url() ?>/public/category" class="slide-button dt-sc-btn">Mua ngay</a>
 
 
                                     </div>
@@ -967,7 +967,12 @@ margin-top:0px; margin-bottom:0px;padding-top:100px; padding-bottom:0px; " data-
                                                         <div class="grid-link__meta">
                                                             <div class="product_price">
                                                                 <div class="grid-link__org_price" id="ProductPrice">
-                                                                    <span class="money"><?= $data['price'] ?></span>
+                                                                    <?php if ($data['discount_id'] == 0) : ?>
+                                                                        <span class="money"><?= $data['price'] ?></span>
+                                                                    <?php else : ?>
+                                                                        <span class="money"><?= $data['price_discount'] ?></span>
+                                                                        <del class="money"><?= $data['price'] ?></del>
+                                                                    <?php endif; ?>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -2512,7 +2517,7 @@ margin-top:10px; margin-bottom:0px;padding-top:90px; padding-bottom:90px; backgr
                                 <p class="dt-sc-description">Cursus eget nunc scelerisque viverra mauris in aliquam sem. Dis parturient montes nascetur ridiculus mus. Ut consequat semper viversit amet.</p>
 
 
-                                <a href="<?= base_url() ?>/public/productDetail" class="dt-sc-btn">Mua ngay</a>
+                                <a href="<?= base_url() ?>/public/category" class="dt-sc-btn">Mua ngay</a>
 
                             </div>
                         </div>
@@ -2755,7 +2760,7 @@ margin-top:0px; margin-bottom:0px;padding-top:100px; padding-bottom:100px; " dat
 
                 <div class="dt-sc-heading text-center">
 
-                    <h4 class="dt-sc-main-heading">Mua trong ngày</h4>
+                    <h4 class="dt-sc-main-heading">Mua nhiều nhất</h4>
 
 
 
@@ -2771,194 +2776,54 @@ margin-top:0px; margin-bottom:0px;padding-top:100px; padding-bottom:100px; " dat
                     <div data-section-id="blockCarousel" data-section-type="home-blockCarousel-section">
                         <div class="dT_vDynamicPWrap-16200162817bf72db7 dT_vProdWrap">
                             <ul class="grid product-collection dt-sc-column four-column ">
+                                <?php foreach ($mostBoughtProduct as $index => $data) : ?>
+                                    <?php if ($index < 4) : ?>
+                                        <?php if (isset($data['id'])) : ?>
+                                            <li class="regular-grid grid-item product-grid-item  " id="product-4947331252268">
+                                                <div class="products">
+                                                    <div class="product-container">
+                                                        <a href="<?= base_url() ?>/public/productDetail?pid=<?= $data['id'] ?>" class="grid-link product-group">
+                                                            <?php if ($data['discount_id'] != 0) : ?>
+                                                                <div class="featured-tag"><span class="badge badge--sale"><span class="gift-tag badge__text">Sale</span></span></div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-                                <li class=" grid-item product-grid-item  " id="product-4800203325484">
-                                    <div class="products">
-                                        <div class="product-container">
-
-
-
-
-
-
-
-
-
-                                            <a href="<?= base_url() ?>/public/productDetail" class="grid-link product-group">
-
-
-
-
-                                                <div class="image_group">
-                                                    <div class="ImageOverlayCa"></div>
-
-
-                                                    <div class="reveal">
-                                                        <span class="product-additional">
-                                                            <img src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/t/4/assets/loading.gif?v=1780583550831190727" data-src="//cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-89_600x.jpg?v=1587115559" class="featured-image teaser lazyload" alt="Beauty of Structures">
-                                                        </span>
-                                                        <img src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/t/4/assets/loading.gif?v=1780583550831190727" data-src="//cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-88_600x.jpg?v=1587115559" class="hidden-feature_img teaser lazyload" alt="Beauty of Structures">
-                                                    </div>
-
-
-                                                </div>
-                                            </a>
-
-                                            <div class="product_right_tag  ">
-
-                                            </div>
-                                            <div class="ImageWrapper">
-                                                <div class="product-button dt-sc_icon icon-right">
-
-
-
-
-                                                    <div>
-
-
-
-
-                                                        <a title="translation missing: en.products.product.product_link" href="<?= base_url() ?>/public/productDetail">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" xml:space="preserve">
-                                                                <g>
-                                                                    <path d="M52.2,69.6l-14,14c-3,3-7,4.5-10.9,4.5s-8-1.5-10.9-4.5c-6.1-6.1-6.1-15.8,0-21.8l13.4-13.4c2.8-3,6.8-4.5,10.9-4.5
-		s8,1.7,10.9,4.5c3.3,3.3,8.3,4,12.3,2c-1.2-3.2-3.2-6.2-5.7-8.7C48.5,32,32.7,32,23,41.7L9.7,55c-9.7,9.7-9.7,25.5,0,35.3
-		c4.7,4.7,10.9,7.2,17.6,7.2s12.9-2.6,17.7-7.2l13.4-13.4c1.9-2,3.6-4.3,4.7-6.6c-1.3,0.1-2.6,0.2-3.9,0.2
-		C56.8,70.5,54.4,70.2,52.2,69.6z"></path>
-                                                                    <path d="M90.2,9.8C80.4,0,64.6,0,54.9,9.8L41.5,23.2c-1.9,1.9-3.6,4.3-4.7,6.6c3.7-0.5,7.4-0.2,10.9,0.6c0.1-0.2,0.4-0.4,0.5-0.6
-		l13.4-13.4c6.1-6.1,15.8-6.1,21.8,0c6.1,6.1,6.1,15.8,0,21.8L70.1,51.7c-0.5,0.6-1.1,1.1-1.7,1.4c0,0-0.1,0-0.1,0.1
-		c-2.7,2-5.9,3-9.1,3c-3.9,0-8-1.5-10.9-4.5c-2-2-4.7-3.1-7.6-3.1c-1.7,0-3.3,0.4-4.7,1.2c1.2,3.2,3.2,6.2,5.7,8.7
-		c9.7,9.7,25.5,9.7,35.3,0L90.3,45c4.7-4.7,7.4-10.9,7.4-17.7S94.9,14.4,90.2,9.8z"></path>
-                                                                </g>
-                                                            </svg>
+                                                            <?php endif; ?>
+                                                            <div class="image_group" style="max-height: 365px;">
+                                                                <div class="ImageOverlayCa"></div>
+                                                                <div class="reveal">
+                                                                    <span class="product-additional">
+                                                                        <img style="width: 100%;object-fit: contain;" src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/t/4/assets/loading.gif?v=1780583550831190727" data-src="<?= $data['image'] ?>" class="featured-image teaser lazyload" alt="<?= $data['name'] ?>">
+                                                                    </span>
+                                                                    <img src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/t/4/assets/loading.gif?v=1780583550831190727" data-src="<?= $data['image'] ?>" class="hidden-feature_img teaser lazyload" alt="<?= $data['name'] ?>">
+                                                                </div>
+                                                            </div>
                                                         </a>
-
-
+                                                        <?php if ($data['discount_id'] != 0) : ?>
+                                                            <div class="product_right_tag   offer_exist "><span class="offer-price">Save <br> <b><?= $data['discount_percent'] ?>% </b></span></div>
+                                                        <?php endif; ?>
 
                                                     </div>
-
-
-
-
-
-
-                                                    <div v-if="isInWishList('beauty-of-structures')">
-                                                        <a href="<?= base_url() ?>/public/productDetail" aria-label="Add to wishlist" class="dt-sc-btn dT-icon-add-wlist-loaded" data-product_handle="beauty-of-structures" data-product-handle="beauty-of-structures">
-
-                                                            <svg class="heart-filled" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" xml:space="preserve">
-
-                                                                <path d="M87.9,15.9c-10.6-10.6-27.5-10.6-38.1,0c-10.6-10.6-27.5-10.6-38.1,0S1.1,43.4,11.7,54l38.1,38.1L87.9,54
-	C99,43.4,99,26.4,87.9,15.9z M81.1,30.9c-2.6,2.6-7.4,2.6-10.1,0c-2.6-2.6-2.6-7.4,0-10.1c2.6-2.6,7.4-2.6,10.1,0
-	S83.7,28.3,81.1,30.9z"></path>
-                                                            </svg>
-                                                            <svg class="heart-empty" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
-                                                                <path d="M88.5,15.3c-5.4-5.4-12.4-8.1-19.4-8.1s-14,2.7-19.4,8.1c-5.4-5.4-12.4-8.1-19.4-8.1s-14,2.7-19.4,8.1
-		C0.3,26.1,0.3,43.3,11.1,54l38.7,38.7L88.5,54C99.8,43.3,99.8,26,88.5,15.3z M83.5,48.9L83.5,48.9L49.8,82.6L16.2,48.9
-		c-8-8-8-20.5,0-28.5c3.8-3.8,8.9-6,14.3-6s10.4,2.1,14.3,6l5.1,5.1l5.1-5.1c3.8-3.8,8.9-6,14.3-6c5.3,0,10.4,2.1,14.3,6l0.1,0.1
-		l0.1,0.1c4,3.8,6.2,8.8,6.2,14C89.8,39.9,87.6,45,83.5,48.9L83.5,48.9z"></path>
-                                                            </svg>
-                                                            <span>View My wishlist</span>
-
-                                                        </a>
-                                                    </div>
-                                                    <div v-else="">
-                                                        <a href="#beauty-of-structures" aria-label="Add to wishlist" class="dt-sc-btn dT_WhishListAddBtn" data-product_handle="beauty-of-structures" data-product-handle="beauty-of-structures">
-
-                                                            <svg class="heart-filled" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" xml:space="preserve">
-
-                                                                <path d="M87.9,15.9c-10.6-10.6-27.5-10.6-38.1,0c-10.6-10.6-27.5-10.6-38.1,0S1.1,43.4,11.7,54l38.1,38.1L87.9,54
-	C99,43.4,99,26.4,87.9,15.9z M81.1,30.9c-2.6,2.6-7.4,2.6-10.1,0c-2.6-2.6-2.6-7.4,0-10.1c2.6-2.6,7.4-2.6,10.1,0
-	S83.7,28.3,81.1,30.9z"></path>
-                                                            </svg>
-                                                            <svg class="heart-empty" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
-                                                                <path d="M88.5,15.3c-5.4-5.4-12.4-8.1-19.4-8.1s-14,2.7-19.4,8.1c-5.4-5.4-12.4-8.1-19.4-8.1s-14,2.7-19.4,8.1
-		C0.3,26.1,0.3,43.3,11.1,54l38.7,38.7L88.5,54C99.8,43.3,99.8,26,88.5,15.3z M83.5,48.9L83.5,48.9L49.8,82.6L16.2,48.9
-		c-8-8-8-20.5,0-28.5c3.8-3.8,8.9-6,14.3-6s10.4,2.1,14.3,6l5.1,5.1l5.1-5.1c3.8-3.8,8.9-6,14.3-6c5.3,0,10.4,2.1,14.3,6l0.1,0.1
-		l0.1,0.1c4,3.8,6.2,8.8,6.2,14C89.8,39.9,87.6,45,83.5,48.9L83.5,48.9z"></path>
-                                                            </svg>
-                                                            <span>Add to wishlist</span>
-
-                                                        </a>
-                                                    </div>
-
-
-
-                                                    <div>
-                                                        <a data-url="/products/beauty-of-structures?view=quickview" class="product-thumb-full-quick-view popup-product quick-view-btn" href="<?= base_url() ?>/public/productDetail" data-product-id="4800203325484" data-slider-type="slider_gallery" data-effect="mfp-move-from-top"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
-                                                                <path d="M76.4,69.4c13.9-17.8,10.8-43.5-7-57.4C51.6-1.9,25.9,1.2,12,19C-1.9,36.8,1.2,62.5,19,76.4C33.8,88,54.6,88,69.4,76.4
-	l18.8,18.8c1.9,1.9,5.1,2,7,0c1.9-1.9,2-5.1,0-7c0,0,0,0,0,0L76.4,69.4z M44.3,75.1c-17.1,0-30.9-13.8-30.9-30.9
-	c0-17.1,13.8-30.9,30.9-30.9c17.1,0,30.9,13.8,30.9,30.9c0,0,0,0,0,0C75.1,61.3,61.3,75.1,44.3,75.1z"></path>
-                                                            </svg></a>
-                                                    </div>
-
-
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="product-detail content-left">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            <p class="product-vendor"><span>Michael Alice</span></p>
-                                            <h4 class="grid-link__title"><a href="<?= base_url() ?>/public/productDetail">Beauty of Structures</a></h4>
-
-                                            <div class="grid-link__meta">
-
-
-
-                                                <div class="product_price">
-                                                    <div class="grid-link__org_price" id="ProductPrice">
-                                                        <span class="money">$310.00</span>
+                                                    <div class="product-detail content-left">
+                                                        <p class="product-vendor"><span><?= $data['author'] ?></span></p>
+                                                        <h4 class="grid-link__title"><a href="<?= base_url() ?>/public/productDetail?pid=<?= $data['id'] ?>"><?= $data['name'] ?></a></h4>
+                                                        <div class="grid-link__meta">
+                                                            <div class="product_price">
+                                                                <div class="grid-link__org_price" id="ProductPrice">
+                                                                    <?php if ($data['discount_id'] == 0) : ?>
+                                                                        <span class="money"><?= $data['price'] ?></span>
+                                                                    <?php else : ?>
+                                                                        <span class="money"><?= $data['price_discount'] ?></span>
+                                                                        <del class="money"><?= $data['price'] ?></del>
+                                                                    <?php endif; ?>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
+                                            </li>
 
-
-
-
-
-                                            </div>
-
-
-
-
-
-
-
-
-
-
-                                        </div>
-                                    </div>
-                                </li>
+                                        <?php endif; ?>
+                                    <?php endif; ?>
+                                <?php endforeach; ?>
 
                                 <style type="text/css">
                                     .teaser.lazyload {
@@ -2972,633 +2837,10 @@ margin-top:0px; margin-bottom:0px;padding-top:100px; padding-bottom:100px; " dat
                                         transition: all 700ms;
                                     }
                                 </style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                <li class=" grid-item product-grid-item  " id="product-4947282591788">
-                                    <div class="products">
-                                        <div class="product-container">
-
-
-
-
-
-
-
-
-
-                                            <a href="<?= base_url() ?>/public/productDetail" class="grid-link product-group">
-
-
-
-
-                                                <div class="image_group">
-                                                    <div class="ImageOverlayCa"></div>
-
-
-                                                    <div class="reveal">
-                                                        <span class="product-additional">
-                                                            <img src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/t/4/assets/loading.gif?v=1780583550831190727" data-src="//cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-77_600x.jpg?v=1587118663" class="featured-image teaser lazyload" alt="The Red Desert">
-                                                        </span>
-                                                        <img src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/t/4/assets/loading.gif?v=1780583550831190727" data-src="//cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-80_600x.jpg?v=1587118663" class="hidden-feature_img teaser lazyload" alt="The Red Desert">
-                                                    </div>
-
-
-                                                </div>
-                                            </a>
-
-                                            <div class="product_right_tag  ">
-
-                                            </div>
-                                            <div class="ImageWrapper">
-                                                <div class="product-button dt-sc_icon icon-right">
-
-
-
-
-                                                    <div>
-
-
-
-
-                                                        <a title="translation missing: en.products.product.product_link" href="<?= base_url() ?>/public/productDetail">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" xml:space="preserve">
-                                                                <g>
-                                                                    <path d="M52.2,69.6l-14,14c-3,3-7,4.5-10.9,4.5s-8-1.5-10.9-4.5c-6.1-6.1-6.1-15.8,0-21.8l13.4-13.4c2.8-3,6.8-4.5,10.9-4.5
-		s8,1.7,10.9,4.5c3.3,3.3,8.3,4,12.3,2c-1.2-3.2-3.2-6.2-5.7-8.7C48.5,32,32.7,32,23,41.7L9.7,55c-9.7,9.7-9.7,25.5,0,35.3
-		c4.7,4.7,10.9,7.2,17.6,7.2s12.9-2.6,17.7-7.2l13.4-13.4c1.9-2,3.6-4.3,4.7-6.6c-1.3,0.1-2.6,0.2-3.9,0.2
-		C56.8,70.5,54.4,70.2,52.2,69.6z"></path>
-                                                                    <path d="M90.2,9.8C80.4,0,64.6,0,54.9,9.8L41.5,23.2c-1.9,1.9-3.6,4.3-4.7,6.6c3.7-0.5,7.4-0.2,10.9,0.6c0.1-0.2,0.4-0.4,0.5-0.6
-		l13.4-13.4c6.1-6.1,15.8-6.1,21.8,0c6.1,6.1,6.1,15.8,0,21.8L70.1,51.7c-0.5,0.6-1.1,1.1-1.7,1.4c0,0-0.1,0-0.1,0.1
-		c-2.7,2-5.9,3-9.1,3c-3.9,0-8-1.5-10.9-4.5c-2-2-4.7-3.1-7.6-3.1c-1.7,0-3.3,0.4-4.7,1.2c1.2,3.2,3.2,6.2,5.7,8.7
-		c9.7,9.7,25.5,9.7,35.3,0L90.3,45c4.7-4.7,7.4-10.9,7.4-17.7S94.9,14.4,90.2,9.8z"></path>
-                                                                </g>
-                                                            </svg>
-                                                        </a>
-
-
-
-                                                    </div>
-
-
-
-
-
-
-                                                    <div v-if="isInWishList('the-red-desert')">
-                                                        <a href="<?= base_url() ?>/public/productDetail" aria-label="Add to wishlist" class="dt-sc-btn dT-icon-add-wlist-loaded" data-product_handle="the-red-desert" data-product-handle="the-red-desert">
-
-                                                            <svg class="heart-filled" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" xml:space="preserve">
-
-                                                                <path d="M87.9,15.9c-10.6-10.6-27.5-10.6-38.1,0c-10.6-10.6-27.5-10.6-38.1,0S1.1,43.4,11.7,54l38.1,38.1L87.9,54
-	C99,43.4,99,26.4,87.9,15.9z M81.1,30.9c-2.6,2.6-7.4,2.6-10.1,0c-2.6-2.6-2.6-7.4,0-10.1c2.6-2.6,7.4-2.6,10.1,0
-	S83.7,28.3,81.1,30.9z"></path>
-                                                            </svg>
-                                                            <svg class="heart-empty" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
-                                                                <path d="M88.5,15.3c-5.4-5.4-12.4-8.1-19.4-8.1s-14,2.7-19.4,8.1c-5.4-5.4-12.4-8.1-19.4-8.1s-14,2.7-19.4,8.1
-		C0.3,26.1,0.3,43.3,11.1,54l38.7,38.7L88.5,54C99.8,43.3,99.8,26,88.5,15.3z M83.5,48.9L83.5,48.9L49.8,82.6L16.2,48.9
-		c-8-8-8-20.5,0-28.5c3.8-3.8,8.9-6,14.3-6s10.4,2.1,14.3,6l5.1,5.1l5.1-5.1c3.8-3.8,8.9-6,14.3-6c5.3,0,10.4,2.1,14.3,6l0.1,0.1
-		l0.1,0.1c4,3.8,6.2,8.8,6.2,14C89.8,39.9,87.6,45,83.5,48.9L83.5,48.9z"></path>
-                                                            </svg>
-                                                            <span>View My wishlist</span>
-
-                                                        </a>
-                                                    </div>
-                                                    <div v-else="">
-                                                        <a href="#the-red-desert" aria-label="Add to wishlist" class="dt-sc-btn dT_WhishListAddBtn" data-product_handle="the-red-desert" data-product-handle="the-red-desert">
-
-                                                            <svg class="heart-filled" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" xml:space="preserve">
-
-                                                                <path d="M87.9,15.9c-10.6-10.6-27.5-10.6-38.1,0c-10.6-10.6-27.5-10.6-38.1,0S1.1,43.4,11.7,54l38.1,38.1L87.9,54
-	C99,43.4,99,26.4,87.9,15.9z M81.1,30.9c-2.6,2.6-7.4,2.6-10.1,0c-2.6-2.6-2.6-7.4,0-10.1c2.6-2.6,7.4-2.6,10.1,0
-	S83.7,28.3,81.1,30.9z"></path>
-                                                            </svg>
-                                                            <svg class="heart-empty" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
-                                                                <path d="M88.5,15.3c-5.4-5.4-12.4-8.1-19.4-8.1s-14,2.7-19.4,8.1c-5.4-5.4-12.4-8.1-19.4-8.1s-14,2.7-19.4,8.1
-		C0.3,26.1,0.3,43.3,11.1,54l38.7,38.7L88.5,54C99.8,43.3,99.8,26,88.5,15.3z M83.5,48.9L83.5,48.9L49.8,82.6L16.2,48.9
-		c-8-8-8-20.5,0-28.5c3.8-3.8,8.9-6,14.3-6s10.4,2.1,14.3,6l5.1,5.1l5.1-5.1c3.8-3.8,8.9-6,14.3-6c5.3,0,10.4,2.1,14.3,6l0.1,0.1
-		l0.1,0.1c4,3.8,6.2,8.8,6.2,14C89.8,39.9,87.6,45,83.5,48.9L83.5,48.9z"></path>
-                                                            </svg>
-                                                            <span>Add to wishlist</span>
-
-                                                        </a>
-                                                    </div>
-
-
-
-                                                    <div>
-                                                        <a data-url="/products/the-red-desert?view=quickview" class="product-thumb-full-quick-view popup-product quick-view-btn" href="<?= base_url() ?>/public/productDetail" data-product-id="4947282591788" data-slider-type="slider_gallery" data-effect="mfp-move-from-top"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
-                                                                <path d="M76.4,69.4c13.9-17.8,10.8-43.5-7-57.4C51.6-1.9,25.9,1.2,12,19C-1.9,36.8,1.2,62.5,19,76.4C33.8,88,54.6,88,69.4,76.4
-	l18.8,18.8c1.9,1.9,5.1,2,7,0c1.9-1.9,2-5.1,0-7c0,0,0,0,0,0L76.4,69.4z M44.3,75.1c-17.1,0-30.9-13.8-30.9-30.9
-	c0-17.1,13.8-30.9,30.9-30.9c17.1,0,30.9,13.8,30.9,30.9c0,0,0,0,0,0C75.1,61.3,61.3,75.1,44.3,75.1z"></path>
-                                                            </svg></a>
-                                                    </div>
-
-
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="product-detail content-left">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            <p class="product-vendor"><span>Alice James</span></p>
-                                            <h4 class="grid-link__title"><a href="<?= base_url() ?>/public/productDetail">The Red Desert</a></h4>
-
-                                            <div class="grid-link__meta">
-
-
-
-                                                <div class="product_price">
-                                                    <div class="grid-link__org_price" id="ProductPrice">
-                                                        <span class="money">$300.00</span>
-                                                    </div>
-                                                </div>
-
-
-
-
-
-                                            </div>
-
-
-
-
-
-
-
-
-
-
-                                        </div>
-                                    </div>
-                                </li>
-
-                                <style type="text/css">
-                                    .teaser.lazyload {
-                                        opacity: 0;
-                                        transform: scale(0.8);
-                                    }
-
-                                    .teaser.lazyloaded {
-                                        opacity: 1;
-                                        transform: scale(1);
-                                        transition: all 700ms;
-                                    }
-                                </style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                <li class=" grid-item product-grid-item  on-sale " id="product-4800207290412">
-                                    <div class="products">
-                                        <div class="product-container">
-
-
-
-
-
-
-
-
-
-                                            <a href="<?= base_url() ?>/public/productDetail" class="grid-link product-group">
-
-
-                                                <div class="featured-tag">
-                                                    <span class="badge badge--sale">
-                                                        <span class="gift-tag badge__text">Sale</span>
-                                                    </span>
-                                                </div>
-
-
-
-                                                <div class="image_group">
-                                                    <div class="ImageOverlayCa"></div>
-
-
-                                                    <div class="reveal">
-                                                        <span class="product-additional">
-                                                            <img src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/t/4/assets/loading.gif?v=1780583550831190727" data-src="//cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-87_600x.jpg?v=1587118936" class="featured-image teaser lazyload" alt="The Stadium by Night">
-                                                        </span>
-                                                        <img src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/t/4/assets/loading.gif?v=1780583550831190727" data-src="//cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-85_600x.jpg?v=1587118936" class="hidden-feature_img teaser lazyload" alt="The Stadium by Night">
-                                                    </div>
-
-
-                                                </div>
-                                            </a>
-
-                                            <div class="product_right_tag   offer_exist ">
-                                                <span class="offer-price">Save <br> <b>54% </b></span>
-
-                                            </div>
-                                            <div class="ImageWrapper">
-                                                <div class="product-button dt-sc_icon icon-right">
-
-
-
-
-                                                    <div>
-
-
-
-
-                                                        <a title="translation missing: en.products.product.product_link" href="<?= base_url() ?>/public/productDetail">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" xml:space="preserve">
-                                                                <g>
-                                                                    <path d="M52.2,69.6l-14,14c-3,3-7,4.5-10.9,4.5s-8-1.5-10.9-4.5c-6.1-6.1-6.1-15.8,0-21.8l13.4-13.4c2.8-3,6.8-4.5,10.9-4.5
-		s8,1.7,10.9,4.5c3.3,3.3,8.3,4,12.3,2c-1.2-3.2-3.2-6.2-5.7-8.7C48.5,32,32.7,32,23,41.7L9.7,55c-9.7,9.7-9.7,25.5,0,35.3
-		c4.7,4.7,10.9,7.2,17.6,7.2s12.9-2.6,17.7-7.2l13.4-13.4c1.9-2,3.6-4.3,4.7-6.6c-1.3,0.1-2.6,0.2-3.9,0.2
-		C56.8,70.5,54.4,70.2,52.2,69.6z"></path>
-                                                                    <path d="M90.2,9.8C80.4,0,64.6,0,54.9,9.8L41.5,23.2c-1.9,1.9-3.6,4.3-4.7,6.6c3.7-0.5,7.4-0.2,10.9,0.6c0.1-0.2,0.4-0.4,0.5-0.6
-		l13.4-13.4c6.1-6.1,15.8-6.1,21.8,0c6.1,6.1,6.1,15.8,0,21.8L70.1,51.7c-0.5,0.6-1.1,1.1-1.7,1.4c0,0-0.1,0-0.1,0.1
-		c-2.7,2-5.9,3-9.1,3c-3.9,0-8-1.5-10.9-4.5c-2-2-4.7-3.1-7.6-3.1c-1.7,0-3.3,0.4-4.7,1.2c1.2,3.2,3.2,6.2,5.7,8.7
-		c9.7,9.7,25.5,9.7,35.3,0L90.3,45c4.7-4.7,7.4-10.9,7.4-17.7S94.9,14.4,90.2,9.8z"></path>
-                                                                </g>
-                                                            </svg>
-                                                        </a>
-
-
-
-                                                    </div>
-
-
-
-
-
-
-                                                    <div v-if="isInWishList('the-stadium-by-night')">
-                                                        <a href="<?= base_url() ?>/public/productDetail" aria-label="Add to wishlist" class="dt-sc-btn dT-icon-add-wlist-loaded" data-product_handle="the-stadium-by-night" data-product-handle="the-stadium-by-night">
-
-                                                            <svg class="heart-filled" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" xml:space="preserve">
-
-                                                                <path d="M87.9,15.9c-10.6-10.6-27.5-10.6-38.1,0c-10.6-10.6-27.5-10.6-38.1,0S1.1,43.4,11.7,54l38.1,38.1L87.9,54
-	C99,43.4,99,26.4,87.9,15.9z M81.1,30.9c-2.6,2.6-7.4,2.6-10.1,0c-2.6-2.6-2.6-7.4,0-10.1c2.6-2.6,7.4-2.6,10.1,0
-	S83.7,28.3,81.1,30.9z"></path>
-                                                            </svg>
-                                                            <svg class="heart-empty" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
-                                                                <path d="M88.5,15.3c-5.4-5.4-12.4-8.1-19.4-8.1s-14,2.7-19.4,8.1c-5.4-5.4-12.4-8.1-19.4-8.1s-14,2.7-19.4,8.1
-		C0.3,26.1,0.3,43.3,11.1,54l38.7,38.7L88.5,54C99.8,43.3,99.8,26,88.5,15.3z M83.5,48.9L83.5,48.9L49.8,82.6L16.2,48.9
-		c-8-8-8-20.5,0-28.5c3.8-3.8,8.9-6,14.3-6s10.4,2.1,14.3,6l5.1,5.1l5.1-5.1c3.8-3.8,8.9-6,14.3-6c5.3,0,10.4,2.1,14.3,6l0.1,0.1
-		l0.1,0.1c4,3.8,6.2,8.8,6.2,14C89.8,39.9,87.6,45,83.5,48.9L83.5,48.9z"></path>
-                                                            </svg>
-                                                            <span>View My wishlist</span>
-
-                                                        </a>
-                                                    </div>
-                                                    <div v-else="">
-                                                        <a href="#the-stadium-by-night" aria-label="Add to wishlist" class="dt-sc-btn dT_WhishListAddBtn" data-product_handle="the-stadium-by-night" data-product-handle="the-stadium-by-night">
-
-                                                            <svg class="heart-filled" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" xml:space="preserve">
-
-                                                                <path d="M87.9,15.9c-10.6-10.6-27.5-10.6-38.1,0c-10.6-10.6-27.5-10.6-38.1,0S1.1,43.4,11.7,54l38.1,38.1L87.9,54
-	C99,43.4,99,26.4,87.9,15.9z M81.1,30.9c-2.6,2.6-7.4,2.6-10.1,0c-2.6-2.6-2.6-7.4,0-10.1c2.6-2.6,7.4-2.6,10.1,0
-	S83.7,28.3,81.1,30.9z"></path>
-                                                            </svg>
-                                                            <svg class="heart-empty" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
-                                                                <path d="M88.5,15.3c-5.4-5.4-12.4-8.1-19.4-8.1s-14,2.7-19.4,8.1c-5.4-5.4-12.4-8.1-19.4-8.1s-14,2.7-19.4,8.1
-		C0.3,26.1,0.3,43.3,11.1,54l38.7,38.7L88.5,54C99.8,43.3,99.8,26,88.5,15.3z M83.5,48.9L83.5,48.9L49.8,82.6L16.2,48.9
-		c-8-8-8-20.5,0-28.5c3.8-3.8,8.9-6,14.3-6s10.4,2.1,14.3,6l5.1,5.1l5.1-5.1c3.8-3.8,8.9-6,14.3-6c5.3,0,10.4,2.1,14.3,6l0.1,0.1
-		l0.1,0.1c4,3.8,6.2,8.8,6.2,14C89.8,39.9,87.6,45,83.5,48.9L83.5,48.9z"></path>
-                                                            </svg>
-                                                            <span>Add to wishlist</span>
-
-                                                        </a>
-                                                    </div>
-
-
-
-                                                    <div>
-                                                        <a data-url="/products/the-stadium-by-night?view=quickview" class="product-thumb-full-quick-view popup-product quick-view-btn" href="<?= base_url() ?>/public/productDetail" data-product-id="4800207290412" data-slider-type="slider_gallery" data-effect="mfp-move-from-top"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
-                                                                <path d="M76.4,69.4c13.9-17.8,10.8-43.5-7-57.4C51.6-1.9,25.9,1.2,12,19C-1.9,36.8,1.2,62.5,19,76.4C33.8,88,54.6,88,69.4,76.4
-	l18.8,18.8c1.9,1.9,5.1,2,7,0c1.9-1.9,2-5.1,0-7c0,0,0,0,0,0L76.4,69.4z M44.3,75.1c-17.1,0-30.9-13.8-30.9-30.9
-	c0-17.1,13.8-30.9,30.9-30.9c17.1,0,30.9,13.8,30.9,30.9c0,0,0,0,0,0C75.1,61.3,61.3,75.1,44.3,75.1z"></path>
-                                                            </svg></a>
-                                                    </div>
-
-
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="product-detail content-left">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            <p class="product-vendor"><span>John Erik</span></p>
-                                            <h4 class="grid-link__title"><a href="<?= base_url() ?>/public/productDetail">The Stadium by Night</a></h4>
-
-                                            <div class="grid-link__meta">
-
-
-
-                                                <div class="product_price">
-                                                    <div class="grid-link__org_price" id="ProductPrice">
-                                                        <span class="money">$320.00</span>
-                                                    </div>
-                                                </div>
-
-
-                                                <del class="grid-link__sale_price" id="ComparePrice">
-                                                    <span class="money">$700.00</span>
-                                                </del>
-
-
-
-
-                                            </div>
-
-
-
-
-
-
-
-
-
-
-                                        </div>
-                                    </div>
-                                </li>
-
-                                <style type="text/css">
-                                    .teaser.lazyload {
-                                        opacity: 0;
-                                        transform: scale(0.8);
-                                    }
-
-                                    .teaser.lazyloaded {
-                                        opacity: 1;
-                                        transform: scale(1);
-                                        transition: all 700ms;
-                                    }
-                                </style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                <li class=" grid-item product-grid-item  " id="product-4800176390188">
-                                    <div class="products">
-                                        <div class="product-container">
-
-
-
-
-
-
-
-
-
-                                            <a href="<?= base_url() ?>/public/productDetail" class="grid-link product-group">
-
-
-
-
-                                                <div class="image_group">
-                                                    <div class="ImageOverlayCa"></div>
-
-
-                                                    <div class="reveal">
-                                                        <span class="product-additional">
-                                                            <img src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/t/4/assets/loading.gif?v=1780583550831190727" data-src="//cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-95_b0b53360-a171-427b-9dc6-0bf965bcfdae_600x.jpg?v=1587120117" class="featured-image teaser lazyload" alt="Adventurous Eating">
-                                                        </span>
-                                                        <img src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/t/4/assets/loading.gif?v=1780583550831190727" data-src="//cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-96_600x.jpg?v=1587120117" class="hidden-feature_img teaser lazyload" alt="Adventurous Eating">
-                                                    </div>
-
-
-                                                </div>
-                                            </a>
-
-                                            <div class="product_right_tag  ">
-
-                                            </div>
-                                            <div class="ImageWrapper">
-                                                <div class="product-button dt-sc_icon icon-right">
-
-
-
-
-                                                    <div>
-
-
-
-
-                                                        <a title="translation missing: en.products.product.product_link" href="<?= base_url() ?>/public/productDetail">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" xml:space="preserve">
-                                                                <g>
-                                                                    <path d="M52.2,69.6l-14,14c-3,3-7,4.5-10.9,4.5s-8-1.5-10.9-4.5c-6.1-6.1-6.1-15.8,0-21.8l13.4-13.4c2.8-3,6.8-4.5,10.9-4.5
-		s8,1.7,10.9,4.5c3.3,3.3,8.3,4,12.3,2c-1.2-3.2-3.2-6.2-5.7-8.7C48.5,32,32.7,32,23,41.7L9.7,55c-9.7,9.7-9.7,25.5,0,35.3
-		c4.7,4.7,10.9,7.2,17.6,7.2s12.9-2.6,17.7-7.2l13.4-13.4c1.9-2,3.6-4.3,4.7-6.6c-1.3,0.1-2.6,0.2-3.9,0.2
-		C56.8,70.5,54.4,70.2,52.2,69.6z"></path>
-                                                                    <path d="M90.2,9.8C80.4,0,64.6,0,54.9,9.8L41.5,23.2c-1.9,1.9-3.6,4.3-4.7,6.6c3.7-0.5,7.4-0.2,10.9,0.6c0.1-0.2,0.4-0.4,0.5-0.6
-		l13.4-13.4c6.1-6.1,15.8-6.1,21.8,0c6.1,6.1,6.1,15.8,0,21.8L70.1,51.7c-0.5,0.6-1.1,1.1-1.7,1.4c0,0-0.1,0-0.1,0.1
-		c-2.7,2-5.9,3-9.1,3c-3.9,0-8-1.5-10.9-4.5c-2-2-4.7-3.1-7.6-3.1c-1.7,0-3.3,0.4-4.7,1.2c1.2,3.2,3.2,6.2,5.7,8.7
-		c9.7,9.7,25.5,9.7,35.3,0L90.3,45c4.7-4.7,7.4-10.9,7.4-17.7S94.9,14.4,90.2,9.8z"></path>
-                                                                </g>
-                                                            </svg>
-                                                        </a>
-
-
-
-                                                    </div>
-
-
-
-
-
-
-                                                    <div v-if="isInWishList('adventurous-eating')">
-                                                        <a href="<?= base_url() ?>/public/productDetail" aria-label="Add to wishlist" class="dt-sc-btn dT-icon-add-wlist-loaded" data-product_handle="adventurous-eating" data-product-handle="adventurous-eating">
-
-                                                            <svg class="heart-filled" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" xml:space="preserve">
-
-                                                                <path d="M87.9,15.9c-10.6-10.6-27.5-10.6-38.1,0c-10.6-10.6-27.5-10.6-38.1,0S1.1,43.4,11.7,54l38.1,38.1L87.9,54
-	C99,43.4,99,26.4,87.9,15.9z M81.1,30.9c-2.6,2.6-7.4,2.6-10.1,0c-2.6-2.6-2.6-7.4,0-10.1c2.6-2.6,7.4-2.6,10.1,0
-	S83.7,28.3,81.1,30.9z"></path>
-                                                            </svg>
-                                                            <svg class="heart-empty" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
-                                                                <path d="M88.5,15.3c-5.4-5.4-12.4-8.1-19.4-8.1s-14,2.7-19.4,8.1c-5.4-5.4-12.4-8.1-19.4-8.1s-14,2.7-19.4,8.1
-		C0.3,26.1,0.3,43.3,11.1,54l38.7,38.7L88.5,54C99.8,43.3,99.8,26,88.5,15.3z M83.5,48.9L83.5,48.9L49.8,82.6L16.2,48.9
-		c-8-8-8-20.5,0-28.5c3.8-3.8,8.9-6,14.3-6s10.4,2.1,14.3,6l5.1,5.1l5.1-5.1c3.8-3.8,8.9-6,14.3-6c5.3,0,10.4,2.1,14.3,6l0.1,0.1
-		l0.1,0.1c4,3.8,6.2,8.8,6.2,14C89.8,39.9,87.6,45,83.5,48.9L83.5,48.9z"></path>
-                                                            </svg>
-                                                            <span>View My wishlist</span>
-
-                                                        </a>
-                                                    </div>
-                                                    <div v-else="">
-                                                        <a href="#adventurous-eating" aria-label="Add to wishlist" class="dt-sc-btn dT_WhishListAddBtn" data-product_handle="adventurous-eating" data-product-handle="adventurous-eating">
-
-                                                            <svg class="heart-filled" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" xml:space="preserve">
-
-                                                                <path d="M87.9,15.9c-10.6-10.6-27.5-10.6-38.1,0c-10.6-10.6-27.5-10.6-38.1,0S1.1,43.4,11.7,54l38.1,38.1L87.9,54
-	C99,43.4,99,26.4,87.9,15.9z M81.1,30.9c-2.6,2.6-7.4,2.6-10.1,0c-2.6-2.6-2.6-7.4,0-10.1c2.6-2.6,7.4-2.6,10.1,0
-	S83.7,28.3,81.1,30.9z"></path>
-                                                            </svg>
-                                                            <svg class="heart-empty" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
-                                                                <path d="M88.5,15.3c-5.4-5.4-12.4-8.1-19.4-8.1s-14,2.7-19.4,8.1c-5.4-5.4-12.4-8.1-19.4-8.1s-14,2.7-19.4,8.1
-		C0.3,26.1,0.3,43.3,11.1,54l38.7,38.7L88.5,54C99.8,43.3,99.8,26,88.5,15.3z M83.5,48.9L83.5,48.9L49.8,82.6L16.2,48.9
-		c-8-8-8-20.5,0-28.5c3.8-3.8,8.9-6,14.3-6s10.4,2.1,14.3,6l5.1,5.1l5.1-5.1c3.8-3.8,8.9-6,14.3-6c5.3,0,10.4,2.1,14.3,6l0.1,0.1
-		l0.1,0.1c4,3.8,6.2,8.8,6.2,14C89.8,39.9,87.6,45,83.5,48.9L83.5,48.9z"></path>
-                                                            </svg>
-                                                            <span>Add to wishlist</span>
-
-                                                        </a>
-                                                    </div>
-
-
-
-                                                    <div>
-                                                        <a data-url="/products/adventurous-eating?view=quickview" class="product-thumb-full-quick-view popup-product quick-view-btn" href="<?= base_url() ?>/public/productDetail" data-product-id="4800176390188" data-slider-type="slider_gallery" data-effect="mfp-move-from-top"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
-                                                                <path d="M76.4,69.4c13.9-17.8,10.8-43.5-7-57.4C51.6-1.9,25.9,1.2,12,19C-1.9,36.8,1.2,62.5,19,76.4C33.8,88,54.6,88,69.4,76.4
-	l18.8,18.8c1.9,1.9,5.1,2,7,0c1.9-1.9,2-5.1,0-7c0,0,0,0,0,0L76.4,69.4z M44.3,75.1c-17.1,0-30.9-13.8-30.9-30.9
-	c0-17.1,13.8-30.9,30.9-30.9c17.1,0,30.9,13.8,30.9,30.9c0,0,0,0,0,0C75.1,61.3,61.3,75.1,44.3,75.1z"></path>
-                                                            </svg></a>
-                                                    </div>
-
-
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="product-detail content-left">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            <p class="product-vendor"><span>Donald William</span></p>
-                                            <h4 class="grid-link__title"><a href="<?= base_url() ?>/public/productDetail">Adventurous Eating</a></h4>
-
-                                            <div class="grid-link__meta">
-
-
-
-                                                <div class="product_price">
-                                                    <div class="grid-link__org_price" id="ProductPrice">
-                                                        <span class="money">$500.00</span>
-                                                    </div>
-                                                </div>
-
-
-
-
-
-                                            </div>
-
-
-
-
-
-
-
-
-
-
-                                        </div>
-                                    </div>
-                                </li>
-
-                                <style type="text/css">
-                                    .teaser.lazyload {
-                                        opacity: 0;
-                                        transform: scale(0.8);
-                                    }
-
-                                    .teaser.lazyloaded {
-                                        opacity: 1;
-                                        transform: scale(1);
-                                        transition: all 700ms;
-                                    }
-                                </style>
-
                             </ul>
                         </div>
                     </div>
-
-
-
-
                 </div>
-
-
-
-
             </div>
         </div>
     </div>
@@ -3989,17 +3231,17 @@ margin-top:0px; margin-bottom:0px;padding-top:100px; padding-bottom:100px; backg
 
 
 
-                        <h4 class="dt-sc-main-title">Wonderful Gifts</h4>
+                        <h4 class="dt-sc-main-title">Quà tặng tuyệt vời</h4>
 
 
 
-                        <p class="dt-sc-description">Give your family and friends a book</p>
+                        <p class="dt-sc-description">Hãy gửi những cuốn sách cho bạn bè và gia đình</p>
 
                         <div class="deals-counter">
 
                         </div>
 
-                        <a href="<?= base_url() ?>/public/productDetail" class="dt-sc-btn">Mua ngay</a>
+                        <a href="<?= base_url() ?>/public/category" class="dt-sc-btn">Mua ngay</a>
 
                     </div>
 
@@ -4286,649 +3528,16 @@ margin-top:0px; margin-bottom:0px;padding-top:100px; padding-bottom:100px; backg
  
 
 margin-top:0px; margin-bottom:0px;padding-top:130px; padding-bottom:120px; " data-style="parallax">
-            <div class="container">
-                <div class="row ">
 
-                    <div class="dt-sc-heading text-center">
-
-                        <h4 class="dt-sc-main-heading">Tin tức & sự kiện</h4>
-
-
-
-
-                    </div>
-
-
-
-
-
-                    <div class="dt-sc-blog-section   dt-sc-column three-column">
-
-                        <div class="dt-sc-blog-item  text-start grid-style vertical-center">
-                            <div class="dt-sc-blog-image with-overlay-normal">
-
-                                <a href="<?= base_url() ?>/public/productDetail">
-                                    <div class="article__grid-image-wrapper">
-                                        <img src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/articles/blog-1.jpg?v=1585546169" alt="Books changed my ideology" class="article__grid-image">
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div class="dt-sc-blog-content">
-                                <div class="dt-sc-blog-meta ">
-
-                                    <p class="dt-sc-blog-author">
-
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 50 50">
-                                            <path d="M25 1C11.8 1 1 11.8 1 25c0 7.1 3.1 13.5 8 17.9v0l0.3 0.3c0.1 0.1 0.1 0.1 0.2 0.1 0.4 0.4 0.9 0.7 1.3 1 0.1 0.1 0.2 0.2 0.4 0.3 0.5 0.3 1 0.7 1.5 1 0.1 0.1 0.2 0.1 0.3 0.1 0.6 0.3 1.1 0.6 1.7 0.9 0 0 0 0 0 0 1.2 0.6 2.6 1.1 3.9 1.5 0 0 0.1 0 0.1 0 0.6 0.2 1.3 0.3 2 0.4 0.1 0 0.1 0 0.2 0 0.6 0.1 1.3 0.2 1.9 0.3 0.1 0 0.2 0 0.2 0C23.7 49 24.3 49 25 49s1.3 0 2-0.1c0.1 0 0.2 0 0.2 0 0.7-0.1 1.3-0.1 1.9-0.3 0.1 0 0.1 0 0.2 0 0.7-0.1 1.3-0.3 2-0.4 0 0 0.1 0 0.1 0 1.4-0.4 2.7-0.9 3.9-1.5 0 0 0 0 0 0 0.6-0.3 1.2-0.6 1.7-0.9 0.1 0 0.2-0.1 0.3-0.1 0.5-0.3 1-0.6 1.5-1 0.1-0.1 0.2-0.2 0.4-0.3 0.5-0.3 0.9-0.7 1.3-1 0.1-0.1 0.1-0.1 0.2-0.1l0.3-0.3v0c4.9-4.4 8-10.8 8-17.9C49 11.8 38.2 1 25 1zM25 25c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8S29.4 25 25 25zM28 27c6.1 0 11 4.9 11 11v4c0 0-0.1 0.1-0.1 0.1 -0.4 0.3-0.8 0.6-1.2 0.9 -0.1 0.1-0.2 0.1-0.3 0.2 -0.4 0.3-0.9 0.6-1.4 0.9 -0.1 0.1-0.2 0.1-0.3 0.1 -0.5 0.3-1 0.5-1.5 0.8 -0.1 0-0.1 0-0.2 0.1 -1.7 0.8-3.4 1.3-5.2 1.6 -0.1 0-0.1 0-0.2 0 -0.6 0.1-1.1 0.2-1.7 0.2 -0.1 0-0.2 0-0.2 0C26.2 47 25.6 47 25 47s-1.2 0-1.8-0.1c-0.1 0-0.2 0-0.2 0 -0.6-0.1-1.1-0.1-1.7-0.2 -0.1 0-0.1 0-0.2 0 -1.8-0.3-3.6-0.9-5.2-1.6 -0.1 0-0.1 0-0.2-0.1 -0.5-0.2-1-0.5-1.5-0.8 -0.1 0-0.2-0.1-0.3-0.1 -0.5-0.3-0.9-0.6-1.4-0.9 -0.1-0.1-0.2-0.1-0.3-0.2 -0.4-0.3-0.8-0.6-1.2-0.9 0 0-0.1-0.1-0.1-0.1V38c0-6.1 4.9-11 11-11H28zM41 40.1V38c0-6.3-4.5-11.5-10.4-12.7C33.3 23.5 35 20.4 35 17c0-5.5-4.5-10-10-10s-10 4.5-10 10c0 3.4 1.7 6.5 4.4 8.3C13.5 26.5 9 31.7 9 38v2.1C5.3 36.1 3 30.8 3 25 3 12.9 12.9 3 25 3s22 9.9 22 22C47 30.8 44.7 36.1 41 40.1z"></path>
-                                        </svg>
-
-                                        <span>by Ramamoorthi M</span>
-                                    </p>
-
-
-                                    <p class="dt-sc-blog-date">
-
-                                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-                                            <g>
-                                                <g>
-                                                    <path d="M500.364,221.091c-6.982,0-11.636,4.655-11.636,11.636v46.545v69.818v11.636c0,12.8-10.473,23.273-23.273,23.273h-23.273
-			c-19.782,0-34.909,15.127-34.909,34.909v23.273c0,12.8-10.473,23.273-23.273,23.273h-58.182H34.909
-			c-6.982,0-11.636-4.655-11.636-11.636V232.727c0-6.982-4.655-11.636-11.636-11.636S0,225.745,0,232.727v221.091
-			c0,19.782,15.127,34.909,34.909,34.909h290.909H384h15.127c15.127,0,30.255-5.818,40.727-17.455l54.691-54.691
-			c10.473-10.473,17.455-25.6,17.455-40.727v-15.127v-11.636v-69.818v-46.545C512,225.745,507.345,221.091,500.364,221.091z
-			 M429.382,450.327c0-2.327,1.164-4.655,1.164-8.145v-23.273c0-6.982,4.655-11.636,11.636-11.636h23.273
-			c2.327,0,4.655,0,8.145-1.164L429.382,450.327z"></path>
-                                                </g>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <path d="M477.091,58.182h-81.455V34.909c0-6.982-4.655-11.636-11.636-11.636s-11.636,4.655-11.636,11.636v23.273H139.636V34.909
-			c0-6.982-4.655-11.636-11.636-11.636s-11.636,4.655-11.636,11.636v23.273H34.909C15.127,58.182,0,73.309,0,93.091v93.091
-			c0,6.982,4.655,11.636,11.636,11.636h488.727c6.982,0,11.636-4.655,11.636-11.636V93.091
-			C512,73.309,496.873,58.182,477.091,58.182z M488.727,174.545H23.273V93.091c0-6.982,4.655-11.636,11.636-11.636h81.455v26.764
-			c-6.982,3.491-11.636,11.636-11.636,19.782c0,12.8,10.473,23.273,23.273,23.273S151.273,140.8,151.273,128
-			c0-8.145-4.655-16.291-11.636-19.782V81.455h232.727v26.764c-6.982,3.491-11.636,11.636-11.636,19.782
-			c0,12.8,10.473,23.273,23.273,23.273S407.273,140.8,407.273,128c0-8.145-4.655-16.291-11.636-19.782V81.455h81.455
-			c6.982,0,11.636,4.655,11.636,11.636V174.545z"></path>
-                                                </g>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <circle cx="209.455" cy="267.636" r="23.273"></circle>
-                                                </g>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <circle cx="302.545" cy="267.636" r="23.273"></circle>
-                                                </g>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <circle cx="395.636" cy="267.636" r="23.273"></circle>
-                                                </g>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <circle cx="116.364" cy="372.364" r="23.273"></circle>
-                                                </g>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <circle cx="209.455" cy="372.364" r="23.273"></circle>
-                                                </g>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <circle cx="302.545" cy="372.364" r="23.273"></circle>
-                                                </g>
-                                            </g>
-                                        </svg>
-
-
-                                        <time datetime="2020-04-04T12:37:00Z">April 4, 2020</time>
-                                    </p>
-
-
-
-                                </div>
-                                <h4 class="dt-sc-blog-title"><a href="<?= base_url() ?>/public/productDetail"> Books changed my ideology</a></h4>
-
-                                <div class="dt-sc-blog-description">
-
-                                    <span>Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Eu ultrices vitae auctor eu augue ut lectus arcu bibendum. Elementum.</span>
-
-                                </div>
-
-
-                                <a href="<?= base_url() ?>/public/productDetail" class="dt-sc-btn"> Read more</a>
-
-                            </div>
-                        </div>
-
-                        <div class="dt-sc-blog-item  text-start grid-style vertical-center">
-                            <div class="dt-sc-blog-image with-overlay-normal">
-
-                                <a href="<?= base_url() ?>/public/productDetail">
-                                    <div class="article__grid-image-wrapper">
-                                        <img src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/articles/blog-2.jpg?v=1585546218" alt="Best writers of 19th century" class="article__grid-image">
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div class="dt-sc-blog-content">
-                                <div class="dt-sc-blog-meta ">
-
-                                    <p class="dt-sc-blog-author">
-
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 50 50">
-                                            <path d="M25 1C11.8 1 1 11.8 1 25c0 7.1 3.1 13.5 8 17.9v0l0.3 0.3c0.1 0.1 0.1 0.1 0.2 0.1 0.4 0.4 0.9 0.7 1.3 1 0.1 0.1 0.2 0.2 0.4 0.3 0.5 0.3 1 0.7 1.5 1 0.1 0.1 0.2 0.1 0.3 0.1 0.6 0.3 1.1 0.6 1.7 0.9 0 0 0 0 0 0 1.2 0.6 2.6 1.1 3.9 1.5 0 0 0.1 0 0.1 0 0.6 0.2 1.3 0.3 2 0.4 0.1 0 0.1 0 0.2 0 0.6 0.1 1.3 0.2 1.9 0.3 0.1 0 0.2 0 0.2 0C23.7 49 24.3 49 25 49s1.3 0 2-0.1c0.1 0 0.2 0 0.2 0 0.7-0.1 1.3-0.1 1.9-0.3 0.1 0 0.1 0 0.2 0 0.7-0.1 1.3-0.3 2-0.4 0 0 0.1 0 0.1 0 1.4-0.4 2.7-0.9 3.9-1.5 0 0 0 0 0 0 0.6-0.3 1.2-0.6 1.7-0.9 0.1 0 0.2-0.1 0.3-0.1 0.5-0.3 1-0.6 1.5-1 0.1-0.1 0.2-0.2 0.4-0.3 0.5-0.3 0.9-0.7 1.3-1 0.1-0.1 0.1-0.1 0.2-0.1l0.3-0.3v0c4.9-4.4 8-10.8 8-17.9C49 11.8 38.2 1 25 1zM25 25c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8S29.4 25 25 25zM28 27c6.1 0 11 4.9 11 11v4c0 0-0.1 0.1-0.1 0.1 -0.4 0.3-0.8 0.6-1.2 0.9 -0.1 0.1-0.2 0.1-0.3 0.2 -0.4 0.3-0.9 0.6-1.4 0.9 -0.1 0.1-0.2 0.1-0.3 0.1 -0.5 0.3-1 0.5-1.5 0.8 -0.1 0-0.1 0-0.2 0.1 -1.7 0.8-3.4 1.3-5.2 1.6 -0.1 0-0.1 0-0.2 0 -0.6 0.1-1.1 0.2-1.7 0.2 -0.1 0-0.2 0-0.2 0C26.2 47 25.6 47 25 47s-1.2 0-1.8-0.1c-0.1 0-0.2 0-0.2 0 -0.6-0.1-1.1-0.1-1.7-0.2 -0.1 0-0.1 0-0.2 0 -1.8-0.3-3.6-0.9-5.2-1.6 -0.1 0-0.1 0-0.2-0.1 -0.5-0.2-1-0.5-1.5-0.8 -0.1 0-0.2-0.1-0.3-0.1 -0.5-0.3-0.9-0.6-1.4-0.9 -0.1-0.1-0.2-0.1-0.3-0.2 -0.4-0.3-0.8-0.6-1.2-0.9 0 0-0.1-0.1-0.1-0.1V38c0-6.1 4.9-11 11-11H28zM41 40.1V38c0-6.3-4.5-11.5-10.4-12.7C33.3 23.5 35 20.4 35 17c0-5.5-4.5-10-10-10s-10 4.5-10 10c0 3.4 1.7 6.5 4.4 8.3C13.5 26.5 9 31.7 9 38v2.1C5.3 36.1 3 30.8 3 25 3 12.9 12.9 3 25 3s22 9.9 22 22C47 30.8 44.7 36.1 41 40.1z"></path>
-                                        </svg>
-
-                                        <span>by Ramamoorthi M</span>
-                                    </p>
-
-
-                                    <p class="dt-sc-blog-date">
-
-                                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-                                            <g>
-                                                <g>
-                                                    <path d="M500.364,221.091c-6.982,0-11.636,4.655-11.636,11.636v46.545v69.818v11.636c0,12.8-10.473,23.273-23.273,23.273h-23.273
-			c-19.782,0-34.909,15.127-34.909,34.909v23.273c0,12.8-10.473,23.273-23.273,23.273h-58.182H34.909
-			c-6.982,0-11.636-4.655-11.636-11.636V232.727c0-6.982-4.655-11.636-11.636-11.636S0,225.745,0,232.727v221.091
-			c0,19.782,15.127,34.909,34.909,34.909h290.909H384h15.127c15.127,0,30.255-5.818,40.727-17.455l54.691-54.691
-			c10.473-10.473,17.455-25.6,17.455-40.727v-15.127v-11.636v-69.818v-46.545C512,225.745,507.345,221.091,500.364,221.091z
-			 M429.382,450.327c0-2.327,1.164-4.655,1.164-8.145v-23.273c0-6.982,4.655-11.636,11.636-11.636h23.273
-			c2.327,0,4.655,0,8.145-1.164L429.382,450.327z"></path>
-                                                </g>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <path d="M477.091,58.182h-81.455V34.909c0-6.982-4.655-11.636-11.636-11.636s-11.636,4.655-11.636,11.636v23.273H139.636V34.909
-			c0-6.982-4.655-11.636-11.636-11.636s-11.636,4.655-11.636,11.636v23.273H34.909C15.127,58.182,0,73.309,0,93.091v93.091
-			c0,6.982,4.655,11.636,11.636,11.636h488.727c6.982,0,11.636-4.655,11.636-11.636V93.091
-			C512,73.309,496.873,58.182,477.091,58.182z M488.727,174.545H23.273V93.091c0-6.982,4.655-11.636,11.636-11.636h81.455v26.764
-			c-6.982,3.491-11.636,11.636-11.636,19.782c0,12.8,10.473,23.273,23.273,23.273S151.273,140.8,151.273,128
-			c0-8.145-4.655-16.291-11.636-19.782V81.455h232.727v26.764c-6.982,3.491-11.636,11.636-11.636,19.782
-			c0,12.8,10.473,23.273,23.273,23.273S407.273,140.8,407.273,128c0-8.145-4.655-16.291-11.636-19.782V81.455h81.455
-			c6.982,0,11.636,4.655,11.636,11.636V174.545z"></path>
-                                                </g>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <circle cx="209.455" cy="267.636" r="23.273"></circle>
-                                                </g>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <circle cx="302.545" cy="267.636" r="23.273"></circle>
-                                                </g>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <circle cx="395.636" cy="267.636" r="23.273"></circle>
-                                                </g>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <circle cx="116.364" cy="372.364" r="23.273"></circle>
-                                                </g>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <circle cx="209.455" cy="372.364" r="23.273"></circle>
-                                                </g>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <circle cx="302.545" cy="372.364" r="23.273"></circle>
-                                                </g>
-                                            </g>
-                                        </svg>
-
-
-                                        <time datetime="2020-04-04T11:55:00Z">April 4, 2020</time>
-                                    </p>
-
-
-
-                                </div>
-                                <h4 class="dt-sc-blog-title"><a href="<?= base_url() ?>/public/productDetail"> Best writers of 19th century</a></h4>
-
-                                <div class="dt-sc-blog-description">
-
-                                    <span>Accumsan lacus vel facilisis volutpat. Posuere urna nec tincidunt praesent. Tempus iaculis urna id volutpat. Sapien nec sagittis aliq sdis nesst swes.</span>
-
-                                </div>
-
-
-                                <a href="<?= base_url() ?>/public/productDetail" class="dt-sc-btn"> Read more</a>
-
-                            </div>
-                        </div>
-
-                        <div class="dt-sc-blog-item  text-start grid-style vertical-center">
-                            <div class="dt-sc-blog-image with-overlay-normal">
-
-                                <a href="<?= base_url() ?>/public/productDetail">
-                                    <div class="article__grid-image-wrapper">
-                                        <img src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/articles/blog-3.jpg?v=1585546251" alt="My favourite books of 2020" class="article__grid-image">
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div class="dt-sc-blog-content">
-                                <div class="dt-sc-blog-meta ">
-
-                                    <p class="dt-sc-blog-author">
-
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 50 50">
-                                            <path d="M25 1C11.8 1 1 11.8 1 25c0 7.1 3.1 13.5 8 17.9v0l0.3 0.3c0.1 0.1 0.1 0.1 0.2 0.1 0.4 0.4 0.9 0.7 1.3 1 0.1 0.1 0.2 0.2 0.4 0.3 0.5 0.3 1 0.7 1.5 1 0.1 0.1 0.2 0.1 0.3 0.1 0.6 0.3 1.1 0.6 1.7 0.9 0 0 0 0 0 0 1.2 0.6 2.6 1.1 3.9 1.5 0 0 0.1 0 0.1 0 0.6 0.2 1.3 0.3 2 0.4 0.1 0 0.1 0 0.2 0 0.6 0.1 1.3 0.2 1.9 0.3 0.1 0 0.2 0 0.2 0C23.7 49 24.3 49 25 49s1.3 0 2-0.1c0.1 0 0.2 0 0.2 0 0.7-0.1 1.3-0.1 1.9-0.3 0.1 0 0.1 0 0.2 0 0.7-0.1 1.3-0.3 2-0.4 0 0 0.1 0 0.1 0 1.4-0.4 2.7-0.9 3.9-1.5 0 0 0 0 0 0 0.6-0.3 1.2-0.6 1.7-0.9 0.1 0 0.2-0.1 0.3-0.1 0.5-0.3 1-0.6 1.5-1 0.1-0.1 0.2-0.2 0.4-0.3 0.5-0.3 0.9-0.7 1.3-1 0.1-0.1 0.1-0.1 0.2-0.1l0.3-0.3v0c4.9-4.4 8-10.8 8-17.9C49 11.8 38.2 1 25 1zM25 25c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8S29.4 25 25 25zM28 27c6.1 0 11 4.9 11 11v4c0 0-0.1 0.1-0.1 0.1 -0.4 0.3-0.8 0.6-1.2 0.9 -0.1 0.1-0.2 0.1-0.3 0.2 -0.4 0.3-0.9 0.6-1.4 0.9 -0.1 0.1-0.2 0.1-0.3 0.1 -0.5 0.3-1 0.5-1.5 0.8 -0.1 0-0.1 0-0.2 0.1 -1.7 0.8-3.4 1.3-5.2 1.6 -0.1 0-0.1 0-0.2 0 -0.6 0.1-1.1 0.2-1.7 0.2 -0.1 0-0.2 0-0.2 0C26.2 47 25.6 47 25 47s-1.2 0-1.8-0.1c-0.1 0-0.2 0-0.2 0 -0.6-0.1-1.1-0.1-1.7-0.2 -0.1 0-0.1 0-0.2 0 -1.8-0.3-3.6-0.9-5.2-1.6 -0.1 0-0.1 0-0.2-0.1 -0.5-0.2-1-0.5-1.5-0.8 -0.1 0-0.2-0.1-0.3-0.1 -0.5-0.3-0.9-0.6-1.4-0.9 -0.1-0.1-0.2-0.1-0.3-0.2 -0.4-0.3-0.8-0.6-1.2-0.9 0 0-0.1-0.1-0.1-0.1V38c0-6.1 4.9-11 11-11H28zM41 40.1V38c0-6.3-4.5-11.5-10.4-12.7C33.3 23.5 35 20.4 35 17c0-5.5-4.5-10-10-10s-10 4.5-10 10c0 3.4 1.7 6.5 4.4 8.3C13.5 26.5 9 31.7 9 38v2.1C5.3 36.1 3 30.8 3 25 3 12.9 12.9 3 25 3s22 9.9 22 22C47 30.8 44.7 36.1 41 40.1z"></path>
-                                        </svg>
-
-                                        <span>by Ramamoorthi M</span>
-                                    </p>
-
-
-                                    <p class="dt-sc-blog-date">
-
-                                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-                                            <g>
-                                                <g>
-                                                    <path d="M500.364,221.091c-6.982,0-11.636,4.655-11.636,11.636v46.545v69.818v11.636c0,12.8-10.473,23.273-23.273,23.273h-23.273
-			c-19.782,0-34.909,15.127-34.909,34.909v23.273c0,12.8-10.473,23.273-23.273,23.273h-58.182H34.909
-			c-6.982,0-11.636-4.655-11.636-11.636V232.727c0-6.982-4.655-11.636-11.636-11.636S0,225.745,0,232.727v221.091
-			c0,19.782,15.127,34.909,34.909,34.909h290.909H384h15.127c15.127,0,30.255-5.818,40.727-17.455l54.691-54.691
-			c10.473-10.473,17.455-25.6,17.455-40.727v-15.127v-11.636v-69.818v-46.545C512,225.745,507.345,221.091,500.364,221.091z
-			 M429.382,450.327c0-2.327,1.164-4.655,1.164-8.145v-23.273c0-6.982,4.655-11.636,11.636-11.636h23.273
-			c2.327,0,4.655,0,8.145-1.164L429.382,450.327z"></path>
-                                                </g>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <path d="M477.091,58.182h-81.455V34.909c0-6.982-4.655-11.636-11.636-11.636s-11.636,4.655-11.636,11.636v23.273H139.636V34.909
-			c0-6.982-4.655-11.636-11.636-11.636s-11.636,4.655-11.636,11.636v23.273H34.909C15.127,58.182,0,73.309,0,93.091v93.091
-			c0,6.982,4.655,11.636,11.636,11.636h488.727c6.982,0,11.636-4.655,11.636-11.636V93.091
-			C512,73.309,496.873,58.182,477.091,58.182z M488.727,174.545H23.273V93.091c0-6.982,4.655-11.636,11.636-11.636h81.455v26.764
-			c-6.982,3.491-11.636,11.636-11.636,19.782c0,12.8,10.473,23.273,23.273,23.273S151.273,140.8,151.273,128
-			c0-8.145-4.655-16.291-11.636-19.782V81.455h232.727v26.764c-6.982,3.491-11.636,11.636-11.636,19.782
-			c0,12.8,10.473,23.273,23.273,23.273S407.273,140.8,407.273,128c0-8.145-4.655-16.291-11.636-19.782V81.455h81.455
-			c6.982,0,11.636,4.655,11.636,11.636V174.545z"></path>
-                                                </g>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <circle cx="209.455" cy="267.636" r="23.273"></circle>
-                                                </g>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <circle cx="302.545" cy="267.636" r="23.273"></circle>
-                                                </g>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <circle cx="395.636" cy="267.636" r="23.273"></circle>
-                                                </g>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <circle cx="116.364" cy="372.364" r="23.273"></circle>
-                                                </g>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <circle cx="209.455" cy="372.364" r="23.273"></circle>
-                                                </g>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <circle cx="302.545" cy="372.364" r="23.273"></circle>
-                                                </g>
-                                            </g>
-                                        </svg>
-
-
-                                        <time datetime="2020-04-04T11:53:00Z">April 4, 2020</time>
-                                    </p>
-
-
-
-                                </div>
-                                <h4 class="dt-sc-blog-title"><a href="<?= base_url() ?>/public/productDetail"> My favourite books of 2020</a></h4>
-
-                                <div class="dt-sc-blog-description">
-
-                                    <span>Aliquam sem et tortor consequat id porta nibh venenatis cras. Mollis aliquam ut porttitor leo a diam sollicitudin. Venenatis lectus mag quisque id diam vel.</span>
-
-                                </div>
-
-
-                                <a href="<?= base_url() ?>/public/productDetail" class="dt-sc-btn"> Read more</a>
-
-                            </div>
-                        </div>
-
-                    </div>
-
-
-
-
-
-                </div>
-            </div>
         </div>
-    </div>
+        <div id="shopify-section-16200162287bb0c745" class="shopify-section index-section home-brand-logos">
 
-    <style>
-        #shopify-section-1620015980783b9895.home-blog-section .dt-sc-heading .dt-sc-main-heading {
-            color: var(--DTColor_Heading);
-            color: ;
-        }
 
-        #shopify-section-1620015980783b9895.home-blog-section .dt-sc-heading .dt-sc-sub-heading {
-            color: var(--DTColor_Heading);
-            color: ;
-        }
 
-        #shopify-section-1620015980783b9895.home-blog-section .dt-sc-heading .dt-sc-heading-description {
-            color: var(--DTColor_Body);
-            color: rgba(0, 0, 0, 0);
-        }
 
-        #shopify-section-1620015980783b9895.home-blog-section .dt-sc-heading .dt-sc-btn {
-            background: var(--DT_Button_BG_Color);
-            background: ;
-            color: var(--DT_Button_Text_Color);
-            color: ;
-        }
 
-        #shopify-section-1620015980783b9895.home-blog-section .dt-sc-heading .dt-sc-btn:hover {
-            background: var(--DT_Button_BG_Hover_Color);
-            background: ;
-            color: var(--DT_Button_Text_Hover_Color);
-            color: ;
-        }
-
-        #shopify-section-1620015980783b9895.home-blog-section .dt-sc-overlay:before {
-            color: var(--DTTertiaryColor);
-            color: ;
-            background: currentcolor;
-            opacity: 0.5;
-        }
-
-
-        .dt-sc-blog-section .dt-sc-blog-item .dt-sc-blog-image[class*="with-overlay-normal"]:before {
-            color: var(--DTTertiaryColor);
-            color: #d14031;
-            background: currentcolor;
-            border-radius: var(--DT_Blog_Border_Radius);
-        }
-
-        .dt-sc-blog-section .dt-sc-blog-item .dt-sc-blog-image[class*="with-overlay-gradient"]:before {
-
-            background-image: linear-gradient(180deg, rgba(253, 239, 225, 0),
-                    #fdefe1);
-
-            background-image: linear-gradient(180deg, rgba(209, 64, 49, 0),
-                    #d14031);
-            border-radius: var(--DT_Blog_Border_Radius);
-
-        }
-
-        .dt-sc-blog-section .dt-sc-blog-item:hover .dt-sc-blog-image[class*="with-overlay-normal"]:before,
-        .dt-sc-blog-section .dt-sc-blog-item:hover .dt-sc-blog-image[class*="with-overlay-gradient"]:before {
-            opacity: 0.8;
-        }
-
-        .dt-sc-blog-section .dt-sc-blog-item .dt-sc-blog-meta.with-meta-icons p[class*="dt-sc-blog-"] svg,
-        .dt-sc-blog-section .dt-sc-blog-item .dt-sc-blog-item.with-meta-icons .dt-sc-blog-content .dt-sc-blog-meta p[class*="dt-sc-blog-"] svg {
-            display: none;
-        }
-
-        .dt-sc-blog-section .dt-sc-blog-item {}
-
-
-        #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section .dt-sc-blog-item .dt-sc-blog-content a:not(dt-sc-btn) {
-            color: var(--DT_Blog_Link_Color);
-            color: ;
-        }
-
-        #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section .dt-sc-blog-item .dt-sc-blog-content a:not(dt-sc-btn):hover {
-            color: var(--DT_Blog_Link_Hover_Color);
-            color: ;
-        }
-
-        #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section .dt-sc-blog-item .dt-sc-blog-content .dt-sc-blog-description,
-        #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section .dt-sc-blog-item .dt-sc-blog-content .dt-sc-blog-meta *:not(svg) {
-            color: var(--DT_Blog_Text_Color);
-            color: #676767;
-        }
-
-        #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section .dt-sc-blog-item .dt-sc-blog-content .dt-sc-blog-meta p svg {
-            fill: var(--DT_Blog_Icon_Color);
-            fill: #676767;
-        }
-
-        #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section .dt-sc-blog-item .dt-sc-blog-content .dt-sc-blog-meta p i {
-            color: var(--DT_Blog_Icon_Color);
-            color: #676767;
-        }
-
-        #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section .dt-sc-blog-item .dt-sc-blog-content a.dt-sc-btn {
-            background-color: var(--DT_Blog_Button_BG_Color);
-            color: var(--DT_Blog_Button_Text_Color);
-            background-color: ;
-            color: ;
-
-        }
-
-        #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section .dt-sc-blog-item .dt-sc-blog-content a.dt-sc-btn:hover {
-            background-color: var(--DT_Blog_Button_BG_Hover_Color);
-            color: var(--DT_Blog_Button_Text_Hover_Color);
-            background-color: ;
-            color: ;
-        }
-
-        #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section .dt-sc-blog-item.overlay-style .dt-sc-blog-content a:not(dt-sc-btn) {
-            color: var(--DT_Blog_Link_Color_Overlay);
-            color: ;
-        }
-
-        #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section .dt-sc-blog-item.overlay-style .dt-sc-blog-content a:not(dt-sc-btn):hover {
-            color: var(--DT_Blog_Link_Hover_Color_Overlay);
-            color: ;
-        }
-
-        #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section .dt-sc-blog-item.overlay-style .dt-sc-blog-content .dt-sc-blog-description,
-        #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section .dt-sc-blog-item.overlay-style .dt-sc-blog-content .dt-sc-blog-meta *:not(svg) {
-            color: var(--DT_Blog_Text_Color_overlay);
-            color: ;
-        }
-
-        #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section .dt-sc-blog-item.overlay-style .dt-sc-blog-content .dt-sc-blog-meta p svg {
-            fill: var(--DT_Blog_Icon_Color_overlay);
-            fill: rgba(0, 0, 0, 0);
-        }
-
-        #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section .dt-sc-blog-item.overlay-style .dt-sc-blog-content .dt-sc-blog-meta p i {
-            color: var(--DT_Blog_Icon_Color_overlay);
-            color: ;
-        }
-
-        #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section .dt-sc-blog-item.overlay-style .dt-sc-blog-content a.dt-sc-btn {
-            background-color: var(--DT_Blog_Button_BG_Color_overlay);
-            color: var(--DT_Blog_Button_Text_Color_overlay);
-            background-color: ;
-            color: ;
-        }
-        }
-
-        #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section .dt-sc-blog-item.overlay-style .dt-sc-blog-content a.dt-sc-btn:hover {
-            background-color: var(--DT_Blog_Button_BG_Hover_Color_overlay);
-            color: var(--DT_Blog_Button_Text_Hover_Color_overlay);
-            background-color: ;
-            color: ;
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-        #shopify-section-1620015980783b9895 .dt-sc-blog-section.style-2 .dt-sc-blog-item.grid-style .dt-sc-blog-content {
-            margin-top: 30px;
-            background: ;
-        }
-
-        #shopify-section-1620015980783b9895.home-blog-section .dt-sc-swiper-slider.swiper-container .swiper-arrows .dt-sc-btn {
-            background: var(--DT_Button_BG_Color);
-            background: ;
-        }
-
-        #shopify-section-1620015980783b9895.home-blog-section .dt-sc-swiper-slider.swiper-container .swiper-arrows .dt-sc-btn[class*="swiper-button-"]:after {
-            color: var(--DT_Button_Text_Color);
-            color: ;
-        }
-
-        #shopify-section-1620015980783b9895.home-blog-section .dt-sc-swiper-slider.swiper-container .swiper-arrows .dt-sc-btn:hover {
-            background: var(--DT_Button_BG_Hover_Color);
-            background: ;
-        }
-
-        #shopify-section-1620015980783b9895.home-blog-section .dt-sc-swiper-slider.swiper-container .swiper-arrows .dt-sc-btn:hover[class*="swiper-button-"]:after {
-            color: var(--DT_Button_Text_Hover_Color);
-            color: ;
-        }
-
-        #shopify-section-1620015980783b9895.home-blog-section .dt-sc-swiper-slider.swiper-container .swiper-pagination-bullet {
-            background: var(--DTSecondaryColor);
-            background: ;
-
-        }
-
-        #shopify-section-1620015980783b9895.home-blog-section .dt-sc-swiper-slider.swiper-container .swiper-pagination-bullet.swiper-pagination-bullet-active {
-            background: var(--DTPrimaryColor);
-            background: ;
-        }
-
-
-        @media (min-width: 1541px) {
-
-            #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section.dt-sc-masonry-blog .dt-sc-main-blog {
-                width: calc(50% - (calc(30px)/2));
-            }
-
-            #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section.dt-sc-masonry-blog .dt-sc-additional-blogs {
-                width: calc(50% - (calc(30px)/2));
-            }
-
-            #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section .dt-sc-blog-item.list-style>.dt-sc-blog-image {
-                width: 50%;
-            }
-
-            #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section .dt-sc-blog-item.list-style>.dt-sc-blog-content {
-                width: 50%;
-            }
-
-            #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section.style-2 .dt-sc-blog-item.list-style>.dt-sc-blog-image {
-                width: calc(50% - (calc(30px)/2));
-            }
-
-            #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section.style-2 .dt-sc-blog-item.list-style>.dt-sc-blog-content {
-                width: calc(50% - (calc(30px)/2));
-            }
-
-        }
-
-        @media (max-width: 1540px) {
-
-            #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section.dt-sc-masonry-blog .dt-sc-main-blog {
-                width: calc(40% - (calc(30px)/2));
-            }
-
-            #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section.dt-sc-masonry-blog .dt-sc-additional-blogs {
-                width: calc(60% - (calc(30px)/2));
-            }
-
-            #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section .dt-sc-blog-item.list-style>.dt-sc-blog-image {
-                width: 40%;
-            }
-
-            #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section .dt-sc-blog-item.list-style>.dt-sc-blog-content {
-                width: 60%
-            }
-
-            #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section.style-2 .dt-sc-blog-item.list-style>.dt-sc-blog-image {
-                width: calc(40% - (calc(30px)/2));
-            }
-
-            #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section.style-2 .dt-sc-blog-item.list-style>.dt-sc-blog-content {
-                width: calc(60% - (calc(30px)/2));
-            }
-
-        }
-
-        @media (max-width: 1199px) {
-
-            #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section.dt-sc-masonry-blog {
-                flex-wrap: wrap;
-            }
-
-            #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section.dt-sc-masonry-blog .dt-sc-main-blog {
-                margin-bottom: var(--DT_Blog_Gutter_Width);
-            }
-
-            #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section.dt-sc-masonry-blog .dt-sc-main-blog,
-            #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section.dt-sc-masonry-blog .dt-sc-additional-blogs {
-                width: 100%;
-            }
-
-            #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section.style-2 .dt-sc-blog-item.list-style>.dt-sc-blog-image,
-            #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section.style-2 .dt-sc-blog-item.list-style>.dt-sc-blog-content {
-                width: 100%;
-            }
-
-        }
-
-        @media (max-width: 767px) {
-
-            #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section .dt-sc-blog-item.list-style {
-                flex-wrap: wrap;
-            }
-
-            #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section.style-2 .dt-sc-blog-item.list-style>.dt-sc-blog-image,
-            #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section.dt-sc-masonry-blog.style-2 .dt-sc-blog-item.list-style>.dt-sc-blog-image {
-                margin-bottom: 30px;
-            }
-
-            #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section .dt-sc-blog-item.list-style>.dt-sc-blog-image,
-            #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section .dt-sc-blog-item.list-style>.dt-sc-blog-content,
-            #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section.dt-sc-masonry-blog .dt-sc-blog-item.list-style>.dt-sc-blog-image,
-            #shopify-section-1620015980783b9895.home-blog-section .dt-sc-blog-section.dt-sc-masonry-blog .dt-sc-blog-item.list-style>.dt-sc-blog-content {
-                width: 100%;
-            }
-
-        }
-    </style>
-
-</div>
-<div id="shopify-section-16200162287bb0c745" class="shopify-section index-section home-brand-logos">
-
-
-
-
-
-    <div data-section-id="16200162287bb0c745" data-section-type="brand-logos-section" data-item-per-view="6" data-autoplay="0" data-small-screen-items="1" data-blocks-limit="7" data-item-space="10" data-auto-height="false">
-        <div class="dt-sc-section-wrapper   " style="
+            <div data-section-id="16200162287bb0c745" data-section-type="brand-logos-section" data-item-per-view="6" data-autoplay="0" data-small-screen-items="1" data-blocks-limit="7" data-item-space="10" data-auto-height="false">
+                <div class="dt-sc-section-wrapper   " style="
 
  
 
@@ -4936,984 +3545,984 @@ margin-top:0px; margin-bottom:0px;padding-top:130px; padding-bottom:120px; " dat
  
 
 margin-top:0px; margin-bottom:0px;padding-top:0px; padding-bottom:0px; " data-style="parallax">
-            <div class="container">
-                <div class="row default-brand-logos">
+                    <div class="container">
+                        <div class="row default-brand-logos">
 
-                    <div class="dt-sc-swiper-slider swiper-container  center_pagination  ">
-                        <div id="swiper-16200162287bb0c745-slider" class="dt-sc-brand-logos-section style-1">
+                            <div class="dt-sc-swiper-slider swiper-container  center_pagination  ">
+                                <div id="swiper-16200162287bb0c745-slider" class="dt-sc-brand-logos-section style-1">
 
-                            <div class=" swiper-wrapper ">
+                                    <div class=" swiper-wrapper ">
 
 
-                                <div class="dt-sc-brand-logo swiper-slide Image-16200162287bb0c745-0">
-                                    <a href="">
-                                        <img class="dt-sc-brand-image" src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/files/client-logo-4_200x200.png?v=1585549077">
-                                    </a>
+                                        <div class="dt-sc-brand-logo swiper-slide Image-16200162287bb0c745-0">
+                                            <a href="">
+                                                <img class="dt-sc-brand-image" src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/files/client-logo-4_200x200.png?v=1585549077">
+                                            </a>
+                                        </div>
+
+
+
+                                        <div class="dt-sc-brand-logo swiper-slide Image-16200162287bb0c745-1">
+                                            <a href="">
+                                                <img class="dt-sc-brand-image" src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/files/client-logo-5_200x200.png?v=1585549093">
+                                            </a>
+                                        </div>
+
+
+
+                                        <div class="dt-sc-brand-logo swiper-slide Image-16200162287bb0c745-2">
+                                            <a href="">
+                                                <img class="dt-sc-brand-image" src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/files/client-logo-6_200x200.png?v=1585549111">
+                                            </a>
+                                        </div>
+
+
+
+                                        <div class="dt-sc-brand-logo swiper-slide Image-4baf0f41-9464-47ea-a304-77c72216c5fa">
+                                            <a href="">
+                                                <img class="dt-sc-brand-image" src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/files/client-logo-2_200x200.png?v=1585549032">
+                                            </a>
+                                        </div>
+
+
+
+                                        <div class="dt-sc-brand-logo swiper-slide Image-622edf57-e15e-4c45-95ad-af42c305ad20">
+                                            <a href="">
+                                                <img class="dt-sc-brand-image" src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/files/client-logo-1_200x200.png?v=1585548990">
+                                            </a>
+                                        </div>
+
+
+
+                                        <div class="dt-sc-brand-logo swiper-slide Image-de2a40d6-38e8-4baa-a0d7-269697467b50">
+                                            <a href="">
+                                                <img class="dt-sc-brand-image" src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/files/client-logo-3_200x200.png?v=1585549047">
+                                            </a>
+                                        </div>
+
+
+
+                                        <div class="dt-sc-brand-logo swiper-slide Image-a08e531e-8cc1-4f4b-9395-05da81e41e83">
+                                            <a href="">
+                                                <img class="dt-sc-brand-image" src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/files/home-logo-1_200x200.png?v=1623227544">
+                                            </a>
+                                        </div>
+
+
+                                    </div>
                                 </div>
 
 
 
-                                <div class="dt-sc-brand-logo swiper-slide Image-16200162287bb0c745-1">
-                                    <a href="">
-                                        <img class="dt-sc-brand-image" src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/files/client-logo-5_200x200.png?v=1585549093">
-                                    </a>
-                                </div>
-
-
-
-                                <div class="dt-sc-brand-logo swiper-slide Image-16200162287bb0c745-2">
-                                    <a href="">
-                                        <img class="dt-sc-brand-image" src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/files/client-logo-6_200x200.png?v=1585549111">
-                                    </a>
-                                </div>
-
-
-
-                                <div class="dt-sc-brand-logo swiper-slide Image-4baf0f41-9464-47ea-a304-77c72216c5fa">
-                                    <a href="">
-                                        <img class="dt-sc-brand-image" src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/files/client-logo-2_200x200.png?v=1585549032">
-                                    </a>
-                                </div>
-
-
-
-                                <div class="dt-sc-brand-logo swiper-slide Image-622edf57-e15e-4c45-95ad-af42c305ad20">
-                                    <a href="">
-                                        <img class="dt-sc-brand-image" src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/files/client-logo-1_200x200.png?v=1585548990">
-                                    </a>
-                                </div>
-
-
-
-                                <div class="dt-sc-brand-logo swiper-slide Image-de2a40d6-38e8-4baa-a0d7-269697467b50">
-                                    <a href="">
-                                        <img class="dt-sc-brand-image" src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/files/client-logo-3_200x200.png?v=1585549047">
-                                    </a>
-                                </div>
-
-
-
-                                <div class="dt-sc-brand-logo swiper-slide Image-a08e531e-8cc1-4f4b-9395-05da81e41e83">
-                                    <a href="">
-                                        <img class="dt-sc-brand-image" src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/files/home-logo-1_200x200.png?v=1623227544">
-                                    </a>
-                                </div>
+                                <div id="swiper-16200162287bb0c745-pagination" class="swiper-pagination"></div>
 
 
                             </div>
+
                         </div>
-
-
-
-                        <div id="swiper-16200162287bb0c745-pagination" class="swiper-pagination"></div>
-
-
                     </div>
-
                 </div>
             </div>
-        </div>
-    </div>
-
-    <style>
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-heading .dt-sc-main-heading {
-            color: var(--DTColor_Heading);
-            color: ;
-        }
-
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-heading .dt-sc-sub-heading {
-            color: var(--DTColor_Heading);
-            color: ;
-        }
-
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-heading .dt-sc-heading-description {
-            color: var(--DTColor_Body);
-            color: ;
-        }
-
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-heading .dt-sc-btn {
-            background: var(--DT_Button_BG_Color);
-            background: ;
-            color: var(--DT_Button_Text_Color);
-            color: ;
-        }
-
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-heading .dt-sc-btn:hover {
-            background: var(--DT_Button_BG_Hover_Color);
-            background: ;
-            color: var(--DT_Button_Text_Hover_Color);
-            color: ;
-        }
-
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-overlay:before {
-            color: var(--DTTertiaryColor);
-            color: ;
-            background: currentcolor;
-            opacity: 0.5;
-        }
-
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section {
-            gap: 10px;
-        }
-
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section .dt-sc-brand-logo {
-            padding: 0 20px;
-            background: var(--DTBodyBGColor);
-            background: ;
-        }
-
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-1 .dt-sc-brand-logo,
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2,
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-3 .dt-sc-brand-logo {
-
-            border-radius: var(--DTRadius);
-            border-radius: 0px;
-        }
-
-
-        @media (min-width: 768px) {
-
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo:last-child {
-                border-radius: 0 0 0px 0;
-            }
-
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.one-column .dt-sc-brand-logo:first-child,
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.two-column .dt-sc-brand-logo:nth-child(2):last-child,
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.three-column .dt-sc-brand-logo:nth-child(3):last-child,
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.four-column .dt-sc-brand-logo:nth-child(4):last-child,
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.five-column .dt-sc-brand-logo:nth-child(5):last-child,
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.six-column .dt-sc-brand-logo:nth-child(6):last-child {
-                border-radius: 0 0px 0px 0;
-            }
-
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.one-column .dt-sc-brand-logo:first-child,
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.two-column .dt-sc-brand-logo:nth-child(2):not(:last-child),
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.three-column .dt-sc-brand-logo:nth-child(3):not(:last-child),
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.four-column .dt-sc-brand-logo:nth-child(4):not(:last-child),
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.five-column .dt-sc-brand-logo:nth-child(5):not(:last-child),
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.six-column .dt-sc-brand-logo:nth-child(6):not(:last-child) {
-                border-radius: 0 0px 0 0;
-            }
-
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.one-column .dt-sc-brand-logo:last-child {
-                border-radius: 0 0 0px 0px;
-            }
-
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.one-column .dt-sc-brand-logo:only-child {
-                border-radius: 0 0px 0px 0px;
-            }
-
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.two-column .dt-sc-brand-logo:nth-last-child(2),
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.three-column .dt-sc-brand-logo:nth-last-child(3),
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.four-column .dt-sc-brand-logo:nth-last-child(4),
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.five-column .dt-sc-brand-logo:nth-last-child(5),
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.six-column .dt-sc-brand-logo:nth-last-child(6) {
-                border-radius: 0 0 0 0px;
-            }
-
-        }
-
-        @media (max-width: 767px) {
 
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo {
-                border-radius: 0px;
-                margin-bottom: 10px;
-            }
+            <style>
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-heading .dt-sc-main-heading {
+                    color: var(--DTColor_Heading);
+                    color: ;
+                }
+
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-heading .dt-sc-sub-heading {
+                    color: var(--DTColor_Heading);
+                    color: ;
+                }
+
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-heading .dt-sc-heading-description {
+                    color: var(--DTColor_Body);
+                    color: ;
+                }
+
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-heading .dt-sc-btn {
+                    background: var(--DT_Button_BG_Color);
+                    background: ;
+                    color: var(--DT_Button_Text_Color);
+                    color: ;
+                }
+
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-heading .dt-sc-btn:hover {
+                    background: var(--DT_Button_BG_Hover_Color);
+                    background: ;
+                    color: var(--DT_Button_Text_Hover_Color);
+                    color: ;
+                }
+
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-overlay:before {
+                    color: var(--DTTertiaryColor);
+                    color: ;
+                    background: currentcolor;
+                    opacity: 0.5;
+                }
+
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section {
+                    gap: 10px;
+                }
+
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section .dt-sc-brand-logo {
+                    padding: 0 20px;
+                    background: var(--DTBodyBGColor);
+                    background: ;
+                }
+
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-1 .dt-sc-brand-logo,
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2,
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-3 .dt-sc-brand-logo {
+
+                    border-radius: var(--DTRadius);
+                    border-radius: 0px;
+                }
+
+
+                @media (min-width: 768px) {
+
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo:last-child {
+                        border-radius: 0 0 0px 0;
+                    }
+
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.one-column .dt-sc-brand-logo:first-child,
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.two-column .dt-sc-brand-logo:nth-child(2):last-child,
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.three-column .dt-sc-brand-logo:nth-child(3):last-child,
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.four-column .dt-sc-brand-logo:nth-child(4):last-child,
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.five-column .dt-sc-brand-logo:nth-child(5):last-child,
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.six-column .dt-sc-brand-logo:nth-child(6):last-child {
+                        border-radius: 0 0px 0px 0;
+                    }
+
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.one-column .dt-sc-brand-logo:first-child,
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.two-column .dt-sc-brand-logo:nth-child(2):not(:last-child),
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.three-column .dt-sc-brand-logo:nth-child(3):not(:last-child),
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.four-column .dt-sc-brand-logo:nth-child(4):not(:last-child),
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.five-column .dt-sc-brand-logo:nth-child(5):not(:last-child),
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.six-column .dt-sc-brand-logo:nth-child(6):not(:last-child) {
+                        border-radius: 0 0px 0 0;
+                    }
+
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.one-column .dt-sc-brand-logo:last-child {
+                        border-radius: 0 0 0px 0px;
+                    }
+
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.one-column .dt-sc-brand-logo:only-child {
+                        border-radius: 0 0px 0px 0px;
+                    }
+
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.two-column .dt-sc-brand-logo:nth-last-child(2),
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.three-column .dt-sc-brand-logo:nth-last-child(3),
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.four-column .dt-sc-brand-logo:nth-last-child(4),
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.five-column .dt-sc-brand-logo:nth-last-child(5),
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2.dt-sc-column.six-column .dt-sc-brand-logo:nth-last-child(6) {
+                        border-radius: 0 0 0 0px;
+                    }
+
+                }
+
+                @media (max-width: 767px) {
+
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo {
+                        border-radius: 0px;
+                        margin-bottom: 10px;
+                    }
 
-        }
+                }
 
 
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section .dt-sc-brand-logo.Image-16200162287bb0c745-0 {
-            background: var(--DTBodyBGColor);
-            background: ;
-        }
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section .dt-sc-brand-logo.Image-16200162287bb0c745-0 {
+                    background: var(--DTBodyBGColor);
+                    background: ;
+                }
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-1 .dt-sc-brand-logo.Image-16200162287bb0c745-0 {
-            border: none;
-        }
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-1 .dt-sc-brand-logo.Image-16200162287bb0c745-0 {
+                    border: none;
+                }
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 {
-            padding: 0;
-            margin: auto;
-            border-bottom-width: 1px;
-            border-bottom-style: solid;
-            border-color: var(--DTColor_Border);
-            border-color: ;
-        }
+                #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 {
+                    padding: 0;
+                    margin: auto;
+                    border-bottom-width: 1px;
+                    border-bottom-style: solid;
+                    border-color: var(--DTColor_Border);
+                    border-color: ;
+                }
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-0 {
-            border-bottom: none;
-        }
+                #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-0 {
+                    border-bottom: none;
+                }
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 {
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 {
 
-            border-left-width: 1px;
-            border-left-style: solid;
-            border-top-width: 1px;
-            border-top-style: solid;
+                    border-left-width: 1px;
+                    border-left-style: solid;
+                    border-top-width: 1px;
+                    border-top-style: solid;
 
-            border-color: var(--DTColor_Border);
-            border-color: ;
-            grid-gap: 0;
-            background: var(--DTBodyBGColor);
-            background: ;
-            width: 100%;
-        }
+                    border-color: var(--DTColor_Border);
+                    border-color: ;
+                    grid-gap: 0;
+                    background: var(--DTBodyBGColor);
+                    background: ;
+                    width: 100%;
+                }
+
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-0 {
+                    border-right-width: 1px;
+                    border-right-style: solid;
+                    border-bottom-width: 1px;
+                    border-bottom-style: solid;
+                    border-color: var(--DTColor_Border);
+                    border-color: ;
+                    padding: 20px;
+                    background: none;
+                }
+
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-3 .dt-sc-brand-logo.Image-16200162287bb0c745-0 {
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: var(--DTColor_Border);
+                    border-color: ;
+                    padding: 20px;
+                }
+
+                @media (max-width: 767px) {
+
+
+
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2,
+                    #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 {
+                        border: none;
+                    }
+
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-0.swiper-slide {
+                        margin-bottom: 0;
+                    }
+
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-0,
+                    #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-0 {
+                        border-width: 1px;
+                        border-style: solid;
+                        border-color: var(--DTColor_Border);
+                        border-color: ;
+                    }
+
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 {
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-0 {
-            border-right-width: 1px;
-            border-right-style: solid;
-            border-bottom-width: 1px;
-            border-bottom-style: solid;
-            border-color: var(--DTColor_Border);
-            border-color: ;
-            padding: 20px;
-            background: none;
-        }
-
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-3 .dt-sc-brand-logo.Image-16200162287bb0c745-0 {
-            border-width: 1px;
-            border-style: solid;
-            border-color: var(--DTColor_Border);
-            border-color: ;
-            padding: 20px;
-        }
+                        background: none;
 
-        @media (max-width: 767px) {
-
-
+                    }
 
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2,
-            #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 {
-                border: none;
-            }
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-0 {
 
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-0.swiper-slide {
-                margin-bottom: 0;
-            }
-
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-0,
-            #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-0 {
-                border-width: 1px;
-                border-style: solid;
-                border-color: var(--DTColor_Border);
-                border-color: ;
-            }
+                        background: var(--DTBodyBGColor);
+                        background: ;
 
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 {
+                    }
 
-                background: none;
+                }
 
-            }
 
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-0 {
 
-                background: var(--DTBodyBGColor);
-                background: ;
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section .dt-sc-brand-logo.Image-16200162287bb0c745-1 {
+                    background: var(--DTBodyBGColor);
+                    background: ;
+                }
 
-            }
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-1 .dt-sc-brand-logo.Image-16200162287bb0c745-1 {
+                    border: none;
+                }
 
-        }
+                #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 {
+                    padding: 0;
+                    margin: auto;
+                    border-bottom-width: 1px;
+                    border-bottom-style: solid;
+                    border-color: var(--DTColor_Border);
+                    border-color: ;
+                }
 
+                #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-1 {
+                    border-bottom: none;
+                }
 
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 {
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section .dt-sc-brand-logo.Image-16200162287bb0c745-1 {
-            background: var(--DTBodyBGColor);
-            background: ;
-        }
+                    border-left-width: 1px;
+                    border-left-style: solid;
+                    border-top-width: 1px;
+                    border-top-style: solid;
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-1 .dt-sc-brand-logo.Image-16200162287bb0c745-1 {
-            border: none;
-        }
+                    border-color: var(--DTColor_Border);
+                    border-color: ;
+                    grid-gap: 0;
+                    background: var(--DTBodyBGColor);
+                    background: ;
+                    width: 100%;
+                }
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 {
-            padding: 0;
-            margin: auto;
-            border-bottom-width: 1px;
-            border-bottom-style: solid;
-            border-color: var(--DTColor_Border);
-            border-color: ;
-        }
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-1 {
+                    border-right-width: 1px;
+                    border-right-style: solid;
+                    border-bottom-width: 1px;
+                    border-bottom-style: solid;
+                    border-color: var(--DTColor_Border);
+                    border-color: ;
+                    padding: 20px;
+                    background: none;
+                }
+
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-3 .dt-sc-brand-logo.Image-16200162287bb0c745-1 {
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: var(--DTColor_Border);
+                    border-color: ;
+                    padding: 20px;
+                }
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-1 {
-            border-bottom: none;
-        }
+                @media (max-width: 767px) {
+
+
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 {
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2,
+                    #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 {
+                        border: none;
+                    }
 
-            border-left-width: 1px;
-            border-left-style: solid;
-            border-top-width: 1px;
-            border-top-style: solid;
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-1.swiper-slide {
+                        margin-bottom: 0;
+                    }
+
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-1,
+                    #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-1 {
+                        border-width: 1px;
+                        border-style: solid;
+                        border-color: var(--DTColor_Border);
+                        border-color: ;
+                    }
 
-            border-color: var(--DTColor_Border);
-            border-color: ;
-            grid-gap: 0;
-            background: var(--DTBodyBGColor);
-            background: ;
-            width: 100%;
-        }
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 {
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-1 {
-            border-right-width: 1px;
-            border-right-style: solid;
-            border-bottom-width: 1px;
-            border-bottom-style: solid;
-            border-color: var(--DTColor_Border);
-            border-color: ;
-            padding: 20px;
-            background: none;
-        }
-
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-3 .dt-sc-brand-logo.Image-16200162287bb0c745-1 {
-            border-width: 1px;
-            border-style: solid;
-            border-color: var(--DTColor_Border);
-            border-color: ;
-            padding: 20px;
-        }
+                        background: none;
 
-        @media (max-width: 767px) {
+                    }
 
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-1 {
 
+                        background: var(--DTBodyBGColor);
+                        background: ;
 
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2,
-            #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 {
-                border: none;
-            }
+                    }
 
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-1.swiper-slide {
-                margin-bottom: 0;
-            }
-
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-1,
-            #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-1 {
-                border-width: 1px;
-                border-style: solid;
-                border-color: var(--DTColor_Border);
-                border-color: ;
-            }
+                }
 
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 {
 
-                background: none;
 
-            }
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section .dt-sc-brand-logo.Image-16200162287bb0c745-2 {
+                    background: var(--DTBodyBGColor);
+                    background: ;
+                }
 
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-1 {
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-1 .dt-sc-brand-logo.Image-16200162287bb0c745-2 {
+                    border: none;
+                }
 
-                background: var(--DTBodyBGColor);
-                background: ;
+                #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 {
+                    padding: 0;
+                    margin: auto;
+                    border-bottom-width: 1px;
+                    border-bottom-style: solid;
+                    border-color: var(--DTColor_Border);
+                    border-color: ;
+                }
 
-            }
+                #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-2 {
+                    border-bottom: none;
+                }
 
-        }
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 {
 
+                    border-left-width: 1px;
+                    border-left-style: solid;
+                    border-top-width: 1px;
+                    border-top-style: solid;
 
+                    border-color: var(--DTColor_Border);
+                    border-color: ;
+                    grid-gap: 0;
+                    background: var(--DTBodyBGColor);
+                    background: ;
+                    width: 100%;
+                }
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section .dt-sc-brand-logo.Image-16200162287bb0c745-2 {
-            background: var(--DTBodyBGColor);
-            background: ;
-        }
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-2 {
+                    border-right-width: 1px;
+                    border-right-style: solid;
+                    border-bottom-width: 1px;
+                    border-bottom-style: solid;
+                    border-color: var(--DTColor_Border);
+                    border-color: ;
+                    padding: 20px;
+                    background: none;
+                }
+
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-3 .dt-sc-brand-logo.Image-16200162287bb0c745-2 {
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: var(--DTColor_Border);
+                    border-color: ;
+                    padding: 20px;
+                }
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-1 .dt-sc-brand-logo.Image-16200162287bb0c745-2 {
-            border: none;
-        }
+                @media (max-width: 767px) {
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 {
-            padding: 0;
-            margin: auto;
-            border-bottom-width: 1px;
-            border-bottom-style: solid;
-            border-color: var(--DTColor_Border);
-            border-color: ;
-        }
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-2 {
-            border-bottom: none;
-        }
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 {
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2,
+                    #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 {
+                        border: none;
+                    }
 
-            border-left-width: 1px;
-            border-left-style: solid;
-            border-top-width: 1px;
-            border-top-style: solid;
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-2.swiper-slide {
+                        margin-bottom: 0;
+                    }
+
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-2,
+                    #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-2 {
+                        border-width: 1px;
+                        border-style: solid;
+                        border-color: var(--DTColor_Border);
+                        border-color: ;
+                    }
 
-            border-color: var(--DTColor_Border);
-            border-color: ;
-            grid-gap: 0;
-            background: var(--DTBodyBGColor);
-            background: ;
-            width: 100%;
-        }
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 {
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-2 {
-            border-right-width: 1px;
-            border-right-style: solid;
-            border-bottom-width: 1px;
-            border-bottom-style: solid;
-            border-color: var(--DTColor_Border);
-            border-color: ;
-            padding: 20px;
-            background: none;
-        }
-
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-3 .dt-sc-brand-logo.Image-16200162287bb0c745-2 {
-            border-width: 1px;
-            border-style: solid;
-            border-color: var(--DTColor_Border);
-            border-color: ;
-            padding: 20px;
-        }
+                        background: none;
 
-        @media (max-width: 767px) {
+                    }
 
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-2 {
 
+                        background: var(--DTBodyBGColor);
+                        background: ;
 
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2,
-            #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 {
-                border: none;
-            }
+                    }
 
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-2.swiper-slide {
-                margin-bottom: 0;
-            }
+                }
 
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-2,
-            #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-2 {
-                border-width: 1px;
-                border-style: solid;
-                border-color: var(--DTColor_Border);
-                border-color: ;
-            }
 
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 {
 
-                background: none;
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section .dt-sc-brand-logo.Image-4baf0f41-9464-47ea-a304-77c72216c5fa {
+                    background: var(--DTBodyBGColor);
+                    background: ;
+                }
 
-            }
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-1 .dt-sc-brand-logo.Image-4baf0f41-9464-47ea-a304-77c72216c5fa {
+                    border: none;
+                }
 
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-16200162287bb0c745-2 {
+                #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 {
+                    padding: 0;
+                    margin: auto;
+                    border-bottom-width: 1px;
+                    border-bottom-style: solid;
+                    border-color: var(--DTColor_Border);
+                    border-color: ;
+                }
 
-                background: var(--DTBodyBGColor);
-                background: ;
+                #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-4baf0f41-9464-47ea-a304-77c72216c5fa {
+                    border-bottom: none;
+                }
 
-            }
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 {
 
-        }
+                    border-left-width: 1px;
+                    border-left-style: solid;
+                    border-top-width: 1px;
+                    border-top-style: solid;
 
+                    border-color: var(--DTColor_Border);
+                    border-color: ;
+                    grid-gap: 0;
+                    background: var(--DTBodyBGColor);
+                    background: ;
+                    width: 100%;
+                }
 
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-4baf0f41-9464-47ea-a304-77c72216c5fa {
+                    border-right-width: 1px;
+                    border-right-style: solid;
+                    border-bottom-width: 1px;
+                    border-bottom-style: solid;
+                    border-color: var(--DTColor_Border);
+                    border-color: ;
+                    padding: 20px;
+                    background: none;
+                }
+
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-3 .dt-sc-brand-logo.Image-4baf0f41-9464-47ea-a304-77c72216c5fa {
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: var(--DTColor_Border);
+                    border-color: ;
+                    padding: 20px;
+                }
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section .dt-sc-brand-logo.Image-4baf0f41-9464-47ea-a304-77c72216c5fa {
-            background: var(--DTBodyBGColor);
-            background: ;
-        }
+                @media (max-width: 767px) {
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-1 .dt-sc-brand-logo.Image-4baf0f41-9464-47ea-a304-77c72216c5fa {
-            border: none;
-        }
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 {
-            padding: 0;
-            margin: auto;
-            border-bottom-width: 1px;
-            border-bottom-style: solid;
-            border-color: var(--DTColor_Border);
-            border-color: ;
-        }
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-4baf0f41-9464-47ea-a304-77c72216c5fa {
-            border-bottom: none;
-        }
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2,
+                    #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 {
+                        border: none;
+                    }
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 {
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-4baf0f41-9464-47ea-a304-77c72216c5fa.swiper-slide {
+                        margin-bottom: 0;
+                    }
 
-            border-left-width: 1px;
-            border-left-style: solid;
-            border-top-width: 1px;
-            border-top-style: solid;
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-4baf0f41-9464-47ea-a304-77c72216c5fa,
+                    #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-4baf0f41-9464-47ea-a304-77c72216c5fa {
+                        border-width: 1px;
+                        border-style: solid;
+                        border-color: var(--DTColor_Border);
+                        border-color: ;
+                    }
 
-            border-color: var(--DTColor_Border);
-            border-color: ;
-            grid-gap: 0;
-            background: var(--DTBodyBGColor);
-            background: ;
-            width: 100%;
-        }
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 {
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-4baf0f41-9464-47ea-a304-77c72216c5fa {
-            border-right-width: 1px;
-            border-right-style: solid;
-            border-bottom-width: 1px;
-            border-bottom-style: solid;
-            border-color: var(--DTColor_Border);
-            border-color: ;
-            padding: 20px;
-            background: none;
-        }
-
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-3 .dt-sc-brand-logo.Image-4baf0f41-9464-47ea-a304-77c72216c5fa {
-            border-width: 1px;
-            border-style: solid;
-            border-color: var(--DTColor_Border);
-            border-color: ;
-            padding: 20px;
-        }
+                        background: none;
 
-        @media (max-width: 767px) {
+                    }
 
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-4baf0f41-9464-47ea-a304-77c72216c5fa {
 
+                        background: var(--DTBodyBGColor);
+                        background: ;
 
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2,
-            #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 {
-                border: none;
-            }
+                    }
 
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-4baf0f41-9464-47ea-a304-77c72216c5fa.swiper-slide {
-                margin-bottom: 0;
-            }
+                }
 
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-4baf0f41-9464-47ea-a304-77c72216c5fa,
-            #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-4baf0f41-9464-47ea-a304-77c72216c5fa {
-                border-width: 1px;
-                border-style: solid;
-                border-color: var(--DTColor_Border);
-                border-color: ;
-            }
 
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 {
 
-                background: none;
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section .dt-sc-brand-logo.Image-622edf57-e15e-4c45-95ad-af42c305ad20 {
+                    background: var(--DTBodyBGColor);
+                    background: ;
+                }
 
-            }
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-1 .dt-sc-brand-logo.Image-622edf57-e15e-4c45-95ad-af42c305ad20 {
+                    border: none;
+                }
 
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-4baf0f41-9464-47ea-a304-77c72216c5fa {
+                #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 {
+                    padding: 0;
+                    margin: auto;
+                    border-bottom-width: 1px;
+                    border-bottom-style: solid;
+                    border-color: var(--DTColor_Border);
+                    border-color: ;
+                }
 
-                background: var(--DTBodyBGColor);
-                background: ;
+                #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-622edf57-e15e-4c45-95ad-af42c305ad20 {
+                    border-bottom: none;
+                }
 
-            }
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 {
 
-        }
+                    border-left-width: 1px;
+                    border-left-style: solid;
+                    border-top-width: 1px;
+                    border-top-style: solid;
 
+                    border-color: var(--DTColor_Border);
+                    border-color: ;
+                    grid-gap: 0;
+                    background: var(--DTBodyBGColor);
+                    background: ;
+                    width: 100%;
+                }
 
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-622edf57-e15e-4c45-95ad-af42c305ad20 {
+                    border-right-width: 1px;
+                    border-right-style: solid;
+                    border-bottom-width: 1px;
+                    border-bottom-style: solid;
+                    border-color: var(--DTColor_Border);
+                    border-color: ;
+                    padding: 20px;
+                    background: none;
+                }
+
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-3 .dt-sc-brand-logo.Image-622edf57-e15e-4c45-95ad-af42c305ad20 {
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: var(--DTColor_Border);
+                    border-color: ;
+                    padding: 20px;
+                }
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section .dt-sc-brand-logo.Image-622edf57-e15e-4c45-95ad-af42c305ad20 {
-            background: var(--DTBodyBGColor);
-            background: ;
-        }
+                @media (max-width: 767px) {
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-1 .dt-sc-brand-logo.Image-622edf57-e15e-4c45-95ad-af42c305ad20 {
-            border: none;
-        }
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 {
-            padding: 0;
-            margin: auto;
-            border-bottom-width: 1px;
-            border-bottom-style: solid;
-            border-color: var(--DTColor_Border);
-            border-color: ;
-        }
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-622edf57-e15e-4c45-95ad-af42c305ad20 {
-            border-bottom: none;
-        }
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2,
+                    #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 {
+                        border: none;
+                    }
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 {
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-622edf57-e15e-4c45-95ad-af42c305ad20.swiper-slide {
+                        margin-bottom: 0;
+                    }
 
-            border-left-width: 1px;
-            border-left-style: solid;
-            border-top-width: 1px;
-            border-top-style: solid;
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-622edf57-e15e-4c45-95ad-af42c305ad20,
+                    #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-622edf57-e15e-4c45-95ad-af42c305ad20 {
+                        border-width: 1px;
+                        border-style: solid;
+                        border-color: var(--DTColor_Border);
+                        border-color: ;
+                    }
 
-            border-color: var(--DTColor_Border);
-            border-color: ;
-            grid-gap: 0;
-            background: var(--DTBodyBGColor);
-            background: ;
-            width: 100%;
-        }
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 {
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-622edf57-e15e-4c45-95ad-af42c305ad20 {
-            border-right-width: 1px;
-            border-right-style: solid;
-            border-bottom-width: 1px;
-            border-bottom-style: solid;
-            border-color: var(--DTColor_Border);
-            border-color: ;
-            padding: 20px;
-            background: none;
-        }
+                        background: none;
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-3 .dt-sc-brand-logo.Image-622edf57-e15e-4c45-95ad-af42c305ad20 {
-            border-width: 1px;
-            border-style: solid;
-            border-color: var(--DTColor_Border);
-            border-color: ;
-            padding: 20px;
-        }
+                    }
 
-        @media (max-width: 767px) {
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-622edf57-e15e-4c45-95ad-af42c305ad20 {
 
+                        background: var(--DTBodyBGColor);
+                        background: ;
 
+                    }
 
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2,
-            #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 {
-                border: none;
-            }
+                }
 
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-622edf57-e15e-4c45-95ad-af42c305ad20.swiper-slide {
-                margin-bottom: 0;
-            }
 
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-622edf57-e15e-4c45-95ad-af42c305ad20,
-            #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-622edf57-e15e-4c45-95ad-af42c305ad20 {
-                border-width: 1px;
-                border-style: solid;
-                border-color: var(--DTColor_Border);
-                border-color: ;
-            }
 
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 {
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section .dt-sc-brand-logo.Image-de2a40d6-38e8-4baa-a0d7-269697467b50 {
+                    background: var(--DTBodyBGColor);
+                    background: ;
+                }
 
-                background: none;
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-1 .dt-sc-brand-logo.Image-de2a40d6-38e8-4baa-a0d7-269697467b50 {
+                    border: none;
+                }
 
-            }
+                #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 {
+                    padding: 0;
+                    margin: auto;
+                    border-bottom-width: 1px;
+                    border-bottom-style: solid;
+                    border-color: var(--DTColor_Border);
+                    border-color: ;
+                }
 
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-622edf57-e15e-4c45-95ad-af42c305ad20 {
+                #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-de2a40d6-38e8-4baa-a0d7-269697467b50 {
+                    border-bottom: none;
+                }
 
-                background: var(--DTBodyBGColor);
-                background: ;
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 {
 
-            }
+                    border-left-width: 1px;
+                    border-left-style: solid;
+                    border-top-width: 1px;
+                    border-top-style: solid;
 
-        }
+                    border-color: var(--DTColor_Border);
+                    border-color: ;
+                    grid-gap: 0;
+                    background: var(--DTBodyBGColor);
+                    background: ;
+                    width: 100%;
+                }
 
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-de2a40d6-38e8-4baa-a0d7-269697467b50 {
+                    border-right-width: 1px;
+                    border-right-style: solid;
+                    border-bottom-width: 1px;
+                    border-bottom-style: solid;
+                    border-color: var(--DTColor_Border);
+                    border-color: ;
+                    padding: 20px;
+                    background: none;
+                }
 
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-3 .dt-sc-brand-logo.Image-de2a40d6-38e8-4baa-a0d7-269697467b50 {
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: var(--DTColor_Border);
+                    border-color: ;
+                    padding: 20px;
+                }
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section .dt-sc-brand-logo.Image-de2a40d6-38e8-4baa-a0d7-269697467b50 {
-            background: var(--DTBodyBGColor);
-            background: ;
-        }
+                @media (max-width: 767px) {
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-1 .dt-sc-brand-logo.Image-de2a40d6-38e8-4baa-a0d7-269697467b50 {
-            border: none;
-        }
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 {
-            padding: 0;
-            margin: auto;
-            border-bottom-width: 1px;
-            border-bottom-style: solid;
-            border-color: var(--DTColor_Border);
-            border-color: ;
-        }
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-de2a40d6-38e8-4baa-a0d7-269697467b50 {
-            border-bottom: none;
-        }
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2,
+                    #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 {
+                        border: none;
+                    }
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 {
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-de2a40d6-38e8-4baa-a0d7-269697467b50.swiper-slide {
+                        margin-bottom: 0;
+                    }
 
-            border-left-width: 1px;
-            border-left-style: solid;
-            border-top-width: 1px;
-            border-top-style: solid;
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-de2a40d6-38e8-4baa-a0d7-269697467b50,
+                    #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-de2a40d6-38e8-4baa-a0d7-269697467b50 {
+                        border-width: 1px;
+                        border-style: solid;
+                        border-color: var(--DTColor_Border);
+                        border-color: ;
+                    }
 
-            border-color: var(--DTColor_Border);
-            border-color: ;
-            grid-gap: 0;
-            background: var(--DTBodyBGColor);
-            background: ;
-            width: 100%;
-        }
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 {
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-de2a40d6-38e8-4baa-a0d7-269697467b50 {
-            border-right-width: 1px;
-            border-right-style: solid;
-            border-bottom-width: 1px;
-            border-bottom-style: solid;
-            border-color: var(--DTColor_Border);
-            border-color: ;
-            padding: 20px;
-            background: none;
-        }
+                        background: none;
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-3 .dt-sc-brand-logo.Image-de2a40d6-38e8-4baa-a0d7-269697467b50 {
-            border-width: 1px;
-            border-style: solid;
-            border-color: var(--DTColor_Border);
-            border-color: ;
-            padding: 20px;
-        }
+                    }
 
-        @media (max-width: 767px) {
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-de2a40d6-38e8-4baa-a0d7-269697467b50 {
 
+                        background: var(--DTBodyBGColor);
+                        background: ;
 
+                    }
 
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2,
-            #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 {
-                border: none;
-            }
+                }
 
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-de2a40d6-38e8-4baa-a0d7-269697467b50.swiper-slide {
-                margin-bottom: 0;
-            }
 
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-de2a40d6-38e8-4baa-a0d7-269697467b50,
-            #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-de2a40d6-38e8-4baa-a0d7-269697467b50 {
-                border-width: 1px;
-                border-style: solid;
-                border-color: var(--DTColor_Border);
-                border-color: ;
-            }
 
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 {
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section .dt-sc-brand-logo.Image-a08e531e-8cc1-4f4b-9395-05da81e41e83 {
+                    background: var(--DTBodyBGColor);
+                    background: ;
+                }
 
-                background: none;
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-1 .dt-sc-brand-logo.Image-a08e531e-8cc1-4f4b-9395-05da81e41e83 {
+                    border: none;
+                }
 
-            }
+                #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 {
+                    padding: 0;
+                    margin: auto;
+                    border-bottom-width: 1px;
+                    border-bottom-style: solid;
+                    border-color: var(--DTColor_Border);
+                    border-color: ;
+                }
 
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-de2a40d6-38e8-4baa-a0d7-269697467b50 {
+                #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-a08e531e-8cc1-4f4b-9395-05da81e41e83 {
+                    border-bottom: none;
+                }
 
-                background: var(--DTBodyBGColor);
-                background: ;
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 {
 
-            }
+                    border-left-width: 1px;
+                    border-left-style: solid;
+                    border-top-width: 1px;
+                    border-top-style: solid;
 
-        }
+                    border-color: var(--DTColor_Border);
+                    border-color: ;
+                    grid-gap: 0;
+                    background: var(--DTBodyBGColor);
+                    background: ;
+                    width: 100%;
+                }
 
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-a08e531e-8cc1-4f4b-9395-05da81e41e83 {
+                    border-right-width: 1px;
+                    border-right-style: solid;
+                    border-bottom-width: 1px;
+                    border-bottom-style: solid;
+                    border-color: var(--DTColor_Border);
+                    border-color: ;
+                    padding: 20px;
+                    background: none;
+                }
 
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-3 .dt-sc-brand-logo.Image-a08e531e-8cc1-4f4b-9395-05da81e41e83 {
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: var(--DTColor_Border);
+                    border-color: ;
+                    padding: 20px;
+                }
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section .dt-sc-brand-logo.Image-a08e531e-8cc1-4f4b-9395-05da81e41e83 {
-            background: var(--DTBodyBGColor);
-            background: ;
-        }
+                @media (max-width: 767px) {
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-1 .dt-sc-brand-logo.Image-a08e531e-8cc1-4f4b-9395-05da81e41e83 {
-            border: none;
-        }
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 {
-            padding: 0;
-            margin: auto;
-            border-bottom-width: 1px;
-            border-bottom-style: solid;
-            border-color: var(--DTColor_Border);
-            border-color: ;
-        }
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-a08e531e-8cc1-4f4b-9395-05da81e41e83 {
-            border-bottom: none;
-        }
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2,
+                    #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 {
+                        border: none;
+                    }
 
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 {
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-a08e531e-8cc1-4f4b-9395-05da81e41e83.swiper-slide {
+                        margin-bottom: 0;
+                    }
 
-            border-left-width: 1px;
-            border-left-style: solid;
-            border-top-width: 1px;
-            border-top-style: solid;
-
-            border-color: var(--DTColor_Border);
-            border-color: ;
-            grid-gap: 0;
-            background: var(--DTBodyBGColor);
-            background: ;
-            width: 100%;
-        }
-
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-a08e531e-8cc1-4f4b-9395-05da81e41e83 {
-            border-right-width: 1px;
-            border-right-style: solid;
-            border-bottom-width: 1px;
-            border-bottom-style: solid;
-            border-color: var(--DTColor_Border);
-            border-color: ;
-            padding: 20px;
-            background: none;
-        }
-
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-3 .dt-sc-brand-logo.Image-a08e531e-8cc1-4f4b-9395-05da81e41e83 {
-            border-width: 1px;
-            border-style: solid;
-            border-color: var(--DTColor_Border);
-            border-color: ;
-            padding: 20px;
-        }
-
-        @media (max-width: 767px) {
-
-
-
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2,
-            #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 {
-                border: none;
-            }
-
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-a08e531e-8cc1-4f4b-9395-05da81e41e83.swiper-slide {
-                margin-bottom: 0;
-            }
-
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-a08e531e-8cc1-4f4b-9395-05da81e41e83,
-            #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-a08e531e-8cc1-4f4b-9395-05da81e41e83 {
-                border-width: 1px;
-                border-style: solid;
-                border-color: var(--DTColor_Border);
-                border-color: ;
-            }
-
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 {
-
-                background: none;
-
-            }
-
-            #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-a08e531e-8cc1-4f4b-9395-05da81e41e83 {
-
-                background: var(--DTBodyBGColor);
-                background: ;
-
-            }
-
-        }
-
-
-
-        .dt-sc-brand-logos-section .dt-sc-brand-logo a svg {
-            min-width: 150px;
-            height: auto;
-        }
-
-        .dt-sc-brand-logos-section *,
-        .dt-sc-brand-logos-section .dt-sc-brand-logo *:not(:only-child) {
-            margin: 0;
-        }
-
-        .dt-sc-brand-logos-section .dt-sc-brand-logo *:not(:only-child):not(:last-child) {
-            margin: 5px 0;
-        }
-
-        .dt-sc-brand-logos-section .dt-sc-brand-logo {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            text-align: center;
-        }
-
-        .dt-sc-brand-logos-section.style-2 {
-            overflow: hidden;
-        }
-
-        .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo>* {
-            display: inline-block;
-            width: 100%;
-        }
-
-        .dt-sc-swiper-slider.swiper-container .dt-sc-brand-logos-section .dt-sc-brand-logo img {
-            width: auto;
-        }
-
-
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-swiper-slider.swiper-container .swiper-arrows .dt-sc-btn {
-            background: var(--DT_Button_BG_Color);
-            background: ;
-        }
-
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-swiper-slider.swiper-container .swiper-arrows .dt-sc-btn[class*="swiper-button-"]:after {
-            color: var(--DT_Button_Text_Color);
-            color: ;
-        }
-
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-swiper-slider.swiper-container .swiper-arrows .dt-sc-btn:hover {
-            background: var(--DT_Button_BG_Hover_Color);
-            background: ;
-        }
-
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-swiper-slider.swiper-container .swiper-arrows .dt-sc-btn:hover[class*="swiper-button-"]:after {
-            color: var(--DT_Button_Text_Hover_Color);
-            color: ;
-        }
-
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-swiper-slider.swiper-container .swiper-pagination-bullet {
-            background: var(--DTSecondaryColor);
-            background: #e4e4e4;
-        }
-
-        #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-swiper-slider.swiper-container .swiper-pagination-bullet.swiper-pagination-bullet-active {
-            background: var(--DTPrimaryColor);
-            background: ;
-        }
-    </style>
-
-    <script type="text/javascript">
-        function homeBrandLogos() {
-            var dataSectionType = $('[data-section-type="brand-logos-section"]');
-            var id = dataSectionType.attr('data-section-id');
-            var ItemsPerView = +dataSectionType.attr('data-item-per-view');
-            var ItemsRow = +dataSectionType.attr('data-item-row');
-            var ItemsSpace = +dataSectionType.attr('data-item-space');
-            var autoHeight = +dataSectionType.attr('data-auto-height') || false;
-            var ItemsLimit = +dataSectionType.attr('data-blocks-limit');
-            var Autoplay = +dataSectionType.attr('data-autoplay') * 1000;
-            var mobileSlides = +dataSectionType.attr('data-small-screen-items') || 1;
-            var initAutoplay = Autoplay ? {
-                delay: Autoplay
-            } : false;
-            var swiper = new Swiper('#swiper-' + id + '-slider', {
-                pagination: {
-                    el: '#swiper-' + id + '-pagination',
-                    clickable: true
-                },
-                navigation: {
-                    nextEl: '#swiper-' + id + '-next',
-                    prevEl: '#swiper-' + id + '-prev'
-                },
-                loop: false,
-                slidesPerView: ItemsPerView,
-                slidesPerColumn: ItemsRow,
-                spaceBetween: ItemsSpace,
-                autoHeight: autoHeight,
-                simulateTouch: true,
-                autoplay: initAutoplay,
-                breakpoints: {
-                    320: {
-                        slidesPerView: mobileSlides,
-                        spaceBetween: 20,
-                    },
-                    640: {
-                        slidesPerView: 2,
-                        spaceBetween: 20,
-                    },
-                    768: {
-                        slidesPerView: 3,
-                        spaceBetween: 40,
-                    },
-                    1024: {
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-a08e531e-8cc1-4f4b-9395-05da81e41e83,
+                    #shopify-section-16200162287bb0c745.home-brand-logos .swiper-container .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-a08e531e-8cc1-4f4b-9395-05da81e41e83 {
+                        border-width: 1px;
+                        border-style: solid;
+                        border-color: var(--DTColor_Border);
+                        border-color: ;
+                    }
+
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 {
+
+                        background: none;
+
+                    }
+
+                    #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo.Image-a08e531e-8cc1-4f4b-9395-05da81e41e83 {
+
+                        background: var(--DTBodyBGColor);
+                        background: ;
+
+                    }
+
+                }
+
+
+
+                .dt-sc-brand-logos-section .dt-sc-brand-logo a svg {
+                    min-width: 150px;
+                    height: auto;
+                }
+
+                .dt-sc-brand-logos-section *,
+                .dt-sc-brand-logos-section .dt-sc-brand-logo *:not(:only-child) {
+                    margin: 0;
+                }
+
+                .dt-sc-brand-logos-section .dt-sc-brand-logo *:not(:only-child):not(:last-child) {
+                    margin: 5px 0;
+                }
+
+                .dt-sc-brand-logos-section .dt-sc-brand-logo {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    text-align: center;
+                }
+
+                .dt-sc-brand-logos-section.style-2 {
+                    overflow: hidden;
+                }
+
+                .dt-sc-brand-logos-section.style-2 .dt-sc-brand-logo>* {
+                    display: inline-block;
+                    width: 100%;
+                }
+
+                .dt-sc-swiper-slider.swiper-container .dt-sc-brand-logos-section .dt-sc-brand-logo img {
+                    width: auto;
+                }
+
+
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-swiper-slider.swiper-container .swiper-arrows .dt-sc-btn {
+                    background: var(--DT_Button_BG_Color);
+                    background: ;
+                }
+
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-swiper-slider.swiper-container .swiper-arrows .dt-sc-btn[class*="swiper-button-"]:after {
+                    color: var(--DT_Button_Text_Color);
+                    color: ;
+                }
+
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-swiper-slider.swiper-container .swiper-arrows .dt-sc-btn:hover {
+                    background: var(--DT_Button_BG_Hover_Color);
+                    background: ;
+                }
+
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-swiper-slider.swiper-container .swiper-arrows .dt-sc-btn:hover[class*="swiper-button-"]:after {
+                    color: var(--DT_Button_Text_Hover_Color);
+                    color: ;
+                }
+
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-swiper-slider.swiper-container .swiper-pagination-bullet {
+                    background: var(--DTSecondaryColor);
+                    background: #e4e4e4;
+                }
+
+                #shopify-section-16200162287bb0c745.home-brand-logos .dt-sc-swiper-slider.swiper-container .swiper-pagination-bullet.swiper-pagination-bullet-active {
+                    background: var(--DTPrimaryColor);
+                    background: ;
+                }
+            </style>
+
+            <script type="text/javascript">
+                function homeBrandLogos() {
+                    var dataSectionType = $('[data-section-type="brand-logos-section"]');
+                    var id = dataSectionType.attr('data-section-id');
+                    var ItemsPerView = +dataSectionType.attr('data-item-per-view');
+                    var ItemsRow = +dataSectionType.attr('data-item-row');
+                    var ItemsSpace = +dataSectionType.attr('data-item-space');
+                    var autoHeight = +dataSectionType.attr('data-auto-height') || false;
+                    var ItemsLimit = +dataSectionType.attr('data-blocks-limit');
+                    var Autoplay = +dataSectionType.attr('data-autoplay') * 1000;
+                    var mobileSlides = +dataSectionType.attr('data-small-screen-items') || 1;
+                    var initAutoplay = Autoplay ? {
+                        delay: Autoplay
+                    } : false;
+                    var swiper = new Swiper('#swiper-' + id + '-slider', {
+                        pagination: {
+                            el: '#swiper-' + id + '-pagination',
+                            clickable: true
+                        },
+                        navigation: {
+                            nextEl: '#swiper-' + id + '-next',
+                            prevEl: '#swiper-' + id + '-prev'
+                        },
+                        loop: false,
                         slidesPerView: ItemsPerView,
-                        spaceBetween: 50,
-                    },
-                },
-            });
-        }
-        $(document).ready(function() {
-            homeBrandLogos();
-        })
-        $(document)
-            .on('shopify:section:load', homeBrandLogos)
-            .on('shopify:section:unload', homeBrandLogos)
-    </script>
+                        slidesPerColumn: ItemsRow,
+                        spaceBetween: ItemsSpace,
+                        autoHeight: autoHeight,
+                        simulateTouch: true,
+                        autoplay: initAutoplay,
+                        breakpoints: {
+                            320: {
+                                slidesPerView: mobileSlides,
+                                spaceBetween: 20,
+                            },
+                            640: {
+                                slidesPerView: 2,
+                                spaceBetween: 20,
+                            },
+                            768: {
+                                slidesPerView: 3,
+                                spaceBetween: 40,
+                            },
+                            1024: {
+                                slidesPerView: ItemsPerView,
+                                spaceBetween: 50,
+                            },
+                        },
+                    });
+                }
+                $(document).ready(function() {
+                    homeBrandLogos();
+                })
+                $(document)
+                    .on('shopify:section:load', homeBrandLogos)
+                    .on('shopify:section:unload', homeBrandLogos)
+            </script>
 
-</div>
-<div id="shopify-section-162001619134bf2a8f" class="shopify-section index-section home-newsletter-section">
+        </div>
+        <div id="shopify-section-162001619134bf2a8f" class="shopify-section index-section home-newsletter-section">
 
 
 
-    <div class="dt-sc-section-wrapper   dt-sc-overlay " style="
+            <div class="dt-sc-section-wrapper   dt-sc-overlay " style="
 
  
 
@@ -5921,391 +4530,398 @@ margin-top:0px; margin-bottom:0px;padding-top:0px; padding-bottom:0px; " data-st
  
 
 margin-top:100px; margin-bottom:-90px;padding-top:60px; padding-bottom:60px; " data-style="parallax">
-        <div class="container">
-            <div class="row default-type">
+                <div class="container">
+                    <div class="row default-type">
 
-                <div class="dt-sc-heading text-start">
+                        <div class="dt-sc-heading text-start">
 
-                    <h4 class="dt-sc-main-heading">Đăng ký nhận thư</h4>
-
-
-
-                    <p class="dt-sc-heading-description">Nhập email để cập nhật giá thường xuyên</p>
+                            <h4 class="dt-sc-main-heading">Đăng ký nhận thư</h4>
 
 
-                </div>
 
-                <div class="dt-sc-newsletter-section default text-start">
-                    <div class="dt-sc-newsletter-form">
-                        <form method="post" action="/contact#contact_form" id="contact_form" accept-charset="UTF-8" class="contact-form"><input type="hidden" name="form_type" value="customer"><input type="hidden" name="utf8" value="✓">
+                            <p class="dt-sc-heading-description">Nhập email để cập nhật giá thường xuyên</p>
 
 
-                            <div class="contact-input">
-                                <input type="email" value="" placeholder="Email của bạn" name="contact[email]" class="mail" aria-label="Your email address" required="required" style="background-color:;">
-                                <input type="hidden" name="contact[tags]" value="newsletter">
-                                <button type="submit" class="dt-sc-btn " name="subscribe" value=""><span>Xác nhận</span></button>
+                        </div>
+
+                        <div class="dt-sc-newsletter-section default text-start">
+                            <div class="dt-sc-newsletter-form">
+                                <form method="post" action="/contact#contact_form" id="contact_form" accept-charset="UTF-8" class="contact-form"><input type="hidden" name="form_type" value="customer"><input type="hidden" name="utf8" value="✓">
+
+
+                                    <div class="contact-input">
+                                        <input type="email" value="" placeholder="Email của bạn" name="contact[email]" class="mail" aria-label="Your email address" required="required" style="background-color:;">
+                                        <input type="hidden" name="contact[tags]" value="newsletter">
+                                        <button type="submit" class="dt-sc-btn " name="subscribe" value=""><span>Xác nhận</span></button>
+                                    </div>
+
+                                </form>
+
                             </div>
-
-                        </form>
-
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <style type="text/css">
+                #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-heading .dt-sc-main-heading {
+                    color: var(--DTColor_Heading);
+                    color: #d14031;
+                }
+
+                #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-heading .dt-sc-sub-heading {
+                    color: var(--DTColor_Heading);
+                    color: ;
+                }
+
+                #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-heading .dt-sc-heading-description {
+                    color: var(--DTColor_Body);
+                    color: #676767;
+                }
+
+                #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-heading .dt-sc-btn {
+                    background: var(--DT_Button_BG_Color);
+                    background: #000000;
+                    color: var(--DT_Button_Text_Color);
+                    color: ;
+                }
+
+                #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-heading .dt-sc-btn:hover {
+                    background: var(--DT_Button_BG_Hover_Color);
+                    background: ;
+                    color: var(--DT_Button_Text_Hover_Color);
+                    color: ;
+                }
+
+                #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-overlay:before {
+                    color: var(--DTTertiaryColor);
+                    color: #f7f7f7;
+                    background: currentcolor;
+                    opacity: ;
+                }
+
+                #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section.default .dt-sc-newsletter-form,
+                #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section.style-3 form,
+                #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section.style-4 form {
+                    width: 100%;
+                }
+
+                #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section.default form .contact-input input[type="email"] {
+                    margin-right: ;
+                }
+
+                #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section.default form .contact-input .dt-sc-btn {
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: var(--DT_Button_BG_Color);
+                    border-color: #000000;
+                }
+
+                #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section.default form .contact-input .dt-sc-btn:hover {
+                    border-color: var(--DT_Button_BG_Hover_Color);
+
+                    border-color: #d14031;
+                }
+
+                #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section.style-2 form .contact-input input[type="email"] {
+                    margin: 0 auto;
+                }
+
+                #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section.style-2.text-start form .contact-input input[type="email"] {
+                    margin-left: inherit;
+                }
+
+                #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section.style-2.text-end form .contact-input input[type="email"] {
+                    margin-right: inherit;
+                }
+
+                #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section.style-5 form .contact-input input[type="email"] {
+                    margin: 0 auto;
+                }
+
+                #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section form .contact-input input[type="email"] {
+                    border-color: var(--DTColor_Border);
+                    border-color: #d14031;
+                    background: rgba(0, 0, 0, 0);
+                }
+
+                #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section.style-4 form .contact-input button.dt-sc-btn {
+                    border-color: var(--DTColor_Border);
+                    border-color: #d14031;
+                }
+
+                #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section form .contact-input input[type="email"]:focus,
+                #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section.style-4 form .contact-input:focus-within button.dt-sc-btn {
+                    border-color: var(--DTPrimaryColor);
+                    border-color: ;
+                }
+
+                #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section:not(.style-4) form .contact-input .dt-sc-btn {
+                    background: var(--DT_Button_BG_Color);
+                    color: var(--DT_Button_Text_Color);
+
+                    background: #000000;
+
+                    color: ;
+                }
+
+                #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section:not(.style-4) form .contact-input .dt-sc-btn:hover {
+                    background: var(--DT_Button_BG_Hover_Color);
+                    color: var(--DT_Button_Text_Hover_Color);
+                    background: #d14031;
+                    color: ;
+                }
+
+                .dt-sc-newsletter-section form {
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 100%;
+                }
+
+                .dt-sc-newsletter-section form:not(:only-child) {
+                    margin-bottom: 15px;
+                }
+
+                .dt-sc-newsletter-section form .errors {
+                    width: 100%;
+                    color: var(--DT_Error_Color);
+                    display: inline-block;
+                }
+
+                .dt-sc-newsletter-section form .errors ul {
+                    margin: 0 0 15px;
+                    padding: 0;
+                }
+
+                .dt-sc-newsletter-section form .note.form-success {
+                    display: inline-block;
+                    width: 100%;
+                    color: var(--DT_Success_Color);
+                    margin: 0;
+                }
+
+                .dt-sc-newsletter-section form .dt-sc-newsletter-note {
+                    margin-top: 10px;
+                    width: 100%;
+                    display: inline-block;
+                }
+
+                .dt-sc-newsletter-section.text-center form .contact-input {
+                    justify-content: center;
+                    margin: auto;
+                }
+
+                .dt-sc-newsletter-section.text-end form .contact-input {
+                    justify-content: flex-end;
+                }
+
+                .dt-sc-newsletter-section form .contact-input {
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 100%;
+                }
+
+                .dt-sc-newsletter-section form .contact-input input[type="email"] {
+                    -webkit-transition: all linear .3s;
+                    transition: all linear .3s;
+                    width: 50%;
+                }
+
+                .dt-sc-newsletter-section form .contact-input .dt-sc-btn {
+                    margin: 0;
+                    align-self: stretch;
+                }
+
+                .dt-sc-newsletter-section form .contact-input .dt-sc-btn.reverse {
+                    direction: rtl;
+                }
+
+                .dt-sc-newsletter-section form .contact-input .dt-sc-btn.reverse i {
+                    margin-right: 10px;
+                }
+
+                .dt-sc-newsletter-section form .contact-input .dt-sc-btn:not(.reverse) i:not(:only-child) {
+                    margin-left: 10px;
+                }
+
+                .dt-sc-newsletter-section.text-center form .contact-input {
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .dt-sc-newsletter-section.text-end form .contact-input {
+                    align-items: center;
+                    justify-content: flex-end;
+                }
+
+                .dt-sc-newsletter-section.default {
+                    width: 100%;
+                    display: flex;
+                }
+
+                .dt-sc-newsletter-section.default.text-end {
+                    justify-content: flex-end;
+                }
+
+                .dt-sc-newsletter-section.default.text-center {
+                    justify-content: center;
+                }
+
+                .dt-sc-newsletter-section.style-2 form .contact-input {
+                    display: block;
+                }
+
+                .dt-sc-newsletter-section.style-2 form .contact-input button.dt-sc-btn {
+                    display: inline-block;
+                }
+
+                .dt-sc-newsletter-section.style-3 form {
+                    display: inline-block;
+                }
+
+                .dt-sc-newsletter-section.style-3 form .contact-input {
+                    position: relative;
+                }
+
+                .dt-sc-newsletter-section.style-3 form .contact-input button.dt-sc-btn {
+                    position: absolute;
+                    right: 10px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+
+                .dt-sc-newsletter-section.style-3 form .contact-input input[type="email"] {
+                    width: 100%;
+                    padding: 15px;
+                }
+
+                .dt-sc-newsletter-section.style-4 form {
+                    display: inline-block;
+                }
+
+                .dt-sc-newsletter-section.style-4 form .contact-input {
+                    position: relative;
+                }
+
+                .dt-sc-newsletter-section.style-4 form .contact-input input[type="email"] {
+                    width: 100%;
+                }
+
+                .dt-sc-newsletter-section.style-4 form .contact-input button.dt-sc-btn {
+                    background: none;
+                    color: initial;
+                    position: absolute;
+                    right: 5px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    border-width: 0 0 0 1px;
+                    border-style: solid;
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    border-radius: 0;
+                }
+
+                .dt-sc-newsletter-section.style-4 form .contact-input button.dt-sc-btn:hover {
+                    color: var(--DTPrimaryColor);
+                }
+
+                .dt-sc-newsletter-section.style-5 form .contact-input {
+                    display: block;
+                }
+
+                .dt-sc-newsletter-section.style-5 form .contact-input input[type="email"],
+                .dt-sc-newsletter-section.style-5 form .contact-input button.dt-sc-btn {
+                    width: 50%;
+                    display: inline-block;
+                }
+
+                .dt-sc-newsletter-section.style-5.text-start form .contact-input input[type="email"] {
+                    margin-left: inherit;
+                }
+
+                .dt-sc-newsletter-section.style-5.text-end form .contact-input input[type="email"] {
+                    margin-right: inherit;
+                }
+
+                @media (max-width: 1200px) {
+
+                    .default-type .dt-sc-heading,
+                    .default-type .dt-sc-newsletter-section.default {
+                        width: 100%;
+                    }
+
+                    .default-type .dt-sc-newsletter-section form .contact-input {
+                        float: left;
+                        text-align: left;
+                    }
+
+                }
+
+                @media (max-width: 767px) {
+
+                    #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-container .dt-sc-newsletter-modal .dt-sc-newsletter-content.default form.contact-form {
+                        width: 80%;
+                    }
+
+                    #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-container .dt-sc-newsletter-modal .dt-sc-newsletter-content.style-3 form.contact-form,
+                    #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-container .dt-sc-newsletter-modal .dt-sc-newsletter-content.style-4 form.contact-form {
+                        width: 100%;
+                    }
+
+                    #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-container .dt-sc-newsletter-modal .dt-sc-newsletter-content.default form.contact-form input[type="email"] {
+                        margin-bottom: ;
+                        margin-right: 0;
+                        width: 100%;
+                    }
+
+
+                }
+
+                @media (max-width: 478px) {
+
+                    #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-container .dt-sc-newsletter-modal .dt-sc-newsletter-content form {
+                        grid-template-columns: 1fr;
+                    }
+
+                    #shopify-section-162001619134bf2a8f.home-newsletter-section p.newsletter-success {
+                        padding: 30px;
+                        font-size: var(--DTFontSize_H5);
+                    }
+
+                    #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-container .dt-sc-newsletter-modal .dt-sc-newsletter-content.style-4 form.contact-form input[type="email"],
+                    #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-container .dt-sc-newsletter-modal .dt-sc-newsletter-content.style-5 form.contact-form input[type="email"] {
+                        padding: 15px 15px 65px;
+                        text-align: center;
+                    }
+
+                    #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-container .dt-sc-newsletter-modal .dt-sc-newsletter-content.style-4 form.contact-form button.dt-sc-btn,
+                    #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-container .dt-sc-newsletter-modal .dt-sc-newsletter-content.style-5 form.contact-form button.dt-sc-btn {
+                        bottom: 10px;
+                        left: 0px;
+                        right: 0;
+                        margin: auto;
+                        top: auto;
+                        transform: none;
+                        width: calc(100% - 20px);
+                    }
+
+                    #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-container .dt-sc-newsletter-modal .dt-sc-newsletter-content.style-4 form.contact-form button.dt-sc-btn {
+                        width: calc(100% - 60px);
+                        padding: 15px 0px 5px;
+                        border-left: none;
+                        border-top: 1px solid;
+                    }
+                }
+            </style>
+        </div><!-- END content_for_index -->
+
     </div>
-    <style type="text/css">
-        #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-heading .dt-sc-main-heading {
-            color: var(--DTColor_Heading);
-            color: #d14031;
-        }
-
-        #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-heading .dt-sc-sub-heading {
-            color: var(--DTColor_Heading);
-            color: ;
-        }
-
-        #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-heading .dt-sc-heading-description {
-            color: var(--DTColor_Body);
-            color: #676767;
-        }
-
-        #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-heading .dt-sc-btn {
-            background: var(--DT_Button_BG_Color);
-            background: #000000;
-            color: var(--DT_Button_Text_Color);
-            color: ;
-        }
-
-        #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-heading .dt-sc-btn:hover {
-            background: var(--DT_Button_BG_Hover_Color);
-            background: ;
-            color: var(--DT_Button_Text_Hover_Color);
-            color: ;
-        }
-
-        #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-overlay:before {
-            color: var(--DTTertiaryColor);
-            color: #f7f7f7;
-            background: currentcolor;
-            opacity: ;
-        }
-
-        #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section.default .dt-sc-newsletter-form,
-        #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section.style-3 form,
-        #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section.style-4 form {
-            width: 100%;
-        }
-
-        #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section.default form .contact-input input[type="email"] {
-            margin-right: ;
-        }
-
-        #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section.default form .contact-input .dt-sc-btn {
-            border-width: 1px;
-            border-style: solid;
-            border-color: var(--DT_Button_BG_Color);
-            border-color: #000000;
-        }
-
-        #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section.default form .contact-input .dt-sc-btn:hover {
-            border-color: var(--DT_Button_BG_Hover_Color);
-
-            border-color: #d14031;
-        }
-
-        #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section.style-2 form .contact-input input[type="email"] {
-            margin: 0 auto;
-        }
-
-        #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section.style-2.text-start form .contact-input input[type="email"] {
-            margin-left: inherit;
-        }
-
-        #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section.style-2.text-end form .contact-input input[type="email"] {
-            margin-right: inherit;
-        }
-
-        #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section.style-5 form .contact-input input[type="email"] {
-            margin: 0 auto;
-        }
-
-        #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section form .contact-input input[type="email"] {
-            border-color: var(--DTColor_Border);
-            border-color: #d14031;
-            background: rgba(0, 0, 0, 0);
-        }
-
-        #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section.style-4 form .contact-input button.dt-sc-btn {
-            border-color: var(--DTColor_Border);
-            border-color: #d14031;
-        }
-
-        #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section form .contact-input input[type="email"]:focus,
-        #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section.style-4 form .contact-input:focus-within button.dt-sc-btn {
-            border-color: var(--DTPrimaryColor);
-            border-color: ;
-        }
-
-        #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section:not(.style-4) form .contact-input .dt-sc-btn {
-            background: var(--DT_Button_BG_Color);
-            color: var(--DT_Button_Text_Color);
-
-            background: #000000;
-
-            color: ;
-        }
-
-        #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-section:not(.style-4) form .contact-input .dt-sc-btn:hover {
-            background: var(--DT_Button_BG_Hover_Color);
-            color: var(--DT_Button_Text_Hover_Color);
-            background: #d14031;
-            color: ;
-        }
-
-        .dt-sc-newsletter-section form {
-            display: flex;
-            flex-wrap: wrap;
-            width: 100%;
-        }
-
-        .dt-sc-newsletter-section form:not(:only-child) {
-            margin-bottom: 15px;
-        }
-
-        .dt-sc-newsletter-section form .errors {
-            width: 100%;
-            color: var(--DT_Error_Color);
-            display: inline-block;
-        }
-
-        .dt-sc-newsletter-section form .errors ul {
-            margin: 0 0 15px;
-            padding: 0;
-        }
-
-        .dt-sc-newsletter-section form .note.form-success {
-            display: inline-block;
-            width: 100%;
-            color: var(--DT_Success_Color);
-            margin: 0;
-        }
-
-        .dt-sc-newsletter-section form .dt-sc-newsletter-note {
-            margin-top: 10px;
-            width: 100%;
-            display: inline-block;
-        }
-
-        .dt-sc-newsletter-section.text-center form .contact-input {
-            justify-content: center;
-            margin: auto;
-        }
-
-        .dt-sc-newsletter-section.text-end form .contact-input {
-            justify-content: flex-end;
-        }
-
-        .dt-sc-newsletter-section form .contact-input {
-            display: flex;
-            flex-wrap: wrap;
-            width: 100%;
-        }
-
-        .dt-sc-newsletter-section form .contact-input input[type="email"] {
-            -webkit-transition: all linear .3s;
-            transition: all linear .3s;
-            width: 50%;
-        }
-
-        .dt-sc-newsletter-section form .contact-input .dt-sc-btn {
-            margin: 0;
-            align-self: stretch;
-        }
-
-        .dt-sc-newsletter-section form .contact-input .dt-sc-btn.reverse {
-            direction: rtl;
-        }
-
-        .dt-sc-newsletter-section form .contact-input .dt-sc-btn.reverse i {
-            margin-right: 10px;
-        }
-
-        .dt-sc-newsletter-section form .contact-input .dt-sc-btn:not(.reverse) i:not(:only-child) {
-            margin-left: 10px;
-        }
-
-        .dt-sc-newsletter-section.text-center form .contact-input {
-            align-items: center;
-            justify-content: center;
-        }
-
-        .dt-sc-newsletter-section.text-end form .contact-input {
-            align-items: center;
-            justify-content: flex-end;
-        }
-
-        .dt-sc-newsletter-section.default {
-            width: 100%;
-            display: flex;
-        }
-
-        .dt-sc-newsletter-section.default.text-end {
-            justify-content: flex-end;
-        }
-
-        .dt-sc-newsletter-section.default.text-center {
-            justify-content: center;
-        }
-
-        .dt-sc-newsletter-section.style-2 form .contact-input {
-            display: block;
-        }
-
-        .dt-sc-newsletter-section.style-2 form .contact-input button.dt-sc-btn {
-            display: inline-block;
-        }
-
-        .dt-sc-newsletter-section.style-3 form {
-            display: inline-block;
-        }
-
-        .dt-sc-newsletter-section.style-3 form .contact-input {
-            position: relative;
-        }
-
-        .dt-sc-newsletter-section.style-3 form .contact-input button.dt-sc-btn {
-            position: absolute;
-            right: 10px;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-
-        .dt-sc-newsletter-section.style-3 form .contact-input input[type="email"] {
-            width: 100%;
-            padding: 15px;
-        }
-
-        .dt-sc-newsletter-section.style-4 form {
-            display: inline-block;
-        }
-
-        .dt-sc-newsletter-section.style-4 form .contact-input {
-            position: relative;
-        }
-
-        .dt-sc-newsletter-section.style-4 form .contact-input input[type="email"] {
-            width: 100%;
-        }
-
-        .dt-sc-newsletter-section.style-4 form .contact-input button.dt-sc-btn {
-            background: none;
-            color: initial;
-            position: absolute;
-            right: 5px;
-            top: 50%;
-            transform: translateY(-50%);
-            border-width: 0 0 0 1px;
-            border-style: solid;
-            padding-top: 0;
-            padding-bottom: 0;
-            border-radius: 0;
-        }
-
-        .dt-sc-newsletter-section.style-4 form .contact-input button.dt-sc-btn:hover {
-            color: var(--DTPrimaryColor);
-        }
-
-        .dt-sc-newsletter-section.style-5 form .contact-input {
-            display: block;
-        }
-
-        .dt-sc-newsletter-section.style-5 form .contact-input input[type="email"],
-        .dt-sc-newsletter-section.style-5 form .contact-input button.dt-sc-btn {
-            width: 50%;
-            display: inline-block;
-        }
-
-        .dt-sc-newsletter-section.style-5.text-start form .contact-input input[type="email"] {
-            margin-left: inherit;
-        }
-
-        .dt-sc-newsletter-section.style-5.text-end form .contact-input input[type="email"] {
-            margin-right: inherit;
-        }
-
-        @media (max-width: 1200px) {
-
-            .default-type .dt-sc-heading,
-            .default-type .dt-sc-newsletter-section.default {
-                width: 100%;
-            }
-
-            .default-type .dt-sc-newsletter-section form .contact-input {
-                float: left;
-                text-align: left;
-            }
-
-        }
-
-        @media (max-width: 767px) {
-
-            #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-container .dt-sc-newsletter-modal .dt-sc-newsletter-content.default form.contact-form {
-                width: 80%;
-            }
-
-            #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-container .dt-sc-newsletter-modal .dt-sc-newsletter-content.style-3 form.contact-form,
-            #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-container .dt-sc-newsletter-modal .dt-sc-newsletter-content.style-4 form.contact-form {
-                width: 100%;
-            }
-
-            #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-container .dt-sc-newsletter-modal .dt-sc-newsletter-content.default form.contact-form input[type="email"] {
-                margin-bottom: ;
-                margin-right: 0;
-                width: 100%;
-            }
-
-
-        }
-
-        @media (max-width: 478px) {
-
-            #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-container .dt-sc-newsletter-modal .dt-sc-newsletter-content form {
-                grid-template-columns: 1fr;
-            }
-
-            #shopify-section-162001619134bf2a8f.home-newsletter-section p.newsletter-success {
-                padding: 30px;
-                font-size: var(--DTFontSize_H5);
-            }
-
-            #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-container .dt-sc-newsletter-modal .dt-sc-newsletter-content.style-4 form.contact-form input[type="email"],
-            #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-container .dt-sc-newsletter-modal .dt-sc-newsletter-content.style-5 form.contact-form input[type="email"] {
-                padding: 15px 15px 65px;
-                text-align: center;
-            }
-
-            #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-container .dt-sc-newsletter-modal .dt-sc-newsletter-content.style-4 form.contact-form button.dt-sc-btn,
-            #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-container .dt-sc-newsletter-modal .dt-sc-newsletter-content.style-5 form.contact-form button.dt-sc-btn {
-                bottom: 10px;
-                left: 0px;
-                right: 0;
-                margin: auto;
-                top: auto;
-                transform: none;
-                width: calc(100% - 20px);
-            }
-
-            #shopify-section-162001619134bf2a8f.home-newsletter-section .dt-sc-newsletter-container .dt-sc-newsletter-modal .dt-sc-newsletter-content.style-4 form.contact-form button.dt-sc-btn {
-                width: calc(100% - 60px);
-                padding: 15px 0px 5px;
-                border-left: none;
-                border-top: 1px solid;
-            }
-        }
-    </style>
-</div><!-- END content_for_index -->
-
+    <div class="clearfix"></div>
 </div>
-<div class="clearfix"></div>
-</div>
+<script>
+    (() => {
+        document.querySelectorAll(".money").forEach(item => {
+            item.innerHTML = (+item.textContent.trim()).toLocaleString("vi-VN") + " VNĐ";
+        })
+    })();
+</script>
 <?= $this->endSection() ?>

@@ -11,7 +11,7 @@ class Login extends BaseController
         $data['title'] = "Đăng nhập";
         session_start();
         if ($_SESSION['user']) {
-            return redirect()->to(base_url() . '/home/');
+            return redirect()->to(base_url() . '/public/home/');
         }
         if ($this->request->getMethod() == 'post') {
             $userModel = new UserModel();
@@ -19,17 +19,19 @@ class Login extends BaseController
             $password = $this->request->getvar('password');
 
             $data = [
-                'ten_dang_nhap' => $username,
-                'mat_khau' => $password
+                'username' => $username,
+                'password' => md5($password),
+                'role' => 'client'
             ];
 
+            var_dump($data);
             $user = $userModel->where($data)->first();
             if ($user) {
                 // $sendEmail = new SendEmail();
                 // $sendEmail->send($user['email']);
                 $_SESSION['user'] = $user;
 
-                return redirect()->to('home');
+                return redirect()->to(base_url() . '/public/');
             } else {
                 $data['errorMessage'] = 'Tên tài khoản hoặc mật khẩu không chính xác';
             }
@@ -40,6 +42,6 @@ class Login extends BaseController
     {
         session_start();
         session_destroy();
-        return redirect()->to(base_url() . "/login");
+        return redirect()->to(base_url() . "/public/login");
     }
 }

@@ -729,9 +729,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="dT_ProductProactiveSearch">
-                            <form method="GET" action="/search">
+                            <form method="GET" action="<?= base_url() ?>/public/search">
                                 <div class="search-box">
-                                    <input type="text" name="q" class="form-control" placeholder="Nhập thông tin sản phẩm" aria-label="Search Our Store" v-model="search" @keyup="inputChanged" @keydown.down="onArrow" @keydown.up="onArrow">
+                                    <input type="text" name="key" class="form-control" placeholder="Nhập thông tin sản phẩm" aria-label="Search Our Store" v-model="search" @keyup="inputChanged" @keydown.down="onArrow" @keydown.up="onArrow">
                                     <div class="input-group-append">
                                         <button class="dt-sc-btn" type="submit">
                                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
@@ -898,7 +898,15 @@
                                         </div>
 
                                     </a>
+                                    <?php session_start() ?>
+                                    <?php if (isset($_SESSION['user'])) : ?>
+                                        <div style="margin-left:25px;vertical-align:middle">
+                                            <p>Xin chào <?= $_SESSION['user']['username'] ?>,
+                                                <a style="color:red;" href="<?= base_url() ?>/public/login/logout">Đăng xuất</a>
+                                            </p>
+                                        </div>
 
+                                    <?php endif; ?>
 
 
 
@@ -932,27 +940,30 @@
 	l18.8,18.8c1.9,1.9,5.1,2,7,0c1.9-1.9,2-5.1,0-7c0,0,0,0,0,0L76.4,69.4z M44.3,75.1c-17.1,0-30.9-13.8-30.9-30.9
 	c0-17.1,13.8-30.9,30.9-30.9c17.1,0,30.9,13.8,30.9,30.9c0,0,0,0,0,0C75.1,61.3,61.3,75.1,44.3,75.1z"></path>
                                         </svg>
-                                        <span class="icon__fallback-text">Search</span>
+                                        <span class="icon__fallback-text">Tìm kiếm</span>
                                     </a>
 
 
 
                                     <div class="site-header__links">
 
+                                        <?php if (!isset($_SESSION['user'])) : ?>
 
-                                        <a href="account/login.html" class="site-header__icon site-header__account">
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" xml:space="preserve">
-                                                <g>
-                                                    <path d="M46.8,57c0.9,0,1.8,0,2.7,0c12,0,19.2-13.2,20.7-23.7c0.3-1.5,0.6-3.3,0.6-5.1C70.9,15.5,62.8,5,49.5,5
+                                            <a href="<?= base_url() ?>/public/login" class="site-header__icon site-header__account">
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" xml:space="preserve">
+                                                    <g>
+                                                        <path d="M46.8,57c0.9,0,1.8,0,2.7,0c12,0,19.2-13.2,20.7-23.7c0.3-1.5,0.6-3.3,0.6-5.1C70.9,15.5,62.8,5,49.5,5
 		S28.2,15.5,28.2,28.2C28.2,39.6,34.5,54.6,46.8,57z"></path>
-                                                    <path d="M64.3,60.6c-3.6-0.9-4.8-0.6-6.9,5.1l-7.2,20.7l-7.5-20.7c-2.1-5.7-3.3-6-6.9-5.1c-15.3,3.3-24,3.9-23.7,20.1
+                                                        <path d="M64.3,60.6c-3.6-0.9-4.8-0.6-6.9,5.1l-7.2,20.7l-7.5-20.7c-2.1-5.7-3.3-6-6.9-5.1c-15.3,3.3-24,3.9-23.7,20.1
 		v10.2c0,2.6,1.5,4,3,4c0,0,0,0,0,0h69.9v0c1.6,0,3.1-1.4,3.1-4.1V80.7C88.3,64.5,79.6,63.9,64.3,60.6z"></path>
-                                                </g>
-                                            </svg>
+                                                    </g>
+                                                </svg>
 
-                                            <span class="icon__fallback-text">Sign In</span>
-                                        </a>
+                                                <span class="icon__fallback-text">Sign In</span>
+                                            </a>
 
+
+                                        <?php endif; ?>
 
                                     </div>
 
@@ -1040,112 +1051,23 @@
 
 
 
-
+                                    <!-- 
                                     <li class="0 megaProduct
            top-level-link 
             has-mega-menu dt-sc-primary
         
-            menu-item-has-children">
-                                        <a href="<?= base_url() ?>/public/" class=" mega-menu dt-sc-nav-link dropdown">
+            menu-item-has-children"> -->
+                                    <!-- <a href="<?= base_url() ?>/public/category" class=" mega-menu dt-sc-nav-link dropdown">
                                             Thể loại <span class="dt-sc-caret"></span>
+                                        </a> -->
+                                    <li class="0 text-menu
+           top-level-link 
+            dt-sc-child
+        
+           ">
+                                        <a href="<?= base_url() ?>/public/category" class=" mega-menu dt-sc-nav-link">
+                                            Nhà sách
                                         </a>
-                                        <div class="sub-menu-block is-hidden">
-                                            <div class="go-back">
-                                                <a href="javascript:void(0);"></a>
-                                            </div>
-                                            <div class="see-all"></div>
-                                            <div class="dt-sc-dropdown-menu dt-sc--main-menu--mega " id="categories-2-dt-sc-menu">
-                                                <ul class="sub-menu-lists  dt-sc-column four-column row-reverse  ">
-                                                    <li class="dt-sc-menu-product">
-                                                        <div class="dt-sc-menu-product__item">
-                                                            <div class="dt-sc-menu-product_item-image">
-                                                                <a href="products/adventurous-eating.html">
-                                                                    <img class="lazyload" src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/t/4/assets/loading.gif?v=1780583550831190727" data-src="//cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-95_b0b53360-a171-427b-9dc6-0bf965bcfdae.jpg?v=1587120117" data-widths="[180, 360, 470, 600, 770, 970, 1060, 1280, 1512, 1728, 2048]" data-aspectratio="0.6901311249137336" data-sizes="auto" alt="Adventurous Eating">
-                                                                    <noscript>
-                                                                        <img src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/products/shop-new-95_b0b53360-a171-427b-9dc6-0bf965bcfdae.jpg?v=1587120117" alt="Adventurous Eating" class="dt-sc-noscript-image">
-                                                                    </noscript>
-                                                                </a>
-                                                            </div>
-                                                            <div class="dt-sc-menu-product_item-info">
-                                                                <a class="dt-sc-product__title" href="products/adventurous-eating.html">Adventurous Eating</a>
-                                                                <span class="dt-sc-price"><span class="money">$500.00</span></span>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li class="dt-sc-menu-product">
-                                                        <div class="dt-sc-menu-product__item">
-                                                            <div class="dt-sc-menu-product_item-image">
-                                                                <a href="products/adventurous-eating.html">
-                                                                    <img class="lazyload" src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/t/4/assets/loading.gif?v=1780583550831190727" data-src="//cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-95_b0b53360-a171-427b-9dc6-0bf965bcfdae.jpg?v=1587120117" data-widths="[180, 360, 470, 600, 770, 970, 1060, 1280, 1512, 1728, 2048]" data-aspectratio="0.6901311249137336" data-sizes="auto" alt="Adventurous Eating">
-                                                                    <noscript>
-                                                                        <img src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/products/shop-new-95_b0b53360-a171-427b-9dc6-0bf965bcfdae.jpg?v=1587120117" alt="Adventurous Eating" class="dt-sc-noscript-image">
-                                                                    </noscript>
-                                                                </a>
-                                                            </div>
-                                                            <div class="dt-sc-menu-product_item-info">
-                                                                <a class="dt-sc-product__title" href="products/adventurous-eating.html">Adventurous Eating</a>
-                                                                <span class="dt-sc-price"><span class="money">$500.00</span></span>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-
-
-                                                    <li class="dt-sc-menu-product">
-                                                        <div class="dt-sc-menu-product__item">
-                                                            <div class="dt-sc-menu-product_item-image"><a href="products/books-for-a-cause.html">
-                                                                    <img class="lazyload" src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/t/4/assets/loading.gif?v=1780583550831190727" data-src="//cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-4.jpg?v=1587113962" data-widths="[180, 360, 470, 600, 770, 970, 1060, 1280, 1512, 1728, 2048]" data-aspectratio="0.6901311249137336" data-sizes="auto" alt="Books For a Cause">
-                                                                    <noscript>
-                                                                        <img src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/products/shop-new-4_480x480@2x.jpg?v=1587113962" alt="Books For a Cause" class="dt-sc-noscript-image">
-                                                                    </noscript>
-                                                                </a>
-                                                            </div>
-                                                            <div class="dt-sc-menu-product_item-info">
-                                                                <a class="dt-sc-product__title" href="products/books-for-a-cause.html">Books For a Cause</a>
-                                                                <span class="dt-sc-price"><span class="money">$110.00</span></span>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-
-
-                                                    <li class="dt-sc-menu-product">
-                                                        <div class="dt-sc-menu-product__item">
-                                                            <div class="dt-sc-menu-product_item-image"><a href="products/fresh-healthy-eats.html">
-                                                                    <img class="lazyload" src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/t/4/assets/loading.gif?v=1780583550831190727" data-src="//cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-30.jpg?v=1587116432" data-widths="[180, 360, 470, 600, 770, 970, 1060, 1280, 1512, 1728, 2048]" data-aspectratio="0.6901311249137336" data-sizes="auto" alt="Fresh Healthy Eats">
-                                                                    <noscript>
-                                                                        <img src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/products/shop-new-30_480x480@2x.jpg?v=1587116432" alt="Fresh Healthy Eats" class="dt-sc-noscript-image">
-                                                                    </noscript>
-                                                                </a>
-                                                            </div>
-                                                            <div class="dt-sc-menu-product_item-info">
-                                                                <a class="dt-sc-product__title" href="products/fresh-healthy-eats.html">Fresh Healthy Eats</a>
-                                                                <span class="dt-sc-price"><span class="money">$110.00</span></span>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-
-
-                                                    <li class="dt-sc-menu-product">
-                                                        <div class="dt-sc-menu-product__item">
-                                                            <div class="dt-sc-menu-product_item-image"><a href="products/endless-summer.html">
-                                                                    <img class="lazyload" src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/t/4/assets/loading.gif?v=1780583550831190727" data-src="//cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-100.jpg?v=1587115881" data-widths="[180, 360, 470, 600, 770, 970, 1060, 1280, 1512, 1728, 2048]" data-aspectratio="0.6901311249137336" data-sizes="auto" alt="Endless Summer">
-                                                                    <noscript>
-                                                                        <img src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/products/shop-new-100_480x480@2x.jpg?v=1587115881" alt="Endless Summer" class="dt-sc-noscript-image">
-                                                                    </noscript>
-                                                                </a>
-                                                            </div>
-                                                            <div class="dt-sc-menu-product_item-info">
-                                                                <a class="dt-sc-product__title" href="products/endless-summer.html">Endless Summer</a>
-                                                                <span class="dt-sc-price"><span class="money">$210.00</span></span>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-
-
-
-
-                                                </ul>
-                                            </div>
-                                        </div>
                                     </li>
 
 
@@ -1173,7 +1095,7 @@
             dt-sc-child
            
             ">
-                                        <a href="#" class="  dt-sc-nav-link dropdown">
+                                        <a href="<?= base_url() ?>/public/aboutus" class="  dt-sc-nav-link dropdown">
                                             Về chúng tôi
                                         </a>
 
@@ -1206,7 +1128,7 @@
             dt-sc-child
            
             ">
-                                        <a href="#" class="  dt-sc-nav-link dropdown">
+                                        <a href="<?= base_url() ?>/public/contact" class="  dt-sc-nav-link dropdown">
                                             Liên hệ
                                         </a>
 
@@ -3023,7 +2945,7 @@
         </div>
 
 
-        <?php if ($title != 'Home') : ?>
+        <?php if ($title != 'Trang chủ') : ?>
             <nav class="breadcrumb text-center" aria-label="breadcrumbs" style="padding:0">
                 <!-- <div class="container">
 
@@ -3127,10 +3049,10 @@
                                     </a>
 
 
-                                    <p>59 Đỗ Quang,<br>
-                                        phường Trung Hoà, quận Cầu Giấy, Hà Nội<br> +0000 123 456 789<br>
-                                        <a href="mailto:info@example.com">info@example.com</a>
-                                    </p>
+                                    <p>Địa chỉ: 59 Đỗ Quang, phường Trung Hoà, <br>quận Cầu Giấy, Hà Nội</p>
+                                    <p>Hotline: 0903244248 (Quý khách vui lòng không nhắn tin) từ 8h30 - 17h30 thứ 2 – thứ 6 hàng tuần.</p>
+                                    <p>Email: <a href="mailto:bookstore@nhanam.vn">bookstore@nhanam.vn</a></p>
+                                    <p></p>
 
                                 </div>
 
@@ -3144,62 +3066,6 @@
 
 
 
-
-                            <div class=" footer__item--3c78dbfb-8e3d-480c-9884-812ab12a238f footer-links">
-
-                                <div class="text-start">
-
-                                    <h5 class="footer__title"> Help </h5>
-
-                                    <ul class="footer_menu dt-sc-list">
-
-                                        <li><a href="../search.html">Search</a></li>
-
-                                        <li><a href="../pages/contact-us.html">Help</a></li>
-
-                                        <li><a href="../pages/shipping-details.html">Information</a></li>
-
-                                        <li><a href="../pages/shipping-details.html">Privacy Policy</a></li>
-
-                                        <li><a href="../pages/shipping-details.html">Shipping Information</a></li>
-
-                                    </ul>
-                                </div>
-
-
-                            </div>
-
-
-
-
-
-
-
-
-
-                            <div class=" footer__item--a24aa77d-9634-4ea1-b1e1-de4e69cc14e5 footer-links">
-
-                                <div class="text-start">
-
-                                    <h5 class="footer__title"> Support </h5>
-
-                                    <ul class="footer_menu dt-sc-list">
-
-                                        <li><a href="../search.html">Search Terms</a></li>
-
-                                        <li><a href="../search.html">Advanced Search</a></li>
-
-                                        <li><a href="../pages/faqs.html">Helps & Faqs</a></li>
-
-                                        <li><a href="../pages/contact-us.html">Store Location</a></li>
-
-                                        <li><a href="../pages/shipping-details.html">Orders & Returns</a></li>
-
-                                    </ul>
-                                </div>
-
-
-                            </div>
 
 
 
@@ -3213,19 +3079,16 @@
 
                                 <div class="text-start">
 
-                                    <h5 class="footer__title"> Information </h5>
+                                    <h5 class="footer__title"> Nhà sách Nhã Nam </h5>
 
                                     <ul class="footer_menu dt-sc-list">
 
-                                        <li><a href="../pages/contact-us.html">Contact </a></li>
+                                        <li><a href="<?= base_url() ?>/public/contact">Liên hệ </a></li>
 
-                                        <li><a href="../pages/about-us.html">About </a></li>
+                                        <li><a href="<?= base_url() ?>/public/aboutus">Về chúng tôi </a></li>
 
-                                        <li><a href="../pages/about-us.html">Carrers</a></li>
+                                        <li><a href="<?= base_url() ?>/public/category">Thể loại</a></li>
 
-                                        <li><a href="../pages/shipping-details.html">Refund & Returns</a></li>
-
-                                        <li><a href="../pages/shipping-details.html">Deliveries</a></li>
 
                                     </ul>
                                 </div>
@@ -4328,7 +4191,7 @@
     </div>
     <div id="shopify-section-gdpr-cookies" class="shopify-section gdpr-section">
     </div>
-    <div id="shopify-section-customer-purchased" class="shopify-section customer-purchased">
+    <!-- <div id="shopify-section-customer-purchased" class="shopify-section customer-purchased">
         <ul class="customer-who-purchased text-right">
             <li class="product-data">
                 <a href="adventurous-eating.html"><img class="lazyload" src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/t/4/assets/loading.gif?v=1780583550831190727" data-src="//cdn.shopify.com/s/files/1/0359/5979/9852/products/shop-new-95_b0b53360-a171-427b-9dc6-0bf965bcfdae_{width}x.jpg?v=1587120117" data-widths="[180, 360, 470, 600, 770, 970, 1060, 1280, 1512, 1728, 2048]" data-aspectratio="0.6901311249137336" data-sizes="auto" alt="Adventurous Eating">
@@ -4588,7 +4451,7 @@
 
 
 
-    </div>
+    </div> -->
     <div class="dT_LoadingOverlay"></div>
     <div class="dT_collectionOverlay"></div>
     <style>
@@ -4786,22 +4649,6 @@
 
 
 
-    <script>
-        jQuery(function($) {
-            ajaxCart.init({
-                formSelector: '[data-product-form]',
-                cartContainer: '#CartContainer',
-                addToCartSelector: '.dT_AddToCart',
-                cartCountSelector: '.CartCount',
-                cartCostSelector: '.CartCost',
-                moneyFormat: "\u003cspan class=money\u003e${{amount}}\u003c\/span\u003e"
-            });
-        });
-
-        jQuery('body').on('ajaxCart.afterCartLoad', function(evt, cart) {
-            theme.RightDrawer.open();
-        });
-    </script>
 
 
 
@@ -4826,7 +4673,7 @@
     </script>
 
 
-    <a id="to-top" href="#the-gift-of-love" class="dt-sc-to-top" style="display:none">
+    <!-- <a id="to-top" href="#the-gift-of-love" class="dt-sc-to-top" style="display:none">
         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
             <path d="M263.432,3.136c-4.16-4.171-10.914-4.179-15.085-0.019c-0.006,0.006-0.013,0.013-0.019,0.019
              l-192,192c-4.093,4.237-3.975,10.99,0.262,15.083c4.134,3.992,10.687,3.992,14.82,0L245.213,36.416v464.917
@@ -4839,20 +4686,26 @@
             <path d="M255.88,512c-5.891,0-10.667-4.776-10.667-10.667V10.667C245.213,4.776,249.989,0,255.88,0
              c5.891,0,10.667,4.776,10.667,10.667v490.667C266.546,507.224,261.771,512,255.88,512z"></path>
         </svg>
-    </a>
+    </a> -->
     <script>
-        const btnAddToCart = document.querySelector("#dT_AddToCart-product-template");
-        btnAddToCart.addEventListener("click", (e) => {
-            $.toast({
-                heading: 'Đã thêm vào giỏ hàng',
-                // text: '<a href="http://localhost:8080/web_ic4/checkout">Xem giỏ hàng</a>',
-                showHideTransition: 'slide',
-                icon: 'success',
-                position: 'bottom-right',
-                hideAfter: 3000,
-                loaderBg: '#9EC600'
+        (() => {
+            const json = localStorage.getItem("cart");
+            const cart = JSON.parse(json);
+            const cartCount = cart.length;
+            document.querySelector('.count').innerHTML = cartCount;
+            const btnAddToCart = document.querySelector("#dT_AddToCart-product-template");
+            btnAddToCart.addEventListener("click", (e) => {
+                $.toast({
+                    heading: 'Đã thêm vào giỏ hàng',
+                    // text: '<a href="http://localhost:8080/web_ic4/checkout">Xem giỏ hàng</a>',
+                    showHideTransition: 'slide',
+                    icon: 'success',
+                    position: 'bottom-right',
+                    hideAfter: 3000,
+                    loaderBg: '#9EC600'
+                })
             })
-        })
+        })();
     </script>
 </body>
 
