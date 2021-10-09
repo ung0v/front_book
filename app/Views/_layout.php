@@ -11,7 +11,10 @@
     <link rel="preconnect" href="https://monorail-edge.shopifysvc.com">
     <link rel="canonical" href="the-gift-of-love.html">
     <link rel="shortcut icon" href="../s/files/1/0359/5979/9852/files/favicon_16x16.png?v=1622526091" type="image/png">
-    <title><?= $title ?></title>
+    <?php if (isset($title)) : ?>
+        <title><?= $title ?></title>
+    <?php endif; ?>
+
     <meta name="description" content="Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras loremos.Donec pretium egestas sapien et mollis. Lorem ipsum dolor sit ametSonsectetur adipiscing e"><!-- Social meta ================================================== -->
     <!-- /snippets/social-meta-tags.liquid -->
 
@@ -2945,7 +2948,7 @@
         </div>
 
 
-        <?php if ($title != 'Trang chủ') : ?>
+        <?php if (isset($title) && $title != 'Trang chủ') : ?>
             <nav class="breadcrumb text-center" aria-label="breadcrumbs" style="padding:0">
                 <!-- <div class="container">
 
@@ -3697,7 +3700,7 @@
     <script src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/t/4/assets/lazysizes.js?v=6309855486832407013" async="async"></script>
 
 
-
+<!-- 
     <div id="shopify-section-modal-newsletter" class="shopify-section dt-sc-newsletter-modal-overlay">
 
 
@@ -4188,7 +4191,7 @@
 
 
 
-    </div>
+    </div> -->
     <div id="shopify-section-gdpr-cookies" class="shopify-section gdpr-section">
     </div>
     <!-- <div id="shopify-section-customer-purchased" class="shopify-section customer-purchased">

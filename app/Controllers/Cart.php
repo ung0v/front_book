@@ -22,11 +22,11 @@ class Cart extends BaseController
             $orderModel = new OrderModel();
             $orderItemModel = new OrderItemModel();
             session_start();
-            $user_id = $_SESSION['user']['id'];
-            if ($user_id == null) {
+            if (!isset($_SESSION['user'])) {
                 echo "<script>alert('Vui lòng đăng nhập để sử dụng tính năng này!!')</script>";
                 return view("cart", $data);
             }
+            $user_id = $_SESSION['user']['id'];
             $total = $this->request->getVar('subtotal');
             $data = [
                 'user_id' => $user_id,

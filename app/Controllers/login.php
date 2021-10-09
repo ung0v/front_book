@@ -10,7 +10,7 @@ class Login extends BaseController
     {
         $data['title'] = "Đăng nhập";
         session_start();
-        if ($_SESSION['user']) {
+        if (isset($_SESSION['user'])) {
             return redirect()->to(base_url() . '/public/home/');
         }
         if ($this->request->getMethod() == 'post') {
@@ -23,12 +23,8 @@ class Login extends BaseController
                 'password' => md5($password),
                 'role' => 'client'
             ];
-
-            var_dump($data);
             $user = $userModel->where($data)->first();
             if ($user) {
-                // $sendEmail = new SendEmail();
-                // $sendEmail->send($user['email']);
                 $_SESSION['user'] = $user;
 
                 return redirect()->to(base_url() . '/public/');
