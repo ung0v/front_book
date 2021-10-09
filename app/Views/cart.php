@@ -79,7 +79,17 @@
                                         <?= $success ?>
                                     </p>
                                 <?php endif; ?>
-
+                                <p class="field">
+                                    <label for="payment_type">Chọn Hình thức thanh toán</label>
+                                    <div style="display: flex; align-items:center; gap:10px;">
+                                    <input type="radio" id="tien_mat" name="payment_type" value="0" checked/>
+                                    <label  style="margin: 0;" for="tien_mat">Tiền mặt</label>
+                                    </div>
+                                    <div style="display: flex; align-items:center; gap:10px;">
+                                    <input type="radio" id="vn_pay" name="payment_type" value="1" />
+                                    <label style="margin: 0;" for="vn_pay">Thanh toán online (VNPAY)</label>
+                                    </div>
+                                </p>
                                 <!-- <button type="button" class="text-link cart__note-add">
                                 Add a note to your order
                             </button>
