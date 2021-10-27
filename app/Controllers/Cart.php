@@ -24,7 +24,7 @@ class Cart extends BaseController
             session_start();
             if (!isset($_SESSION['user'])) {
                 echo "<script>alert('Vui lòng đăng nhập để sử dụng tính năng này!!')</script>";
-                return view("cart", $data);
+                return view("login", $data);
             }
             $user_id = $_SESSION['user']['id'];
             $total = $this->request->getVar('subtotal');
@@ -36,8 +36,10 @@ class Cart extends BaseController
                 'created_at' => date("Y-m-d h:i:s")
             ];
             $newOrder = $orderModel->insert($data);
+            $_SESSION['order_id'] = $newOrder;
             $product_ids = $this->request->getVar('product_ids');
             $product_quantities = $this->request->getVar('product_quantities');
+            // var_dump($data);
             if ($total == 30000) {
                 $data['lstShip'] = $lstShip;
                 $data['error'] = "Không có sản phẩm trong giỏ hàng, hãy shopping";

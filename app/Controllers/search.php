@@ -13,6 +13,7 @@ class Search extends BaseController
         $key = '';
         if (isset($_GET['key'])) {
             $key = $_GET['key'];
+            $data['title'] = 'Tìm kiếm - '. $key;
         }
         $productModel = new ProductModel();
         $categoryModel = new CategoryModel();

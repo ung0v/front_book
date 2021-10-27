@@ -53,6 +53,9 @@
     <script src="<?= base_url() ?>/public/client/shopifycloud/shopify/assets/themes_support/api-747e56582ccad351759656054dd0ef08711942243e0796b2828903bf31358269.js" type="text/javascript"></script>
     <script src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/t/4/assets/ajax-cart.js?v=4492843145465603090" type="text/javascript"></script>
     <script src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/t/4/assets/dt-plugins.js?v=11247747088626946812" type="text/javascript"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
     <script src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/t/4/assets/jquery.toast.min.js" type="text/javascript"></script>
     <script src="<?= base_url() ?>/public/client/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
     <script>
@@ -734,7 +737,7 @@
                         <div class="dT_ProductProactiveSearch">
                             <form method="GET" action="<?= base_url() ?>/public/search">
                                 <div class="search-box">
-                                    <input type="text" name="key" class="form-control" placeholder="Nhập thông tin sản phẩm" aria-label="Search Our Store" v-model="search" @keyup="inputChanged" @keydown.down="onArrow" @keydown.up="onArrow">
+                                    <input id="searchPro" type="text" name="key" class="form-control" placeholder="Nhập thông tin sản phẩm" aria-label="Search Our Store" v-model="search" @keyup="inputChanged" @keydown.down="onArrow" @keydown.up="onArrow">
                                     <div class="input-group-append">
                                         <button class="dt-sc-btn" type="submit">
                                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
@@ -3700,7 +3703,7 @@
     <script src="<?= base_url() ?>/public/client/s/files/1/0359/5979/9852/t/4/assets/lazysizes.js?v=6309855486832407013" async="async"></script>
 
 
-<!-- 
+    <!-- 
     <div id="shopify-section-modal-newsletter" class="shopify-section dt-sc-newsletter-modal-overlay">
 
 
@@ -4691,6 +4694,21 @@
         </svg>
     </a> -->
     <script>
+        var products = [];
+
+        (async () => {
+            const data = await fetch('http://localhost/front_book/public/category/all');
+            const json = await data.json();
+            products = json.map(pro => pro.name);
+            $(document).ready(function() {
+                console.log(products);
+
+                $("#searchPro").autocomplete({
+                    source: products
+                });
+            });
+        })();
+
         (() => {
             const json = localStorage.getItem("cart");
             const cart = JSON.parse(json);

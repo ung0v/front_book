@@ -2,6 +2,9 @@
 
 namespace App\Controllers;
 
+use App\Models\OrderModel;
+use App\Models\ShippingModel;
+
 class Payment extends BaseController
 {
     public function index()
@@ -45,15 +48,26 @@ class Payment extends BaseController
         $vnp_TransactionNo = $_GET['vnp_TransactionNo'];
         $vnp_BankCode = $_GET['vnp_BankCode'];
         $vnp_PayDate = $_GET['vnp_PayDate'];
-
-        $payment = 0;
+        
+        $shippingModel = new ShippingModel();
+        $lstShip = $shippingModel->getAll();
+        $data['lstShip'] = $lstShip;
         if ($secureHash == $vnp_SecureHash) {
-            if ($_GET['vnp_ResponseCode'] == '00') {
-                $payment = 1;
-                $data['success'] = "Thanh Toán thành công, chúng tôi sẽ liên hệ với bạn sớm nhất có thể";
-            } else {
-                $payment = -1;
-                $data['error'] = "Đã xảy ra lỗi!! Vui lòng thử lại.";
+            if ($_GET['vnp_ResponseCode'] == '00') {                
+                session_start();
+                $order_id = $_SESSION['order_id'];
+                $orderModel = new OrderModel();
+                $res = $orderModel->save([
+                    'id' => $order_id,
+                    'payment_status' => 1
+                ]);
+                if ($res) {
+                    $data['success'] = "Thanh Toán thành công, chúng tôi sẽ liên hệ với bạn sớm nhất có thể";
+                } else {
+                    $data['error'] = "Đã xảy ra lỗi !! Nếu xảy ra lỗi vui lòng liên hệ nhà sách";
+                }
+            } else {                
+                $data['error'] = "Huỷ giao dịch !! Nếu xảy ra lỗi vui lòng liên hệ nhà sách";
             }
         }
         return view("cart", $data);

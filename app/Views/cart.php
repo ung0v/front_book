@@ -70,12 +70,12 @@
                                     <input id="delivery_cost" name="delivery_cost" type="hidden" value="30000" />
                                 </p>
                                 <?php if (isset($error)) : ?>
-                                    <p style="color:red;">
+                                    <p style="color:red;font-weight:bold;">
                                         <?= $error ?>
                                     </p>
                                 <?php endif; ?>
                                 <?php if (isset($success)) : ?>
-                                    <p style="color:green;">
+                                    <p style="color:green;font-weight:bold;">
                                         <?= $success ?>
                                     </p>
                                 <?php endif; ?>

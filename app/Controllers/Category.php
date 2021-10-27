@@ -5,7 +5,7 @@ namespace App\Controllers;
 use App\Models\CategoryModel;
 use App\Models\DiscountModel;
 use App\Models\ProductModel;
-
+use CodeIgniter\API\ResponseTrait;
 class Category extends BaseController
 {
     public function index()
@@ -56,5 +56,11 @@ class Category extends BaseController
         $data['lstProduct'] = $lstProduct;
         // var_dump($total_pages, count($lstProduct));
         return view("category", $data);
+    }
+    public function all() {
+        $productModel = new ProductModel();
+        $products = $productModel->getAll();
+        $json = json_encode($products);
+        return $json;
     }
 }
